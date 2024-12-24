@@ -1,0 +1,2058 @@
+.home {
+    align-items: flex-start;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 6529px;
+    position: relative;
+    width: 100%;
+}
+
+.home .hero {
+    align-self: stretch;
+    background-color: #0b0b0b;
+    height: 1418px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.home .background {
+    height: 642px;
+    left: 130px;
+    position: absolute;
+    top: 140px;
+    /* width: 1180px; */
+}
+
+.home .overlap {
+    height: 816px;
+    left: -130px;
+    position: relative;
+    top: -97px;
+    width: 100%;
+}
+
+.home .pngegg {
+    background-color: #000000;
+    height: 745px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: rotate(180deg);
+    width: 100%;
+}
+
+.home .frame-wrapper {
+    background-image: url(https://c.animaapp.com/LJb56hOf/img/frame-237910.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 779px;
+    left: 0;
+    position: absolute;
+    top: 37px;
+    width: 100%;
+}
+
+.home .div-wrapper {
+    -webkit-backdrop-filter: blur(24px) brightness(100%);
+    backdrop-filter: blur(24px) brightness(100%);
+    background-color: #01010140;
+    border-radius: 18px;
+    height: 330px;
+    left: 911px;
+    overflow: hidden;
+    position: relative;
+    top: 387px;
+    width: 441px;
+}
+
+.home .frame-4 {
+    height: 214px;
+    left: 42px;
+    position: relative;
+    top: 60px;
+    width: 367px;
+}
+
+.home .heading-your {
+    color: #ffffff;
+    font-family: "Roboto", Helvetica;
+    font-size: 23.8px;
+    font-weight: 700;
+    height: 27px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    text-align: right;
+    top: -1px;
+    white-space: nowrap;
+}
+
+.home .lorem-ipsum-dolor {
+    color: #ffffff;
+    font-family: "Roboto", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 72px;
+    left: 52px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    text-align: right;
+    top: 45px;
+}
+
+.home .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Roboto", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    height: 21px;
+    left: 118px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    text-align: right;
+    top: 192px;
+    white-space: nowrap;
+    width: 84px;
+}
+
+.home .heading {
+    height: 40px;
+    left: 98px;
+    position: absolute;
+    top: 148px;
+    width: 104px;
+}
+
+.home .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Space Grotesk", Helvetica;
+    font-size: 31.9px;
+    font-weight: 700;
+    height: 40px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    text-align: right;
+    top: -1px;
+    white-space: nowrap;
+    width: 104px;
+}
+
+.home .overlap-group {
+    height: 55px;
+    left: 222px;
+    position: absolute;
+    top: 155px;
+    width: 145px;
+}
+
+.home .portrait-of {
+    background-image: url(https://c.animaapp.com/LJb56hOf/img/portrait-of-successful-business-man-businessman-i-jpg@2x.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border: 2px solid;
+    border-color: #0b0b0b;
+    border-radius: 100px;
+    height: 55px;
+    left: 90px;
+    position: absolute;
+    top: 0;
+    width: 55px;
+}
+
+.home .confident-smiling {
+    background-image: url(https://c.animaapp.com/LJb56hOf/img/confident-smiling-young-asian-business-woman-stand-jpg@2x.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border: 2px solid;
+    border-color: #0b0b0b;
+    border-radius: 100px;
+    height: 55px;
+    left: 45px;
+    position: absolute;
+    top: 0;
+    width: 55px;
+}
+
+.home .man-smile-portrait {
+    background-image: url(https://c.animaapp.com/LJb56hOf/img/man-smile-portrait-and-fitness-in-gym-for-exercis-jpg@2x.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border: 2px solid;
+    border-color: #0b0b0b;
+    border-radius: 100px;
+    height: 55px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 55px;
+}
+
+.home .section {
+    height: 244px;
+    left: 130px;
+    position: absolute;
+    top: 176px;
+    width: 519px;
+}
+
+.home .heading-2 {
+    height: 116px;
+    left: 0;
+    position: absolute;
+    top: 27px;
+    width: 519px;
+}
+
+.home .text-wrapper-7 {
+    color: #ffffff;
+    font-family: "Roboto", Helvetica;
+    font-size: 58px;
+    font-weight: 500;
+    height: 132px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: -9px;
+    width: 428px;
+}
+
+.home .frame-5 {
+    height: 44px;
+    left: 0;
+    position: absolute;
+    top: 176px;
+    width: 320px;
+}
+
+.home .gplay-png {
+    background-image: url(https://c.animaapp.com/LJb56hOf/img/gplay-png@2x.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 44px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 150px;
+}
+
+.home .appstore-png {
+    background-image: url(https://c.animaapp.com/LJb56hOf/img/appstore-png@2x.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 44px;
+    left: 170px;
+    position: absolute;
+    top: 0;
+    width: 150px;
+}
+
+.home .frame-6 {
+    background-color: #ffffff;
+    height: 80px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.home .navigation {
+    align-items: center;
+    display: inline-flex;
+    gap: 61px;
+    left: 701px;
+    padding: 15px;
+    position: absolute;
+    top: 11px;
+}
+
+.home .link {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    padding: 2px 0px;
+    position: relative;
+}
+
+.home .text-wrapper-8 {
+    color: #11111180;
+    font-family: "Roboto", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: Truepx;
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.home .text-wrapper-9 {
+    color: #01010180;
+    font-family: "Roboto", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: Truepx;
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.home .layer-x {
+    height: 59px;
+    left: 58px;
+    position: absolute;
+    top: 10px;
+    width: 253px;
+}
+
+.home .section-2 {
+    background-color: #ffffff;
+    border-radius: 20px 20px 0px 0px;
+    height: 569px;
+    left: 0;
+    position: absolute;
+    top: 850px;
+    width: 100%;
+}
+
+.home .section-3 {
+    height: 175px;
+    left: 470px;
+    position: absolute;
+    top: 80px;
+    width: 500px;
+}
+
+.home .background-border {
+    background-color: #f5f7fa;
+    border: 1px solid;
+    border-color: #e2e8f1;
+    border-radius: 50px;
+    height: 38px;
+    left: 173px;
+    position: absolute;
+    top: 0;
+    width: 155px;
+}
+
+.home .heading-TRADING {
+    color: #0b0b0b;
+    font-family: "Roboto", Helvetica;
+    font-size: 13px;
+    font-weight: 500;
+    height: 16px;
+    left: 21px;
+    letter-spacing: 0.80px;
+    line-height: Truepx;
+    position: absolute;
+    top: 9px;
+    white-space: nowrap;
+}
+
+.home .heading-trading {
+    color: #0b0b0b;
+    font-family: "Roboto", Helvetica;
+    font-size: 47.8px;
+    font-weight: 700;
+    height: 48px;
+    left: 80px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    text-align: center;
+    top: 57px;
+    white-space: nowrap;
+    width: 340px;
+}
+
+.home .p {
+    color: #7a7a7a;
+    font-family: "Roboto", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 45px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    text-align: center;
+    top: 126px;
+    width: 500px;
+}
+
+.home .section-4 {
+    height: 102px;
+    left: 130px;
+    position: absolute;
+    top: 294px;
+    width: 1180px;
+}
+
+.home .background-border-2 {
+    background-color: #4166ae;
+    border: 1px solid;
+    border-color: #e2e8f1;
+    border-radius: 10px;
+    height: 102px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 373px;
+}
+
+.home .stocks-png {
+    background-image: url(https://c.animaapp.com/LJb56hOf/img/stocks-png@2x.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 7px;
+    height: 70px;
+    left: 16px;
+    position: absolute;
+    top: 16px;
+    width: 70px;
+}
+
+.home .paragraph {
+    height: 70px;
+    left: 86px;
+    position: absolute;
+    top: 16px;
+    width: 271px;
+}
+
+.home .text-wrapper-10 {
+    color: #ffffff;
+    font-family: "Roboto", Helvetica;
+    font-size: 19.8px;
+    font-weight: 700;
+    height: 22px;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: 7px;
+    white-space: nowrap;
+}
+
+.home .text-wrapper-11 {
+    color: #d5d5d5;
+    font-family: "Roboto", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 24px;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: 36px;
+    white-space: nowrap;
+    width: 166px;
+}
+
+.home .background-border-3 {
+    background-color: #4166ae;
+    border: 1px solid;
+    border-color: #e2e8f1;
+    border-radius: 10px;
+    height: 102px;
+    left: 403px;
+    position: absolute;
+    top: 0;
+    width: 373px;
+}
+
+.home .img {
+    height: 70px;
+    left: 16px;
+    position: absolute;
+    top: 16px;
+    width: 70px;
+}
+
+.home .background-border-4 {
+    background-color: #4166ae;
+    border: 1px solid;
+    border-color: #e2e8f1;
+    border-radius: 10px;
+    height: 102px;
+    left: 807px;
+    position: absolute;
+    top: 0;
+    width: 373px;
+}
+
+.home .text-wrapper-12 {
+    color: #ffffff;
+    font-family: "Roboto", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    height: 22px;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: 7px;
+    white-space: nowrap;
+}
+
+.home .section-5 {
+    height: 102px;
+    left: 130px;
+    position: absolute;
+    top: 426px;
+    width: 1180px;
+}
+
+.home .text-wrapper-13 {
+    color: #d5d5d5;
+    font-family: "Space Grotesk", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 24px;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: 36px;
+    white-space: nowrap;
+    width: 166px;
+}
+
+.home .ABOUT-US {
+    align-self: stretch;
+    background-color: #ffffff;
+    height: 827.19px;
+    position: relative;
+    width: 100%;
+}
+
+.home .container {
+    height: 627px;
+    left: 130px;
+    position: relative;
+    top: 80px;
+    width: 1180px;
+}
+
+.home .home .heading-ABOUT-US-wrapper {
+    background-color: #f5f7fa;
+    border: 1px solid;
+    border-color: #e2e8f1;
+    border-radius: 50px;
+    height: 38px;
+    left: 601px;
+    position: absolute;
+    top: 23px;
+    width: 110px;
+}
+
+.home .heading-ABOUT-US {
+    color: #0b0b0b;
+    font-family: "Roboto", Helvetica;
+    font-size: 13px;
+    font-weight: 500;
+    height: 17px;
+    left: 21px;
+    letter-spacing: 0.80px;
+    line-height: Truepx;
+    position: absolute;
+    top: 9px;
+    white-space: nowrap;
+    width: 68px;
+}
+
+.home .maximum-profit-wrapper {
+    height: 96px;
+    left: 601px;
+    position: absolute;
+    top: 80px;
+    width: 579px;
+}
+
+.home .maximum-profit {
+    color: #0b0b0b;
+    font-family: "Roboto", Helvetica;
+    font-size: 48px;
+    font-weight: 700;
+    height: 109px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: -8px;
+    width: 578px;
+}
+
+.home .lorem-ipsum-dolor-2 {
+    color: #7a7a7a;
+    font-family: "Roboto", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 69px;
+    left: 601px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: 196px;
+    width: 565px;
+}
+
+.home .section-6 {
+    height: 207px;
+    left: 601px;
+    position: absolute;
+    top: 296px;
+    width: 579px;
+}
+
+.home .background-border-6 {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #e2e8f1;
+    border-radius: 10px;
+    height: 207px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 270px;
+}
+
+.home .symbol-wrapper {
+    background-color: #4166ae;
+    border-radius: 7px;
+    height: 70px;
+    left: 16px;
+    position: absolute;
+    top: 16px;
+    width: 70px;
+}
+
+.home .symbol {
+    color: #ffffff;
+    font-family: "Font Awesome 5 Free-Solid", Helvetica;
+    font-size: 44px;
+    font-weight: 400;
+    height: 45px;
+    left: 13px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: 11px;
+    white-space: nowrap;
+    width: 44px;
+}
+
+.home .heading-secure {
+    color: #0b0b0b;
+    font-family: "Roboto", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    height: 31px;
+    left: 16px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: 105px;
+    white-space: nowrap;
+    width: 223px;
+}
+
+.home .lorem-ipsum-dolor-3 {
+    color: #7a7a7a;
+    font-family: "Roboto", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 45px;
+    left: 16px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: 143px;
+    width: 213px;
+}
+
+.home .background-border-7 {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #e2e8f1;
+    border-radius: 10px;
+    height: 207px;
+    left: 310px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 270px;
+}
+
+.home .symbol-2 {
+    color: #ffffff;
+    font-family: "Font Awesome 5 Free-Solid", Helvetica;
+    font-size: 44px;
+    font-weight: 400;
+    height: 45px;
+    left: 13px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: 11px;
+    white-space: nowrap;
+    width: 43px;
+}
+
+.home .heading-global {
+    color: #0b0b0b;
+    font-family: "Roboto", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    height: 31px;
+    left: 16px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: 105px;
+    white-space: nowrap;
+    width: 177px;
+}
+
+.home .link-2 {
+    background-color: #4166ae;
+    border-radius: 100px;
+    height: 60px;
+    left: 601px;
+    position: absolute;
+    top: 544px;
+    width: 184px;
+}
+
+.home .text-wrapper-14 {
+    color: #ffffff;
+    font-family: "Roboto", Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    height: 22px;
+    left: 39px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    text-align: center;
+    top: 18px;
+    white-space: nowrap;
+    width: 107px;
+}
+
+.home .DOWNLOAD-OUR-APP {
+    background-image: url(https://c.animaapp.com/LJb56hOf/img/download-our-app.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 631.83px;
+    position: relative;
+    width: 100%;
+}
+
+.home .overlap-2 {
+    height: 842px;
+    position: relative;
+}
+
+.home .background-2 {
+    background-color: #0b0b0b;
+    height: 632px;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.home .container-2 {
+    height: 632px;
+    left: 130px;
+    position: absolute;
+    top: 0;
+    width: 1180px;
+}
+
+.home .overlay-border {
+    background-color: #f5f7fa29;
+    border: 1px solid;
+    border-color: #e2e8f138;
+    border-radius: 50px;
+    height: 38px;
+    left: 0;
+    position: absolute;
+    top: 175px;
+    width: 181px;
+}
+
+.home .heading-DOWNLOAD {
+    color: #ffffff;
+    font-family: "Space Grotesk", Helvetica;
+    font-size: 13px;
+    font-weight: 500;
+    height: 17px;
+    left: 21px;
+    letter-spacing: 0.80px;
+    line-height: Truepx;
+    position: absolute;
+    top: 9px;
+    white-space: nowrap;
+    width: 139px;
+}
+
+.home .download-our-app-get-wrapper {
+    height: 96px;
+    left: 0;
+    position: absolute;
+    top: 232px;
+    width: 530px;
+}
+
+.home .download-our-app-get {
+    color: #ffffff;
+    font-family: "Roboto", Helvetica;
+    font-size: 47.8px;
+    font-weight: 700;
+    height: 109px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: -8px;
+    width: 499px;
+}
+
+.home .install-our-app-get {
+    color: #ffffffab;
+    font-family: "Space Grotesk", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 24px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: 347px;
+    white-space: nowrap;
+    width: 274px;
+}
+
+.home .gplay-png-2 {
+    background-image: url(https://c.animaapp.com/LJb56hOf/img/gplay-png-1@2x.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 44px;
+    left: 0;
+    position: absolute;
+    top: 412px;
+    width: 150px;
+}
+
+.home .appstore-png-2 {
+    background-image: url(https://c.animaapp.com/LJb56hOf/img/appstore-png-1@2x.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 44px;
+    left: 170px;
+    position: absolute;
+    top: 412px;
+    width: 150px;
+}
+
+.home .mobile-tradeflix {
+    height: 769px;
+    left: 828px;
+    position: absolute;
+    top: 73px;
+    width: 442px;
+}
+
+.home .section-7 {
+    background-color: #ffffff;
+    height: 3652px;
+    margin-bottom: -0.02px;
+    position: relative;
+    width: 100%;
+}
+
+.home .section-8 {
+    height: 106px;
+    left: 130px;
+    position: absolute;
+    top: 120px;
+    width: 1180px;
+}
+
+.home .heading-FEATURES-wrapper {
+    background-color: #f5f7fa;
+    border: 1px solid;
+    border-color: #e2e8f1;
+    border-radius: 50px;
+    height: 38px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 110px;
+}
+
+.home .heading-FEATURES {
+    color: #0b0b0b;
+    font-family: "Space Grotesk", Helvetica;
+    font-size: 13px;
+    font-weight: 500;
+    height: 17px;
+    left: 21px;
+    letter-spacing: 0.80px;
+    line-height: Truepx;
+    position: absolute;
+    top: 9px;
+    white-space: nowrap;
+    width: 68px;
+}
+
+.home .heading-our {
+    color: #0b0b0b;
+    font-family: "Space Grotesk", Helvetica;
+    font-size: 47.8px;
+    font-weight: 700;
+    height: 48px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: 57px;
+    white-space: nowrap;
+    width: 480px;
+}
+
+.home .lorem-ipsum-dolor-4 {
+    color: #7a7a7a;
+    font-family: "Space Grotesk", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 69px;
+    left: 590px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: 34px;
+    width: 581px;
+}
+
+.home .background-3 {
+    background-color: #000000;
+    border-radius: 10px;
+    height: 623px;
+    left: 130px;
+    position: absolute;
+    top: 266px;
+    width: 553px;
+}
+
+.home .overlap-3 {
+    border-radius: 10px;
+    height: 193px;
+    left: 720px;
+    position: absolute;
+    top: 258px;
+    width: 575px;
+}
+
+.home .background-border-8 {
+    background-color: #f5f7fa;
+    border: 1px solid;
+    border-color: #e2e8f1;
+    border-radius: 10px;
+    height: 193px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 575px;
+}
+
+.home .heading-full {
+    color: #0b0b0b;
+    font-family: "Space Grotesk", Helvetica;
+    font-size: 28px;
+    font-weight: 700;
+    height: 31px;
+    left: 31px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: 36px;
+    white-space: nowrap;
+    width: 357px;
+}
+
+.home .lorem-ipsum-dolor-5 {
+    color: #7a7a7a;
+    font-family: "Space Grotesk", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 45px;
+    left: 31px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: 88px;
+    width: 406px;
+}
+
+.home .background-border-9 {
+    background-color: #f5f7fa;
+    border: 1px solid;
+    border-color: #e2e8f1;
+    border-radius: 10px;
+    height: 193px;
+    left: 720px;
+    position: absolute;
+    top: 478px;
+    width: 575px;
+}
+
+.home .background-border-10 {
+    background-color: #f5f7fa;
+    border: 1px solid;
+    border-color: #e2e8f1;
+    border-radius: 10px;
+    height: 193px;
+    left: 720px;
+    position: absolute;
+    top: 698px;
+    width: 575px;
+}
+
+.home .frame-7 {
+    height: 865px;
+    left: 130px;
+    position: absolute;
+    top: 1006px;
+    width: 1180px;
+}
+
+.home .heading-OPEN-wrapper {
+    background-color: #f5f7fa;
+    border: 1px solid;
+    border-color: #e2e8f1;
+    border-radius: 50px;
+    height: 38px;
+    left: 517px;
+    position: absolute;
+    top: 0;
+    width: 146px;
+}
+
+.home .heading-OPEN {
+    color: #0b0b0b;
+    font-family: "Space Grotesk", Helvetica;
+    font-size: 13px;
+    font-weight: 500;
+    height: 17px;
+    left: 21px;
+    letter-spacing: 0.80px;
+    line-height: Truepx;
+    position: absolute;
+    top: 9px;
+    white-space: nowrap;
+    width: 104px;
+}
+
+.home .choose-the-variety-wrapper {
+    height: 96px;
+    left: 340px;
+    position: absolute;
+    top: 58px;
+    width: 500px;
+}
+
+.home .choose-the-variety {
+    color: #0b0b0b;
+    font-family: "Roboto", Helvetica;
+    font-size: 48px;
+    font-weight: 700;
+    height: 109px;
+    left: 27px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    text-align: center;
+    top: -8px;
+    width: 446px;
+}
+
+.home .lorem-ipsum-dolor-6 {
+    color: #7a7a7a;
+    font-family: "Space Grotesk", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 45px;
+    left: 340px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    text-align: center;
+    top: 174px;
+    width: 500px;
+}
+
+.home .frame-8 {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 30px;
+    left: -10px;
+    position: absolute;
+    top: 262px;
+}
+
+.home .BASIC-instance {
+    background-color: #eaeaeb33 !important;
+    border-color: #2e4686 !important;
+    flex: 0 0 auto !important;
+}
+
+.home .design-component-instance-node {
+    background-color: #4166ae !important;
+    display: flex !important;
+    flex: 0 0 auto !important;
+    width: 300px !important;
+}
+
+.home .BASIC-2 {
+    align-items: flex-start;
+    background-color: #4166ae;
+    border: 1px solid;
+    border-color: #334155;
+    border-radius: 16px;
+    box-shadow: var(--tailwind-shadow);
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 48px;
+    overflow: hidden;
+    padding: 40px;
+    position: relative;
+}
+
+.home .frame-9 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+}
+
+.home .BASIC-3 {
+    color: #ffffff;
+    font-family: var(--tailwindcss-typography-button-16px-24px-semi-bold-font-family);
+    font-size: var(--tailwindcss-typography-button-16px-24px-semi-bold-font-size);
+    font-style: var(--tailwindcss-typography-button-16px-24px-semi-bold-font-style);
+    font-weight: var(--tailwindcss-typography-button-16px-24px-semi-bold-font-weight);
+    letter-spacing: var(--tailwindcss-typography-button-16px-24px-semi-bold-letter-spacing);
+    line-height: var(--tailwindcss-typography-button-16px-24px-semi-bold-line-height);
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.home .free {
+    color: transparent;
+    font-family: "Inter", Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: relative;
+    width: fit-content;
+}
+
+.home .span {
+    color: #f5f7fa;
+    font-family: var(--tailwindcss-typography-heading-h4-48px-60px-bold-font-family);
+    font-size: var(--tailwindcss-typography-heading-h4-48px-60px-bold-font-size);
+    font-style: var(--tailwindcss-typography-heading-h4-48px-60px-bold-font-style);
+    font-weight: var(--tailwindcss-typography-heading-h4-48px-60px-bold-font-weight);
+    letter-spacing: var(--tailwindcss-typography-heading-h4-48px-60px-bold-letter-spacing);
+    line-height: var(--tailwindcss-typography-heading-h4-48px-60px-bold-line-height);
+}
+
+.home .text-wrapper-15 {
+    color: #ffffff;
+    font-family: var(--tailwindcss-typography-text-text-sm-18px-28px-medium-font-family);
+    font-size: var(--tailwindcss-typography-text-text-sm-18px-28px-medium-font-size);
+    font-style: var(--tailwindcss-typography-text-text-sm-18px-28px-medium-font-style);
+    font-weight: var(--tailwindcss-typography-text-text-sm-18px-28px-medium-font-weight);
+    letter-spacing: var(--tailwindcss-typography-text-text-sm-18px-28px-medium-letter-spacing);
+    line-height: var(--tailwindcss-typography-text-text-sm-18px-28px-medium-line-height);
+}
+
+.home .layer-2 {
+    height: 48px;
+    position: relative;
+    width: 48px;
+}
+
+.home .frame-10 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+}
+
+.home .frame-11 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 12px;
+    position: relative;
+}
+
+.home .icon-outline-check-circle-20 {
+    height: 16px !important;
+    position: relative !important;
+    width: 16px !important;
+}
+
+.home .text-wrapper-16 {
+    color: #f5f7fa;
+    font-family: var(--tailwindcss-typography-button-16px-24px-regular-font-family);
+    font-size: var(--tailwindcss-typography-button-16px-24px-regular-font-size);
+    font-style: var(--tailwindcss-typography-button-16px-24px-regular-font-style);
+    font-weight: var(--tailwindcss-typography-button-16px-24px-regular-font-weight);
+    letter-spacing: var(--tailwindcss-typography-button-16px-24px-regular-letter-spacing);
+    line-height: var(--tailwindcss-typography-button-16px-24px-regular-line-height);
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.home .button-2 {
+    background-color: #ffffff !important;
+    display: flex !important;
+    flex: 0 0 auto !important;
+    width: 300px !important;
+}
+
+.home .button-3 {
+    color: #2e4686 !important;
+}
+
+.home .BASIC-4 {
+    align-items: flex-start;
+    background-color: #3a6a970d;
+    border: 1px solid;
+    border-color: #2e4686;
+    border-radius: 16px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 48px;
+    overflow: hidden;
+    padding: 40px;
+    position: relative;
+}
+
+.home .BASIC-5 {
+    color: #2e4686;
+    font-family: var(--tailwindcss-typography-button-16px-24px-semi-bold-font-family);
+    font-size: var(--tailwindcss-typography-button-16px-24px-semi-bold-font-size);
+    font-style: var(--tailwindcss-typography-button-16px-24px-semi-bold-font-style);
+    font-weight: var(--tailwindcss-typography-button-16px-24px-semi-bold-font-weight);
+    letter-spacing: var(--tailwindcss-typography-button-16px-24px-semi-bold-letter-spacing);
+    line-height: var(--tailwindcss-typography-button-16px-24px-semi-bold-line-height);
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.home .free-2 {
+    color: #2e4686;
+    font-family: "Inter", Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: relative;
+    width: fit-content;
+}
+
+.home .text-wrapper-17 {
+    font-family: var(--tailwindcss-typography-heading-h4-48px-60px-bold-font-family);
+    font-size: var(--tailwindcss-typography-heading-h4-48px-60px-bold-font-size);
+    font-style: var(--tailwindcss-typography-heading-h4-48px-60px-bold-font-style);
+    font-weight: var(--tailwindcss-typography-heading-h4-48px-60px-bold-font-weight);
+    letter-spacing: var(--tailwindcss-typography-heading-h4-48px-60px-bold-letter-spacing);
+    line-height: var(--tailwindcss-typography-heading-h4-48px-60px-bold-line-height);
+}
+
+.home .text-wrapper-18 {
+    font-family: var(--tailwindcss-typography-text-text-sm-18px-28px-medium-font-family);
+    font-size: var(--tailwindcss-typography-text-text-sm-18px-28px-medium-font-size);
+    font-style: var(--tailwindcss-typography-text-text-sm-18px-28px-medium-font-style);
+    font-weight: var(--tailwindcss-typography-text-text-sm-18px-28px-medium-font-weight);
+    letter-spacing: var(--tailwindcss-typography-text-text-sm-18px-28px-medium-letter-spacing);
+    line-height: var(--tailwindcss-typography-text-text-sm-18px-28px-medium-line-height);
+}
+
+.home .text-wrapper-19 {
+    color: #2e4686;
+    font-family: var(--tailwindcss-typography-button-16px-24px-regular-font-family);
+    font-size: var(--tailwindcss-typography-button-16px-24px-regular-font-size);
+    font-style: var(--tailwindcss-typography-button-16px-24px-regular-font-style);
+    font-weight: var(--tailwindcss-typography-button-16px-24px-regular-font-weight);
+    letter-spacing: var(--tailwindcss-typography-button-16px-24px-regular-letter-spacing);
+    line-height: var(--tailwindcss-typography-button-16px-24px-regular-line-height);
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.home .button-4 {
+    color: #f8fafc !important;
+}
+
+.home .footer {
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0) 51%,
+            rgba(58, 106, 151, 0.55) 100%);
+    background-color: transparent;
+    height: 447px;
+    left: 0;
+    position: absolute;
+    top: 3205px;
+    width: 100%;
+}
+
+.home .container-3 {
+    height: 306px;
+    position: relative;
+    top: 71px;
+    width: 100%;
+}
+
+.home .layer-3 {
+    height: 59px;
+    left: 38px;
+    position: absolute;
+    top: -2px;
+    width: 253px;
+}
+
+.home .overlap-group-2 {
+    height: 23px;
+    left: 30px;
+    position: absolute;
+    top: 271px;
+    width: 183px;
+}
+
+.home .text-wrapper-20 {
+    color: #111111;
+    font-family: "Roboto", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    height: 23px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 101px;
+}
+
+.home .link-3 {
+    height: 18px;
+    left: 100px;
+    position: absolute;
+    top: 3px;
+    width: 82px;
+}
+
+.home .text-wrapper-21 {
+    color: #111111;
+    font-family: "Roboto", Helvetica;
+    font-size: 17.6px;
+    font-weight: 400;
+    height: 18px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    text-decoration: underline;
+    top: -1px;
+    white-space: nowrap;
+    width: 83px;
+}
+
+.home .heading-pages-link {
+    color: #111111;
+    font-family: "Roboto", Helvetica;
+    font-size: 21.1px;
+    font-weight: 500;
+    height: 29px;
+    left: 738px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: -1px;
+    white-space: nowrap;
+    width: 98px;
+}
+
+.home .link-4 {
+    height: 23px;
+    left: 738px;
+    position: absolute;
+    top: 49px;
+    width: 48px;
+}
+
+.home .text-wrapper-22 {
+    color: #010101;
+    font-family: "Roboto", Helvetica;
+    font-size: 17.7px;
+    font-weight: 400;
+    height: 18px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: 1px;
+    white-space: nowrap;
+    width: 48px;
+}
+
+.home .link-5 {
+    height: 23px;
+    left: 738px;
+    position: absolute;
+    top: 82px;
+    width: 48px;
+}
+
+.home .text-wrapper-23 {
+    color: #111111;
+    font-family: "Roboto", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    height: 18px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: 1px;
+    white-space: nowrap;
+    width: 48px;
+}
+
+.home .link-6 {
+    height: 23px;
+    left: 738px;
+    position: absolute;
+    top: 115px;
+    width: 59px;
+}
+
+.home .text-wrapper-24 {
+    color: #111111;
+    font-family: "Roboto", Helvetica;
+    font-size: 17.6px;
+    font-weight: 400;
+    height: 18px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: 1px;
+    white-space: nowrap;
+    width: 59px;
+}
+
+.home .link-7 {
+    height: 23px;
+    left: 738px;
+    position: absolute;
+    top: 149px;
+    width: 62px;
+}
+
+.home .text-wrapper-25 {
+    color: #111111;
+    font-family: "Roboto", Helvetica;
+    font-size: 17.6px;
+    font-weight: 400;
+    height: 18px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: 1px;
+    white-space: nowrap;
+    width: 62px;
+}
+
+.home .link-8 {
+    height: 23px;
+    left: 738px;
+    position: absolute;
+    top: 183px;
+    width: 106px;
+}
+
+.home .text-wrapper-26 {
+    color: #111111;
+    font-family: "Roboto", Helvetica;
+    font-size: 17.2px;
+    font-weight: 400;
+    height: 18px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: 1px;
+    white-space: nowrap;
+    width: 106px;
+}
+
+.home .frame-12 {
+    height: 117px;
+    left: 936px;
+    position: absolute;
+    top: 0;
+    width: 168px;
+}
+
+.home .heading-contact-us {
+    color: #111111;
+    font-family: "Roboto", Helvetica;
+    font-size: 21.7px;
+    font-weight: 500;
+    height: 29px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: Truepx;
+    opacity: 1.0;
+    position: absolute;
+    top: -1px;
+    white-space: nowrap;
+    width: 105px;
+}
+
+.home .link-9 {
+    height: 24px;
+    left: 0;
+    opacity: 1.0;
+    position: absolute;
+    top: 49px;
+    width: 168px;
+}
+
+.home .img-2 {
+    height: 24px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 25px;
+}
+
+.home .text-wrapper-27 {
+    color: #4f4f4f;
+    font-family: "Roboto", Helvetica;
+    font-size: 17.2px;
+    font-weight: 400;
+    height: 20px;
+    left: 35px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: -1px;
+    white-space: nowrap;
+    width: 134px;
+}
+
+.home .link-10 {
+    height: 24px;
+    left: 0;
+    opacity: 1.0;
+    position: absolute;
+    top: 93px;
+    width: 163px;
+}
+
+.home .img-3 {
+    height: 24px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.home .text-wrapper-28 {
+    color: #4f4f4f;
+    font-family: "Roboto", Helvetica;
+    font-size: 17.2px;
+    font-weight: 400;
+    height: 20px;
+    left: 34px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: -1px;
+    white-space: nowrap;
+    width: 129px;
+}
+
+.home .frame-13 {
+    height: 74px;
+    left: 1198px;
+    position: absolute;
+    top: 0;
+    width: 180px;
+}
+
+.home .heading-follow-us {
+    color: #111111;
+    font-family: "Roboto", Helvetica;
+    font-size: 21.3px;
+    font-weight: 500;
+    height: 29px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: Truepx;
+    opacity: 1.0;
+    position: absolute;
+    top: -1px;
+    white-space: nowrap;
+    width: 120px;
+}
+
+.home .link-11 {
+    height: 26px;
+    left: 0;
+    position: absolute;
+    top: 49px;
+    width: 24px;
+}
+
+.home .link-12 {
+    height: 26px;
+    left: 39px;
+    position: absolute;
+    top: 49px;
+    width: 24px;
+}
+
+.home .link-13 {
+    height: 26px;
+    left: 78px;
+    position: absolute;
+    top: 49px;
+    width: 24px;
+}
+
+.home .link-14 {
+    height: 26px;
+    left: 117px;
+    position: absolute;
+    top: 49px;
+    width: 24px;
+}
+
+.home .link-15 {
+    height: 26px;
+    left: 156px;
+    position: absolute;
+    top: 49px;
+    width: 24px;
+}
+
+.home .overlap-4 {
+    height: 1225px;
+    left: 0;
+    position: absolute;
+    top: 1957px;
+    width: 100%;
+}
+
+.home .container-wrapper {
+    background-color: #f5f7fa;
+    height: 699px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.home .container-4 {
+    height: 499px;
+    left: 130px;
+    position: relative;
+    top: 100px;
+    width: 1180px;
+}
+
+.home .heading-wrapper {
+    background-color: #f5f7fa29;
+    border: 1px solid;
+    border-color: #e2e8f138;
+    border-radius: 50px;
+    height: 38px;
+    left: 0;
+    position: absolute;
+    top: 81px;
+    width: 132px;
+}
+
+.home .heading-3 {
+    color: #010101;
+    font-family: "Space Grotesk", Helvetica;
+    font-size: 13px;
+    font-weight: 500;
+    height: 17px;
+    left: 21px;
+    letter-spacing: 0.80px;
+    line-height: Truepx;
+    position: absolute;
+    top: 9px;
+    white-space: nowrap;
+    width: 90px;
+}
+
+.home .text-wrapper-29 {
+    color: #7a7a7a;
+    font-family: "Space Grotesk", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 21px;
+    left: -160000px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: 143px;
+    white-space: nowrap;
+    width: 85px;
+}
+
+.home .overlap-5 {
+    height: 255px;
+    left: -18px;
+    position: absolute;
+    top: 143px;
+    width: 548px;
+}
+
+.home .overlay-shadow-wrapper {
+    height: 255px;
+    left: 18px;
+    position: absolute;
+    top: 0;
+    width: 530px;
+}
+
+.home .overlay-shadow {
+    background-color: #ffffff01;
+    border-radius: 10px;
+    box-shadow: 0px 3px 15px #00000029;
+    height: 255px;
+    overflow: hidden;
+    position: relative;
+}
+
+.home .lorem-ipsum-dolor-7 {
+    color: #010101;
+    font-family: "Space Grotesk", Helvetica;
+    font-size: 28px;
+    font-weight: 400;
+    height: 154px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: -2px;
+    width: 495px;
+}
+
+.home .confident-smiling-2 {
+    background-image: url(https://c.animaapp.com/LJb56hOf/img/confident-smiling-young-asian-business-woman-stand-jpg-1@2x.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 30px;
+    height: 60px;
+    left: 0;
+    position: absolute;
+    top: 195px;
+    width: 60px;
+}
+
+.home .strong-camille {
+    color: #010101;
+    font-family: "Roboto", Helvetica;
+    font-size: 23.8px;
+    font-weight: 700;
+    height: 31px;
+    left: 74px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: 215px;
+    white-space: nowrap;
+    width: 173px;
+}
+
+.home .emojione-star {
+    height: 16px;
+    left: 74px;
+    position: absolute;
+    top: 194px;
+    width: 16px;
+}
+
+.home .emojione-star-2 {
+    height: 16px;
+    left: 93px;
+    position: absolute;
+    top: 194px;
+    width: 16px;
+}
+
+.home .emojione-star-3 {
+    height: 16px;
+    left: 112px;
+    position: absolute;
+    top: 194px;
+    width: 16px;
+}
+
+.home .emojione-star-4 {
+    height: 16px;
+    left: 131px;
+    position: absolute;
+    top: 194px;
+    width: 16px;
+}
+
+.home .emojione-star-5 {
+    height: 16px;
+    left: 150px;
+    position: absolute;
+    top: 194px;
+    width: 16px;
+}
+
+.home .icon {
+    height: 34px;
+    left: 0;
+    position: absolute;
+    top: 178px;
+    width: 34px;
+}
+
+.home .overlap-group-wrapper {
+    background-image: url(https://c.animaapp.com/LJb56hOf/img/background.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 499px;
+    left: 590px;
+    position: absolute;
+    top: 0;
+    width: 590px;
+}
+
+.home .overlap-group-3 {
+    height: 494px;
+    position: relative;
+}
+
+.home .paragraph-background-wrapper {
+    height: 278px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 590px;
+}
+
+.home .paragraph-background {
+    background-color: #4166ae;
+    border-radius: 10px;
+    box-shadow: 0px 3px 24px #00000026;
+    height: 97px;
+    left: 245px;
+    position: relative;
+    top: 82px;
+    width: 265px;
+}
+
+.home .heading-marketing {
+    color: #ffffff;
+    font-family: "Roboto", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 21px;
+    left: 34px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    text-align: right;
+    top: 56px;
+    white-space: nowrap;
+    width: 212px;
+}
+
+.home .heading-lavinia {
+    color: #ffffff;
+    font-family: "Space Grotesk", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    height: 27px;
+    left: 73px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    text-align: right;
+    top: 16px;
+    white-space: nowrap;
+}
+
+.home .section-9 {
+    height: 247px;
+    left: 0;
+    position: absolute;
+    top: 248px;
+    width: 590px;
+}
+
+.home .paragraph-background-2 {
+    background-color: #4166ae;
+    border-radius: 10px;
+    box-shadow: 0px 3px 24px #00000026;
+    height: 97px;
+    left: 80px;
+    position: relative;
+    top: 110px;
+    width: 265px;
+}
+
+.home .heading-lavinia-2 {
+    color: #ffffff;
+    font-family: "Space Grotesk", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    height: 31px;
+    left: 81px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    text-align: right;
+    top: 14px;
+    white-space: nowrap;
+    width: 164px;
+}
+
+.home .overlap-wrapper {
+    background-color: #0000003b;
+    background-image: url(https://c.animaapp.com/LJb56hOf/img/download-our-app-1.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 527px;
+    left: 0;
+    position: absolute;
+    top: 698px;
+    width: 100%;
+}
+
+.home .overlap-6 {
+    height: 527px;
+    position: relative;
+}
+
+.home .background-4 {
+    background-color: #0b0b0b;
+    height: 527px;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.home .section-10 {
+    height: 329px;
+    left: 230px;
+    position: absolute;
+    top: 99px;
+    width: 980px;
+}
+
+.home .unleash-the-power-of-wrapper {
+    height: 182px;
+    left: 30px;
+    position: absolute;
+    top: 0;
+    width: 920px;
+}
+
+.home .unleash-the-power-of {
+    color: #ffffff;
+    font-family: "Roboto", Helvetica;
+    font-size: 70px;
+    font-weight: 700;
+    height: 161px;
+    left: 64px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    text-align: center;
+    top: 9px;
+    width: 793px;
+}
+
+.home .empower-your-daily {
+    color: #ffffffb2;
+    font-family: "Roboto", Helvetica;
+    font-size: 17.4px;
+    font-weight: 400;
+    height: 42px;
+    left: 32px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    text-align: center;
+    top: 193px;
+    width: 915px;
+}
+
+.home .link-16 {
+    height: 50px;
+    left: 320px;
+    position: absolute;
+    top: 279px;
+    width: 160px;
+}
+
+.home .link-17 {
+    height: 50px;
+    left: 500px;
+    position: absolute;
+    top: 279px;
+    width: 160px;
+}

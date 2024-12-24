@@ -1,0 +1,288 @@
+.button {
+    align-items: center;
+    border-radius: 6px;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    position: relative;
+}
+
+.button .continue {
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.button .text-wrapper {
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.button .icon-solid-plus {
+    height: 16px !important;
+    position: relative !important;
+    width: 16px !important;
+}
+
+.button .div {
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.button.hover {
+    background-color: #3b82f6;
+    border: 1px solid;
+    border-color: #cbd5e1;
+}
+
+.button.default {
+    background-color: #3b82f6;
+}
+
+.button.right-icon {
+    padding: 8px 16px;
+}
+
+.button.outline {
+    border: 1px solid;
+    border-color: #cbd5e1;
+}
+
+.button.disabled {
+    background-color: #cbd5e1;
+}
+
+.button.icon-only {
+    padding: 8px;
+}
+
+.button.two-icon {
+    padding: 8px 16px;
+}
+
+.button.default {
+    padding: 8px 16px;
+}
+
+.button.link-bg {
+    background-color: #3b82f6;
+}
+
+.button.left-icon {
+    padding: 8px 16px;
+}
+
+.button.hover .continue {
+    color: #ffffff;
+    font-family: var(--tailwindcss-typography-button-16px-24px-medium-font-family);
+    font-size: var(--tailwindcss-typography-button-16px-24px-medium-font-size);
+    font-style: var(--tailwindcss-typography-button-16px-24px-medium-font-style);
+    font-weight: var(--tailwindcss-typography-button-16px-24px-medium-font-weight);
+    letter-spacing: var(--tailwindcss-typography-button-16px-24px-medium-letter-spacing);
+    line-height: var(--tailwindcss-typography-button-16px-24px-medium-line-height);
+}
+
+.button.link-only .continue {
+    color: #1e293b;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: Truepx;
+    text-decoration: underline;
+}
+
+.button.default .continue {
+    color: #ffffff;
+    font-family: var(--tailwindcss-typography-button-16px-24px-medium-font-family);
+    font-size: var(--tailwindcss-typography-button-16px-24px-medium-font-size);
+    font-style: var(--tailwindcss-typography-button-16px-24px-medium-font-style);
+    font-weight: var(--tailwindcss-typography-button-16px-24px-medium-font-weight);
+    letter-spacing: var(--tailwindcss-typography-button-16px-24px-medium-letter-spacing);
+    line-height: var(--tailwindcss-typography-button-16px-24px-medium-line-height);
+}
+
+.button.outline .continue {
+    color: #1e293b;
+    font-family: var(--tailwindcss-typography-button-16px-24px-medium-font-family);
+    font-size: var(--tailwindcss-typography-button-16px-24px-medium-font-size);
+    font-style: var(--tailwindcss-typography-button-16px-24px-medium-font-style);
+    font-weight: var(--tailwindcss-typography-button-16px-24px-medium-font-weight);
+    letter-spacing: var(--tailwindcss-typography-button-16px-24px-medium-letter-spacing);
+    line-height: var(--tailwindcss-typography-button-16px-24px-medium-line-height);
+}
+
+.button.disabled .continue {
+    color: #ffffff;
+    font-family: var(--tailwindcss-typography-button-16px-24px-medium-font-family);
+    font-size: var(--tailwindcss-typography-button-16px-24px-medium-font-size);
+    font-style: var(--tailwindcss-typography-button-16px-24px-medium-font-style);
+    font-weight: var(--tailwindcss-typography-button-16px-24px-medium-font-weight);
+    letter-spacing: var(--tailwindcss-typography-button-16px-24px-medium-letter-spacing);
+    line-height: var(--tailwindcss-typography-button-16px-24px-medium-line-height);
+}
+
+.button.text .continue {
+    color: #1e293b;
+    font-family: var(--tailwindcss-typography-button-16px-24px-medium-font-family);
+    font-size: var(--tailwindcss-typography-button-16px-24px-medium-font-size);
+    font-style: var(--tailwindcss-typography-button-16px-24px-medium-font-style);
+    font-weight: var(--tailwindcss-typography-button-16px-24px-medium-font-weight);
+    letter-spacing: var(--tailwindcss-typography-button-16px-24px-medium-letter-spacing);
+    line-height: var(--tailwindcss-typography-button-16px-24px-medium-line-height);
+}
+
+.button.link-bg .continue {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: Truepx;
+    text-decoration: underline;
+}
+
+.button.hover .text-wrapper {
+    color: #ffffff;
+    font-family: var(--tailwindcss-typography-button-16px-24px-medium-font-family);
+    font-size: var(--tailwindcss-typography-button-16px-24px-medium-font-size);
+    font-style: var(--tailwindcss-typography-button-16px-24px-medium-font-style);
+    font-weight: var(--tailwindcss-typography-button-16px-24px-medium-font-weight);
+    letter-spacing: var(--tailwindcss-typography-button-16px-24px-medium-letter-spacing);
+    line-height: var(--tailwindcss-typography-button-16px-24px-medium-line-height);
+}
+
+.button.link-only .text-wrapper {
+    color: #1e293b;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: Truepx;
+    text-decoration: underline;
+}
+
+.button.default .text-wrapper {
+    color: #ffffff;
+    font-family: var(--tailwindcss-typography-button-16px-24px-medium-font-family);
+    font-size: var(--tailwindcss-typography-button-16px-24px-medium-font-size);
+    font-style: var(--tailwindcss-typography-button-16px-24px-medium-font-style);
+    font-weight: var(--tailwindcss-typography-button-16px-24px-medium-font-weight);
+    letter-spacing: var(--tailwindcss-typography-button-16px-24px-medium-letter-spacing);
+    line-height: var(--tailwindcss-typography-button-16px-24px-medium-line-height);
+}
+
+.button.outline .text-wrapper {
+    color: #1e293b;
+    font-family: var(--tailwindcss-typography-button-16px-24px-medium-font-family);
+    font-size: var(--tailwindcss-typography-button-16px-24px-medium-font-size);
+    font-style: var(--tailwindcss-typography-button-16px-24px-medium-font-style);
+    font-weight: var(--tailwindcss-typography-button-16px-24px-medium-font-weight);
+    letter-spacing: var(--tailwindcss-typography-button-16px-24px-medium-letter-spacing);
+    line-height: var(--tailwindcss-typography-button-16px-24px-medium-line-height);
+}
+
+.button.disabled .text-wrapper {
+    color: #ffffff;
+    font-family: var(--tailwindcss-typography-button-16px-24px-medium-font-family);
+    font-size: var(--tailwindcss-typography-button-16px-24px-medium-font-size);
+    font-style: var(--tailwindcss-typography-button-16px-24px-medium-font-style);
+    font-weight: var(--tailwindcss-typography-button-16px-24px-medium-font-weight);
+    letter-spacing: var(--tailwindcss-typography-button-16px-24px-medium-letter-spacing);
+    line-height: var(--tailwindcss-typography-button-16px-24px-medium-line-height);
+}
+
+.button.text .text-wrapper {
+    color: #1e293b;
+    font-family: var(--tailwindcss-typography-button-16px-24px-medium-font-family);
+    font-size: var(--tailwindcss-typography-button-16px-24px-medium-font-size);
+    font-style: var(--tailwindcss-typography-button-16px-24px-medium-font-style);
+    font-weight: var(--tailwindcss-typography-button-16px-24px-medium-font-weight);
+    letter-spacing: var(--tailwindcss-typography-button-16px-24px-medium-letter-spacing);
+    line-height: var(--tailwindcss-typography-button-16px-24px-medium-line-height);
+}
+
+.button.link-bg .text-wrapper {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: Truepx;
+    text-decoration: underline;
+}
+
+.button.hover .div {
+    color: #ffffff;
+    font-family: var(--tailwindcss-typography-button-16px-24px-medium-font-family);
+    font-size: var(--tailwindcss-typography-button-16px-24px-medium-font-size);
+    font-style: var(--tailwindcss-typography-button-16px-24px-medium-font-style);
+    font-weight: var(--tailwindcss-typography-button-16px-24px-medium-font-weight);
+    letter-spacing: var(--tailwindcss-typography-button-16px-24px-medium-letter-spacing);
+    line-height: var(--tailwindcss-typography-button-16px-24px-medium-line-height);
+}
+
+.button.link-only .div {
+    color: #1e293b;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: Truepx;
+    text-decoration: underline;
+}
+
+.button.default .div {
+    color: #ffffff;
+    font-family: var(--tailwindcss-typography-button-16px-24px-medium-font-family);
+    font-size: var(--tailwindcss-typography-button-16px-24px-medium-font-size);
+    font-style: var(--tailwindcss-typography-button-16px-24px-medium-font-style);
+    font-weight: var(--tailwindcss-typography-button-16px-24px-medium-font-weight);
+    letter-spacing: var(--tailwindcss-typography-button-16px-24px-medium-letter-spacing);
+    line-height: var(--tailwindcss-typography-button-16px-24px-medium-line-height);
+}
+
+.button.outline .div {
+    color: #1e293b;
+    font-family: var(--tailwindcss-typography-button-16px-24px-medium-font-family);
+    font-size: var(--tailwindcss-typography-button-16px-24px-medium-font-size);
+    font-style: var(--tailwindcss-typography-button-16px-24px-medium-font-style);
+    font-weight: var(--tailwindcss-typography-button-16px-24px-medium-font-weight);
+    letter-spacing: var(--tailwindcss-typography-button-16px-24px-medium-letter-spacing);
+    line-height: var(--tailwindcss-typography-button-16px-24px-medium-line-height);
+}
+
+.button.disabled .div {
+    color: #ffffff;
+    font-family: var(--tailwindcss-typography-button-16px-24px-medium-font-family);
+    font-size: var(--tailwindcss-typography-button-16px-24px-medium-font-size);
+    font-style: var(--tailwindcss-typography-button-16px-24px-medium-font-style);
+    font-weight: var(--tailwindcss-typography-button-16px-24px-medium-font-weight);
+    letter-spacing: var(--tailwindcss-typography-button-16px-24px-medium-letter-spacing);
+    line-height: var(--tailwindcss-typography-button-16px-24px-medium-line-height);
+}
+
+.button.text .div {
+    color: #1e293b;
+    font-family: var(--tailwindcss-typography-button-16px-24px-medium-font-family);
+    font-size: var(--tailwindcss-typography-button-16px-24px-medium-font-size);
+    font-style: var(--tailwindcss-typography-button-16px-24px-medium-font-style);
+    font-weight: var(--tailwindcss-typography-button-16px-24px-medium-font-weight);
+    letter-spacing: var(--tailwindcss-typography-button-16px-24px-medium-letter-spacing);
+    line-height: var(--tailwindcss-typography-button-16px-24px-medium-line-height);
+}
+
+.button.link-bg .div {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: Truepx;
+    text-decoration: underline;
+}

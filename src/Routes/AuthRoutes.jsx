@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router";
 import App from "../App.jsx";
-import { Home } from "../components/Home/Home.jsx";
+import { Home } from "../Screens/Home/Home.jsx";
 import { Root } from "./Root.jsx";
-import About from "../components/About/About.jsx";
-// import { About } from "../components/About/About.jsx";
+import About from "../Screens/About/About.jsx";
+// import { About } from "../Screens/About/About.jsx";
 
 
 const AuthRoutes = () => {

@@ -1,0 +1,241 @@
+.background {
+    /* height: 642px; */
+    /* left: 130px;
+    top: 140px; */
+    /* width: 1180px; */
+}
+
+.overlap {
+    height: 840px;
+
+
+    width: 100%;
+}
+
+.pngegg {
+    background-color: #000000;
+    height: 745px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: rotate(180deg);
+    width: 100%;
+}
+
+.frame-wrapper {
+    background-image: url('../../assets/BannerImage.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 760px;
+    left: 0;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+}
+
+.bannervideo {
+    display: flex;
+    transform: scaleX(-1);
+    width: 100%;
+    height: 760px;
+}
+
+.div-wrapper {
+    -webkit-backdrop-filter: blur(24px) brightness(100%);
+    backdrop-filter: blur(24px) brightness(100%);
+    background-color: #01010140;
+    border-radius: 18px;
+    height: 330px;
+    left: 911px;
+    overflow: hidden;
+    position: relative;
+    top: 387px;
+    width: 441px;
+}
+
+.frame-4 {
+    height: 214px;
+    left: 42px;
+    position: relative;
+    top: 60px;
+    width: 367px;
+}
+
+.heading-your {
+    color: #ffffff;
+    font-family: "Roboto", Helvetica;
+    font-size: 23.8px;
+    font-weight: 700;
+    height: 27px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    text-align: right;
+    top: -1px;
+    white-space: nowrap;
+}
+
+.lorem-ipsum-dolor {
+    color: #ffffff;
+    font-family: "Roboto", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 72px;
+    left: 52px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    text-align: right;
+    top: 45px;
+}
+
+.text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Roboto", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    height: 21px;
+    left: 118px;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    text-align: right;
+    top: 192px;
+    white-space: nowrap;
+    width: 84px;
+}
+
+.heading {
+    height: 40px;
+    left: 98px;
+    position: absolute;
+    top: 148px;
+    width: 104px;
+}
+
+.text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Space Grotesk", Helvetica;
+    font-size: 31.9px;
+    font-weight: 700;
+    height: 40px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    text-align: right;
+    top: -1px;
+    white-space: nowrap;
+    width: 104px;
+}
+
+.overlap-group {
+    height: 55px;
+    left: 222px;
+    position: absolute;
+    top: 155px;
+    width: 145px;
+}
+
+.portrait-of {
+    background-image: url('../../assets/BannerManOne.svg');
+    background-position: 50% 50%;
+    background-size: cover;
+    border: 2px solid;
+    border-color: #0b0b0b;
+    border-radius: 100px;
+    height: 55px;
+    left: 90px;
+    position: absolute;
+    top: 0;
+    width: 55px;
+}
+
+.confident-smiling {
+    background-image: url('../../assets/BannerManTwo.svg');
+    background-position: 50% 50%;
+    background-size: cover;
+    border: 2px solid;
+    border-color: #0b0b0b;
+    border-radius: 100px;
+    height: 55px;
+    left: 45px;
+    position: absolute;
+    top: 0;
+    width: 55px;
+}
+
+.man-smile-portrait {
+    background-image: url('../../assets/BannerManThird.svg');
+    background-position: 50% 50%;
+    background-size: cover;
+    border: 2px solid;
+    border-color: #0b0b0b;
+    border-radius: 100px;
+    height: 55px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 55px;
+}
+
+.section {
+    height: 244px;
+    left: 130px;
+    position: absolute;
+    top: 176px;
+    width: 519px;
+}
+
+.heading-2 {
+    height: 116px;
+    left: 0;
+    position: absolute;
+    top: 27px;
+    width: 519px;
+}
+
+.text-wrapper-7 {
+    color: #ffffff;
+    font-family: "Roboto", Helvetica;
+    font-size: 58px;
+    font-weight: 500;
+    height: 132px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: absolute;
+    top: -9px;
+    width: 428px;
+}
+
+.frame-5 {
+    height: 44px;
+    left: 0;
+    position: absolute;
+    top: 176px;
+    width: 320px;
+}
+
+.gplay-png {
+    background-image: url('../../assets/GoogleStore.svg');
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 44px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 150px;
+}
+
+.appstore-png {
+    background-image: url('../../assets/AppStore.svg');
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 44px;
+    left: 170px;
+    position: absolute;
+    top: 0;
+    width: 150px;
+}
