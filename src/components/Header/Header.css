@@ -1,4 +1,26 @@
-.frame-6 {
+
+
+.brand-logo{
+    widh: 100%;
+    max-width:200px;
+}
+nav{
+    padding-inline: 30px !important;
+}
+
+.navbar-nav{
+    gap: 30px;
+}
+.navbar-nav .nav-link{
+    
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #11111180
+}
+
+
+/* .frame-6 {
     background-color: #ffffff;
     height: 80px;
     left: 0;
@@ -61,4 +83,4 @@
     position: absolute;
     top: 10px;
     width: 253px;
-}
+} */
