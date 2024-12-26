@@ -1,5 +1,7 @@
 import './About.css'
-import Bull from '../../assets/bull.mp4'
+import Bull from '../../assets/bull.mp4';
+import Secure from '../../assets/SecureAbout.svg';
+import Global from '../../assets/Global.svg';
 import { useEffect, useRef } from 'react';
 export function About() {
     const videoRef = useRef(null);
@@ -22,57 +24,63 @@ export function About() {
                             <source src={Bull} type="video/mp4" />
                         </video>
                     </div>
-                    <div className="heading-ABOUT-US-wrapper">
-                        <div className="heading-ABOUT-US">ABOUT US</div>
-                    </div>
+                    <div className="aboutseccon">
+                        <div className="heading-ABOUT-US-wrapper">
+                            <div className="heading-ABOUT-US">ABOUT US</div>
+                        </div>
 
-                    <div className="maximum-profit-wrapper">
-                        <p className="maximum-profit">
-                            Maximum Profit &amp; Expert Trading Guidance
+                        <div className="maximum-profit-wrapper">
+                            <p className="maximum-profit">
+                                Maximum Profit &amp; Expert Trading Guidance
+                            </p>
+                        </div>
+
+                        <p className="lorem-ipsum-dolor-2">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                            <br />
+                            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                            penatibus
+                            <br />
+                            et magnis dis parturient montes, nascetur ridiculus mus.
                         </p>
-                    </div>
 
-                    <p className="lorem-ipsum-dolor-2">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                        <br />
-                        commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                        penatibus
-                        <br />
-                        et magnis dis parturient montes, nascetur ridiculus mus.
-                    </p>
+                        <div className="section-6">
+                            <div className="background-border">
+                                <div className="symbol-wrapper">
+                                    <div className="symbol">
+                                        <img src={Secure} alt="" />
+                                    </div>
+                                </div>
 
-                    <div className="section-6">
-                        <div className="background-border-6">
-                            <div className="symbol-wrapper">
-                                <div className="symbol"></div>
+                                <div className="heading-secure">Secure Transaction</div>
+
+                                <p className="lorem-ipsum-dolor-3">
+                                    Lorem ipsum dolor sit amet,
+                                    <br />
+                                    consectetur adipiscing elit.
+                                </p>
                             </div>
 
-                            <div className="heading-secure">Secure Transaction</div>
+                            <div className="background-border">
+                                <div className="symbol-wrapper">
+                                    <div className="symbol-2">
+                                        <img src={Global} alt="" />
+                                    </div>
+                                </div>
 
-                            <p className="lorem-ipsum-dolor-3">
-                                Lorem ipsum dolor sit amet,
-                                <br />
-                                consectetur adipiscing elit.
-                            </p>
-                        </div>
+                                <div className="heading-global">Global Services</div>
 
-                        <div className="background-border-7">
-                            <div className="symbol-wrapper">
-                                <div className="symbol-2"></div>
+                                <p className="lorem-ipsum-dolor-3">
+                                    Lorem ipsum dolor sit amet,
+                                    <br />
+                                    consectetur adipiscing elit.
+                                </p>
                             </div>
-
-                            <div className="heading-global">Global Services</div>
-
-                            <p className="lorem-ipsum-dolor-3">
-                                Lorem ipsum dolor sit amet,
-                                <br />
-                                consectetur adipiscing elit.
-                            </p>
                         </div>
-                    </div>
 
-                    <div className="link-2">
-                        <div className="text-wrapper-14">More About Us</div>
+                        <div className="link-2">
+                            <div className="text-wrapper-14">More About Us</div>
+                        </div>
                     </div>
                 </div>
             </div>

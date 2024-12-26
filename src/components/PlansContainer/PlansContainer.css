@@ -1,0 +1,226 @@
+.plancontainer .frame-8 {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 30px;
+}
+
+.plancontainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.plancontainer .BASIC-instance {
+    background-color: #eaeaeb33 !important;
+    border-color: #2e4686 !important;
+    flex: 0 0 auto !important;
+}
+
+.plancontainer .design-component-instance-node {
+    background-color: #4166ae !important;
+    display: flex !important;
+    flex: 0 0 auto !important;
+    width: 300px !important;
+}
+
+.plancontainer .BASIC-2 {
+    align-items: flex-start;
+    background-color: #4166ae;
+    border: 1px solid;
+    border-color: #334155;
+    border-radius: 16px;
+    box-shadow: var(--tailwind-shadow);
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 48px;
+    overflow: hidden;
+    padding: 40px;
+    position: relative;
+}
+
+.plancontainer .frame-9 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+}
+
+.plancontainer .BASIC-3 {
+    color: #ffffff;
+    font-family: var(--tailwindcss-typography-button-16px-24px-semi-bold-font-family);
+    font-size: var(--tailwindcss-typography-button-16px-24px-semi-bold-font-size);
+    font-style: var(--tailwindcss-typography-button-16px-24px-semi-bold-font-style);
+    font-weight: var(--tailwindcss-typography-button-16px-24px-semi-bold-font-weight);
+    letter-spacing: var(--tailwindcss-typography-button-16px-24px-semi-bold-letter-spacing);
+    line-height: var(--tailwindcss-typography-button-16px-24px-semi-bold-line-height);
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.plancontainer .free {
+    color: transparent;
+    font-family: "Inter", Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: relative;
+    width: fit-content;
+}
+
+.plancontainer .span {
+    color: #f5f7fa;
+    font-family: var(--tailwindcss-typography-heading-h4-48px-60px-bold-font-family);
+    font-size: var(--tailwindcss-typography-heading-h4-48px-60px-bold-font-size);
+    font-style: var(--tailwindcss-typography-heading-h4-48px-60px-bold-font-style);
+    font-weight: var(--tailwindcss-typography-heading-h4-48px-60px-bold-font-weight);
+    letter-spacing: var(--tailwindcss-typography-heading-h4-48px-60px-bold-letter-spacing);
+    line-height: var(--tailwindcss-typography-heading-h4-48px-60px-bold-line-height);
+}
+
+.plancontainer .text-wrapper-15 {
+    color: #ffffff;
+    font-family: var(--tailwindcss-typography-text-text-sm-18px-28px-medium-font-family);
+    font-size: var(--tailwindcss-typography-text-text-sm-18px-28px-medium-font-size);
+    font-style: var(--tailwindcss-typography-text-text-sm-18px-28px-medium-font-style);
+    font-weight: var(--tailwindcss-typography-text-text-sm-18px-28px-medium-font-weight);
+    letter-spacing: var(--tailwindcss-typography-text-text-sm-18px-28px-medium-letter-spacing);
+    line-height: var(--tailwindcss-typography-text-text-sm-18px-28px-medium-line-height);
+}
+
+.plancontainer .layer-2 {
+    height: 48px;
+    position: relative;
+    width: 48px;
+}
+
+.plancontainer .frame-10 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+}
+
+.plancontainer .frame-11 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 12px;
+    position: relative;
+}
+
+.plancontainer .icon-outline-check-circle-20 {
+    height: 16px !important;
+    position: relative !important;
+    width: 16px !important;
+}
+
+.plancontainer .text-wrapper-16 {
+    color: #f5f7fa;
+    font-family: var(--tailwindcss-typography-button-16px-24px-regular-font-family);
+    font-size: var(--tailwindcss-typography-button-16px-24px-regular-font-size);
+    font-style: var(--tailwindcss-typography-button-16px-24px-regular-font-style);
+    font-weight: var(--tailwindcss-typography-button-16px-24px-regular-font-weight);
+    letter-spacing: var(--tailwindcss-typography-button-16px-24px-regular-letter-spacing);
+    line-height: var(--tailwindcss-typography-button-16px-24px-regular-line-height);
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.plancontainer .button-2 {
+    background-color: #ffffff !important;
+    display: flex !important;
+    flex: 0 0 auto !important;
+    width: 300px !important;
+}
+
+.plancontainer .button-3 {
+    color: #2e4686 !important;
+}
+
+
+
+.plancontainer .BASIC-4 {
+    align-items: flex-start;
+    background-color: #3a6a970d;
+    border: 1px solid;
+    border-color: #2e4686;
+    border-radius: 16px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 48px;
+    overflow: hidden;
+    padding: 40px;
+    position: relative;
+}
+
+.plancontainer .BASIC-5 {
+    color: #2e4686;
+    font-family: var(--tailwindcss-typography-button-16px-24px-semi-bold-font-family);
+    font-size: var(--tailwindcss-typography-button-16px-24px-semi-bold-font-size);
+    font-style: var(--tailwindcss-typography-button-16px-24px-semi-bold-font-style);
+    font-weight: var(--tailwindcss-typography-button-16px-24px-semi-bold-font-weight);
+    letter-spacing: var(--tailwindcss-typography-button-16px-24px-semi-bold-letter-spacing);
+    line-height: var(--tailwindcss-typography-button-16px-24px-semi-bold-line-height);
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.plancontainer .free-2 {
+    color: #2e4686;
+    font-family: "Inter", Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: Truepx;
+    position: relative;
+    width: fit-content;
+}
+
+.plancontainer .text-wrapper-17 {
+    font-family: var(--tailwindcss-typography-heading-h4-48px-60px-bold-font-family);
+    font-size: var(--tailwindcss-typography-heading-h4-48px-60px-bold-font-size);
+    font-style: var(--tailwindcss-typography-heading-h4-48px-60px-bold-font-style);
+    font-weight: var(--tailwindcss-typography-heading-h4-48px-60px-bold-font-weight);
+    letter-spacing: var(--tailwindcss-typography-heading-h4-48px-60px-bold-letter-spacing);
+    line-height: var(--tailwindcss-typography-heading-h4-48px-60px-bold-line-height);
+}
+
+.plancontainer .text-wrapper-18 {
+    font-family: var(--tailwindcss-typography-text-text-sm-18px-28px-medium-font-family);
+    font-size: var(--tailwindcss-typography-text-text-sm-18px-28px-medium-font-size);
+    font-style: var(--tailwindcss-typography-text-text-sm-18px-28px-medium-font-style);
+    font-weight: var(--tailwindcss-typography-text-text-sm-18px-28px-medium-font-weight);
+    letter-spacing: var(--tailwindcss-typography-text-text-sm-18px-28px-medium-letter-spacing);
+    line-height: var(--tailwindcss-typography-text-text-sm-18px-28px-medium-line-height);
+}
+
+.plancontainer .text-wrapper-19 {
+    color: #2e4686;
+    font-family: var(--tailwindcss-typography-button-16px-24px-regular-font-family);
+    font-size: var(--tailwindcss-typography-button-16px-24px-regular-font-size);
+    font-style: var(--tailwindcss-typography-button-16px-24px-regular-font-style);
+    font-weight: var(--tailwindcss-typography-button-16px-24px-regular-font-weight);
+    letter-spacing: var(--tailwindcss-typography-button-16px-24px-regular-letter-spacing);
+    line-height: var(--tailwindcss-typography-button-16px-24px-regular-line-height);
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.plancontainer .button-4 {
+    color: #f8fafc !important;
+}

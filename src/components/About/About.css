@@ -12,25 +12,24 @@
     width: 531px;
 }
 
+.aboutus {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
 .aboutus .maximum-profit-wrapper {
     height: 96px;
-    left: 601px;
-    position: absolute;
-    top: 80px;
     width: 579px;
 }
 
 .aboutus .maximum-profit {
     color: #0b0b0b;
-    font-family: "Roboto", Helvetica;
     font-size: 48px;
     font-weight: 700;
     height: 109px;
-    left: 0;
     letter-spacing: 0;
     line-height: Truepx;
-    position: absolute;
-    top: -8px;
     width: 578px;
 }
 
@@ -43,10 +42,16 @@
 
 .aboutus .container {
     height: 627px;
-    left: 130px;
-    position: relative;
-    top: 80px;
-    width: 1180px;
+    display: flex;
+    width: 80%;
+}
+
+.aboutus .aboutseccon {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+    justify-content: space-between;
+    padding: 21px 0px;
 }
 
 .aboutus .heading-ABOUT-US-wrapper {
@@ -55,10 +60,10 @@
     border-color: #e2e8f1;
     border-radius: 50px;
     height: 38px;
-    left: 601px;
-    position: absolute;
-    top: 23px;
     width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .aboutus .heading-ABOUT-US {
@@ -66,170 +71,109 @@
     font-family: "Roboto", Helvetica;
     font-size: 13px;
     font-weight: 500;
-    height: 17px;
-    left: 21px;
     letter-spacing: 0.80px;
     line-height: Truepx;
-    position: absolute;
-    top: 13px;
     white-space: nowrap;
     width: 68px;
 }
 
 .aboutus .lorem-ipsum-dolor-2 {
     color: #7a7a7a;
-    font-family: "Roboto", Helvetica;
     font-size: 16px;
     font-weight: 400;
     height: 69px;
-    left: 601px;
     letter-spacing: 0;
     line-height: Truepx;
-    position: absolute;
-    top: 196px;
-    width: 565px;
     line-height: 24px;
 }
 
 .aboutus .section-6 {
     height: 207px;
-    left: 601px;
-    position: absolute;
-    top: 296px;
     width: 579px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.aboutus .background-border-6 {
+.aboutus .background-border {
     background-color: #ffffff;
     border: 1px solid;
     border-color: #e2e8f1;
     border-radius: 10px;
-    height: 207px;
-    left: 0;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
+    padding: 16px;
     width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .aboutus .symbol-wrapper {
     background-color: #4166ae;
     border-radius: 7px;
     height: 70px;
-    left: 16px;
-    position: absolute;
-    top: 16px;
     width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .aboutus .symbol {
     color: #ffffff;
-    font-family: "Font Awesome 5 Free-Solid", Helvetica;
     font-size: 44px;
     font-weight: 400;
     height: 45px;
-    left: 13px;
-    letter-spacing: 0;
-    line-height: Truepx;
-    position: absolute;
-    top: 11px;
-    white-space: nowrap;
     width: 44px;
 }
 
 .aboutus .heading-secure {
     color: #0b0b0b;
-    font-family: "Roboto", Helvetica;
     font-size: 24px;
     font-weight: 700;
     height: 31px;
-    left: 16px;
     letter-spacing: 0;
     line-height: Truepx;
-    position: absolute;
-    top: 105px;
     white-space: nowrap;
     width: 223px;
 }
 
 .aboutus .lorem-ipsum-dolor-3 {
     color: #7a7a7a;
-    font-family: "Roboto", Helvetica;
     font-size: 16px;
     font-weight: 400;
     height: 45px;
-    left: 16px;
     letter-spacing: 0;
-    line-height: Truepx;
-    position: absolute;
-    top: 143px;
+    line-height: 24px;
     width: 213px;
 }
 
-.aboutus .background-border-7 {
-    background-color: #ffffff;
-    border: 1px solid;
-    border-color: #e2e8f1;
-    border-radius: 10px;
-    height: 207px;
-    left: 310px;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    width: 270px;
-}
 
 .aboutus .symbol-wrapper {
     background-color: #4166ae;
     border-radius: 7px;
     height: 70px;
-    left: 16px;
-    position: absolute;
-    top: 16px;
     width: 70px;
 }
 
 .aboutus .symbol-2 {
     color: #ffffff;
-    font-family: "Font Awesome 5 Free-Solid", Helvetica;
-    font-size: 44px;
-    font-weight: 400;
     height: 45px;
-    left: 13px;
-    letter-spacing: 0;
-    line-height: Truepx;
-    position: absolute;
-    top: 11px;
-    white-space: nowrap;
     width: 43px;
 }
 
 .aboutus .heading-global {
     color: #0b0b0b;
-    font-family: "Roboto", Helvetica;
     font-size: 24px;
     font-weight: 700;
-    height: 31px;
-    left: 16px;
-    letter-spacing: 0;
-    line-height: Truepx;
-    position: absolute;
-    top: 105px;
-    white-space: nowrap;
+
     width: 177px;
 }
 
 .aboutus .lorem-ipsum-dolor-3 {
     color: #7a7a7a;
-    font-family: "Roboto", Helvetica;
     font-size: 16px;
     font-weight: 400;
     height: 45px;
-    left: 16px;
     letter-spacing: 0;
     line-height: Truepx;
-    position: absolute;
-    top: 143px;
     width: 213px;
 }
 
@@ -237,24 +181,16 @@
     background-color: #4166ae;
     border-radius: 100px;
     height: 60px;
-    left: 601px;
-    position: absolute;
-    top: 544px;
     width: 184px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .aboutus .text-wrapper-14 {
     color: #ffffff;
-    font-family: "Roboto", Helvetica;
     font-size: 15px;
     font-weight: 500;
-    height: 22px;
-    left: 39px;
-    letter-spacing: 0;
-    line-height: Truepx;
-    position: absolute;
-    text-align: center;
-    top: 18px;
-    white-space: nowrap;
+
     width: 107px;
 }

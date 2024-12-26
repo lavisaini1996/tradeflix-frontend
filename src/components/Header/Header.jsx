@@ -3,6 +3,11 @@ export function Header() {
     return (
         <>
             <div className="frame-6">
+                <img
+                    className="layer-x"
+                    alt="Layer"
+                    src="https://c.animaapp.com/LJb56hOf/img/layer-x0020-1@2x.png"
+                />
                 <div className="navigation">
                     <div className="link">
                         <div className="text-wrapper-8">About</div>
@@ -21,11 +26,7 @@ export function Header() {
                     </div>
                 </div>
 
-                <img
-                    className="layer-x"
-                    alt="Layer"
-                    src="https://c.animaapp.com/LJb56hOf/img/layer-x0020-1@2x.png"
-                />
+
             </div>
         </>
     )
