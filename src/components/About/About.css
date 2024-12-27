@@ -1,196 +1,31 @@
-.aboutus .background-border-5 {
-    background-color: #000000;
-    border: 1px solid;
-    border-color: #e2e8f1;
-    border-radius: 20px;
+.aboutvideocon {
     height: 627px;
-    left: 0;
-    object-fit: contain;
-    overflow: hidden;
-    position: relative;
-    top: 0;
-    width: 531px;
+    background: #000;
 }
 
-.aboutus {
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
+.aboutvideo {
+    object-fit: cover;
 }
 
-.aboutus .maximum-profit-wrapper {
-    height: 96px;
-    width: 579px;
-}
-
-.aboutus .maximum-profit {
-    color: #0b0b0b;
+.maxheading {
     font-size: 48px;
-    font-weight: 700;
-    height: 109px;
-    letter-spacing: 0;
-    line-height: Truepx;
-    width: 578px;
 }
 
-.aboutus .bullvideo {
-    object-fit: contain;
-    height: 100%;
-    position: absolute;
-    left: -42%;
-}
-
-.aboutus .container {
-    height: 627px;
-    display: flex;
-    width: 80%;
-}
-
-.aboutus .aboutseccon {
-    display: flex;
-    flex-direction: column;
-    margin-left: 4%;
-    justify-content: space-between;
-    padding: 21px 0px;
-}
-
-.aboutus .heading-ABOUT-US-wrapper {
-    background-color: #f5f7fa;
-    border: 1px solid;
-    border-color: #e2e8f1;
-    border-radius: 50px;
-    height: 38px;
-    width: 110px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.aboutus .heading-ABOUT-US {
-    color: #0b0b0b;
-    font-family: "Roboto", Helvetica;
-    font-size: 13px;
-    font-weight: 500;
-    letter-spacing: 0.80px;
-    line-height: Truepx;
-    white-space: nowrap;
-    width: 68px;
-}
-
-.aboutus .lorem-ipsum-dolor-2 {
-    color: #7a7a7a;
-    font-size: 16px;
-    font-weight: 400;
-    height: 69px;
-    letter-spacing: 0;
-    line-height: Truepx;
-    line-height: 24px;
-}
-
-.aboutus .section-6 {
-    height: 207px;
-    width: 579px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.aboutus .background-border {
-    background-color: #ffffff;
-    border: 1px solid;
-    border-color: #e2e8f1;
-    border-radius: 10px;
-    padding: 16px;
-    width: 270px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.aboutus .symbol-wrapper {
-    background-color: #4166ae;
-    border-radius: 7px;
-    height: 70px;
+.aboutcard {
+    background: #4166ae;
     width: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.aboutus .symbol {
-    color: #ffffff;
-    font-size: 44px;
-    font-weight: 400;
-    height: 45px;
-    width: 44px;
-}
-
-.aboutus .heading-secure {
-    color: #0b0b0b;
-    font-size: 24px;
-    font-weight: 700;
-    height: 31px;
-    letter-spacing: 0;
-    line-height: Truepx;
-    white-space: nowrap;
-    width: 223px;
-}
-
-.aboutus .lorem-ipsum-dolor-3 {
-    color: #7a7a7a;
-    font-size: 16px;
-    font-weight: 400;
-    height: 45px;
-    letter-spacing: 0;
-    line-height: 24px;
-    width: 213px;
-}
-
-
-.aboutus .symbol-wrapper {
-    background-color: #4166ae;
-    border-radius: 7px;
     height: 70px;
-    width: 70px;
 }
 
-.aboutus .symbol-2 {
-    color: #ffffff;
+.aboutcardimage {
     height: 45px;
-    width: 43px;
 }
 
-.aboutus .heading-global {
-    color: #0b0b0b;
-    font-size: 24px;
-    font-weight: 700;
-
-    width: 177px;
+.aboutbutton {
+    border: none;
+    background: #4166ae;
 }
 
-.aboutus .lorem-ipsum-dolor-3 {
-    color: #7a7a7a;
-    font-size: 16px;
-    font-weight: 400;
-    height: 45px;
-    letter-spacing: 0;
-    line-height: Truepx;
-    width: 213px;
-}
-
-.aboutus .link-2 {
-    background-color: #4166ae;
-    border-radius: 100px;
-    height: 60px;
-    width: 184px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.aboutus .text-wrapper-14 {
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 500;
-
-    width: 107px;
+.aboutimageborder {
+    border-radius: 7px;
 }

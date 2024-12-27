@@ -1,121 +1,68 @@
+import React from "react";
+import { Container, Row, Col, Card } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Crypto from "../../assets/crypto.png";
+import Forex from "../../assets/forex.png";
+import Gold from "../../assets/gold.png";
+import Group from "../../assets/group.png";
+import Indices from "../../assets/indices.png";
+import Stock from "../../assets/stocks.png";
 import './AssestContainer.css'
-import Crypto from '../../assets/crypto.png'
-import Forex from '../../assets/forex.png'
-import Gold from '../../assets/gold.png'
-import Group from '../../assets/group.png'
-import Indices from '../../assets/indices.png'
-import Stock from '../../assets/stocks.png'
 export function AssestContainer() {
     return (
-        <>
-            <div className="assestcontainer">
-                {/* <div className="header">
-                    <div className="head-sec">
-                        <span>TRADING OPTION</span>
+        <Container className="mt-5">
+            <Row className="text-center">
+                <Col>
+                    <div
+                        className="py-2 px-4 border rounded-pill mx-auto mb-3"
+                        style={{
+                            backgroundColor: "#f5f7fa",
+                            borderColor: "#e2e8f1",
+                            width: "155px",
+                        }}
+                    >
+                        <span className="fw-bold">TRADING OPTION</span>
                     </div>
-                </div> */}
-                <div className="section-2">
-                    <div className="section-3">
-                        <div className="background-border">
-                            <div className="heading-TRADING">TRADING OPTION</div>
-                        </div>
+                    <h2 className="fw-bold mb-3" style={{ fontSize: "47.8px" }}>
+                        Trading Assets
+                    </h2>
+                    <p className="text-muted mb-4">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                        <br />
+                        commodo ligula eget dolor. Aenean massa.
+                    </p>
+                </Col>
+            </Row>
+            <Row className="justify-content-center g-4">
+                {[
+                    { img: Stock, title: "Stocks Trading Analysis" },
+                    { img: Forex, title: "Forex Trading Analysis" },
+                    { img: Gold, title: "Commodities Trading" },
+                    { img: Indices, title: "Stocks Indices" },
+                    { img: Crypto, title: "Cryptos Trading Analysis" },
+                    { img: Group, title: "Bonds Trading" },
+                ].map((asset, index) => (
+                    <Col key={index} xs={12} sm={6} md={4}>
+                        <Card
+                            className="text-white text-center d-flex flex-row assestcardcontainer"
 
-                        <div className="heading-trading">Trading Assets</div>
-
-                        <p className="p">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                            <br />
-                            commodo ligula eget dolor. Aenean massa.
-                        </p>
-                    </div>
-
-                    <div className='blockcon'>
-                        <div className="section-4">
-                            <div className="background-border-2">
-                                <img src={Stock} alt="" className='img' />
-
-                                <div className="paragraph">
-                                    <div className="text-wrapper-10">Stocks Trading Analysis</div>
-
-                                    <div className="text-wrapper-11">Lorem ipsum dolor sit</div>
-                                </div>
-                            </div>
-
-                            <div className="background-border-2">
-                                <img
-                                    className="img"
-                                    alt="Forex png"
-                                    src={Forex}
-                                />
-
-                                <div className="paragraph">
-                                    <div className="text-wrapper-10">Forexs Trading Analysis</div>
-
-                                    <div className="text-wrapper-11">Lorem ipsum dolor sit</div>
-                                </div>
-                            </div>
-
-                            <div className="background-border-2">
-                                <img
-                                    className="img"
-                                    alt="Gold png"
-                                    src={Gold}
-                                />
-
-                                <div className="paragraph">
-                                    <div className="text-wrapper-10">Commodities Trading</div>
-
-                                    <div className="text-wrapper-11">Lorem ipsum dolor sit</div>
-                                </div>
-                            </div>
-                            <div className="background-border-2">
-                                <img
-                                    className="img"
-                                    alt="Indices png"
-                                    src={Indices}
-                                />
-
-                                <div className="paragraph">
-                                    <div className="text-wrapper-10">Stocks Indices</div>
-
-                                    <div className="text-wrapper-11">Lorem ipsum dolor sit</div>
-                                </div>
-                            </div>
-
-                            <div className="background-border-2">
-                                <img
-                                    className="img"
-                                    alt="Crypto png"
-                                    src={Crypto}
-                                />
-
-                                <div className="paragraph">
-                                    <div className="text-wrapper-10">Cryptos Trading Analysis</div>
-
-                                    <div className="text-wrapper-11">Lorem ipsum dolor sit</div>
-                                </div>
-                            </div>
-
-                            <div className="background-border-2">
-                                <img
-                                    className="img"
-                                    alt="Group png"
-                                    src={Group}
-                                />
-
-                                <div className="paragraph">
-                                    <div className="text-wrapper-10">Bonds Trading</div>
-
-                                    <div className="text-wrapper-11">Lorem ipsum dolor sit</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-
-        </>
-    )
+                        >
+                            <Card.Img
+                                variant="top"
+                                src={asset.img}
+                                alt={asset.title}
+                                className="assestcardimage"
+                            />
+                            <Card.Body className=" text-start d-flex justify-content-center flex-column px-3 py-0" >
+                                <Card.Title className="fw-bold">{asset.title}</Card.Title>
+                                <Card.Text className="text-muted">
+                                    Lorem ipsum dolor sit
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                ))}
+            </Row>
+        </Container>
+    );
 }
