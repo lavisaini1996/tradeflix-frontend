@@ -4,8 +4,18 @@
      padding: 16px;
  }
 
+ .tradehead {
+     font-size: 48px;
+ }
+
  .assestcardimage {
      height: 70px;
      width: 70px;
      margin: 0 auto;
+ }
+
+ @media (max-width:576px) {
+     .tradehead {
+         font-size: 30px;
+     }
  }

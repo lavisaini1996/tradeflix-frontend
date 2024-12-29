@@ -12,6 +12,10 @@
     border-radius: 2pc;
 }
 
+.dwnldsection {
+    font-size: 48px;
+}
+
 .googleImage {
     background-image: url('../../assets/GoogleStore.svg');
     background-size: contain;
@@ -35,4 +39,35 @@
     max-height: 769px;
     top: 12%;
     right: 10%;
+}
+
+@media (max-width:992px) {
+    .mobileimage {
+        width: 320px;
+    }
+
+    .mobileimage {
+        top: 20% !important;
+    }
+
+    .downloadbgimage {
+        height: 450px;
+    }
+
+    .dwnldsection {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:576px) {
+    .mobileimage {
+        display: none;
+    }
+}
+
+@media (max-width:1024px) {
+    .mobileimage {
+        width: 350px;
+        top: 35%;
+    }
 }

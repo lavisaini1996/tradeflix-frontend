@@ -21,7 +21,7 @@ export function About() {
         <Container className="mt-5 d-flex justify-content-center">
             <Row className="w-100 align-items-start justify-content-evenly">
                 {/* Video Section */}
-                <Col md={5} className="mb-4">
+                <Col sm={12} lg={5} className="mb-4">
                     <div
                         className="border rounded-3 overflow-hidden position-relative aboutvideocon"
                     >
@@ -38,7 +38,7 @@ export function About() {
                 </Col>
 
                 {/* About Section */}
-                <Col md={6} className="d-flex flex-column justify-content-between align-items-start">
+                <Col sm={12} lg={6} className="d-flex flex-column justify-content-between align-items-start">
                     <div>
                         <div className="d-inline-block bg-light border rounded-pill text-center py-2 px-4 mb-3">
                             <strong>ABOUT US</strong>

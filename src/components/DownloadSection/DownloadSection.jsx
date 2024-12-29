@@ -24,7 +24,7 @@ export function DownloadSection() {
                             </span>
                         </div>
 
-                        <h2 className="fw-bold mb-3" style={{ fontSize: "48px" }}>
+                        <h2 className="fw-bold mb-3 dwnldsection" >
                             Download Our App &amp;
                             <br />
                             Get The Special Offer!
@@ -52,7 +52,7 @@ export function DownloadSection() {
                         <img
                             src={MobileImage}
                             alt="Mobile App"
-                            className="img-fluid"
+                            className="img-fluid mobileimage"
                         />
                     </Col>
                 </Row>

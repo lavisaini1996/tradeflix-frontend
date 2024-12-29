@@ -29,7 +29,7 @@ export function Features() {
                                 FEATURES
                             </span>
                         </div>
-                        <h2 className="mt-3 fw-bold" style={{ fontSize: "48px" }}>
+                        <h2 className="mt-3 fw-bold featurehead"  >
                             Our Platform Feature
                         </h2>
                     </Col>
@@ -46,13 +46,7 @@ export function Features() {
                 <Row className="">
                     <Col md={6}>
                         <div
-                            className="rounded overflow-hidden"
-                            style={{
-                                height: "623px",
-                                maxWidth: "100%",
-                                borderRadius: "10px",
-                                overflow: "hidden",
-                            }}
+                            className="rounded overflow-hidden featurevideocont"
                         >
                             <video
                                 className="w-100 h-100 featurevideo"

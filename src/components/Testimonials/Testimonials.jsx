@@ -1,114 +1,147 @@
-import './Testimonials.css'
-import TestiImage from '../../assets/Testimonials/TestimonialImage.png'
+import React from 'react';
+import { Container, Row, Col, Card, Carousel } from 'react-bootstrap';
+import './Testimonials.css';
+import TestiImage from '../../assets/Testimonials/TestimonialImage.png';
+import TestGraph from '../../assets/TestMonialGraph.png';
+import FullStar from '../../assets/Testimonials/FullStar.svg';
+import NotFullStar from '../../assets/Testimonials/EmptyStar.svg'
+import ClonIcon from '../../assets/Testimonials/Clonicon.svg'
 export function Testimonials() {
     return (
-        <>
-            <div className="testimonialcontainer">
-                <div className="container-wrapper">
-                    <div className="container-4">
-                        <div className="testleftcon">
-                            <div className="heading-wrapper">
-                                <div className="heading-3">TESTIMONIAL</div>
-                            </div>
-
-                            {/* <div className="text-wrapper-29">slide 2 of 3</div> */}
-
-                            <div className="overlap-5">
-                                <div className="overlay-shadow-wrapper">
-                                    <div className="overlay-shadow">
-                                        <p className="lorem-ipsum-dolor-7">
-                                            &#34;Lorem ipsum dolor sit amet,
-                                            <br />
+        <Container fluid className="testimonial-container py-5 px-5 testcon mt-5">
+            <Row className="align-items-center">
+                <Col md={5} className="text-start text-md-left testcon">
+                    <h5 className="mb-3 testhead">TESTIMONIAL</h5>
+                    <Carousel indicators={true} interval={1000} style={{ height: '300px' }}>
+                        <Carousel.Item className='bg-red' style={{ height: '300px' }}>
+                            <Card className="shadow border-0 p-4"   >
+                                <Card.Body style={{ height: '300px !important' }}>
+                                    <blockquote className="blockquote">
+                                        <p>
+                                            "Lorem ipsum dolor sit amet,
                                             consectetur adipiscing elit, sed do
-                                            <br />
                                             eiusmod tempor incididunt ut labore
-                                            <br />
-                                            et dolore magna aliqua.&#34;
+                                            et dolore magna aliqua."
                                         </p>
-                                        <div className="usercon">
-                                            <div className="userimage">
-
-                                            </div>
-                                            <div className="username">
-                                                <div className="userrating">
-
+                                    </blockquote>
+                                    <div className="d-flex align-items-center mt-4 testimageon">
+                                        <img
+                                            src={TestiImage}
+                                            alt="User"
+                                            className="rounded-circle mr-3"
+                                            style={{ width: '60px', height: '60px' }}
+                                        />
+                                        <img src={ClonIcon} alt="" className='colanimage' />
+                                        <div className='mx-2'>
+                                            <div className="text-warning">
+                                                <div className="ratingstar">
+                                                    <img src={FullStar} alt="" />
+                                                    <img src={FullStar} alt="" />
+                                                    <img src={FullStar} alt="" />
+                                                    <img src={FullStar} alt="" />
+                                                    <img src={NotFullStar} alt="" />
                                                 </div>
-                                                <div className="user">
-
-                                                </div>
+                                                <h6 className="mb-0 text-dark">Sakshi Rawat</h6>
                                             </div>
                                         </div>
-                                        <div className="confident-smiling-2" />
-
-                                        <div className="strong-camille">Sakshi Rawat</div>
-
-                                        <img
-                                            className="emojione-star"
-                                            alt="Emojione star"
-                                            src="https://c.animaapp.com/LJb56hOf/img/emojione-star.svg"
-                                        />
-
-                                        <img
-                                            className="emojione-star-2"
-                                            alt="Emojione star"
-                                            src="https://c.animaapp.com/LJb56hOf/img/emojione-star-1.svg"
-                                        />
-
-                                        <img
-                                            className="emojione-star-3"
-                                            alt="Emojione star"
-                                            src="https://c.animaapp.com/LJb56hOf/img/emojione-star-2.svg"
-                                        />
-
-                                        <img
-                                            className="emojione-star-4"
-                                            alt="Emojione star"
-                                            src="https://c.animaapp.com/LJb56hOf/img/emojione-star-3.svg"
-                                        />
-
-                                        <img
-                                            className="emojione-star-5"
-                                            alt="Emojione star"
-                                            src="https://c.animaapp.com/LJb56hOf/img/emojione-star-4.svg"
-                                        />
                                     </div>
-                                </div>
+                                </Card.Body>
+                            </Card>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <Card className="shadow border-0 p-4">
+                                <Card.Body>
+                                    <blockquote className="blockquote">
+                                        <p>
+                                            "Praesent commodo cursus magna, vel
+                                            scelerisque nisl consectetur."
+                                        </p>
+                                    </blockquote>
+                                    <div className="d-flex align-items-center mt-4 testimageon">
+                                        <img
+                                            src={TestiImage}
+                                            alt="User"
+                                            className="rounded-circle mr-3"
+                                            style={{ width: '60px', height: '60px' }}
+                                        />
+                                        <img src={ClonIcon} alt="" className='colanimage' />
 
-                                <img
-                                    className="icon"
-                                    alt="Icon"
-                                    src="https://c.animaapp.com/LJb56hOf/img/icon.svg"
-                                />
+                                        <div className='mx-2'>
+                                            <div className="text-warning">
+                                                <div className="ratingstar">
+                                                    <img src={FullStar} alt="" />
+                                                    <img src={FullStar} alt="" />
+                                                    <img src={FullStar} alt="" />
+                                                    <img src={FullStar} alt="" />
+                                                    <img src={NotFullStar} alt="" />
+                                                </div>
+                                                <h6 className="mb-0 text-dark">Sakshi Rawat</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Card.Body>
+                            </Card>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <Card className="shadow border-0 p-4">
+                                <Card.Body>
+                                    <blockquote className="blockquote">
+                                        <p>
+                                            "Integer posuere erat a ante
+                                            venenatis dapibus posuere velit
+                                            aliquet."
+                                        </p>
+                                    </blockquote>
+                                    <div className="d-flex align-items-center mt-4 testimageon">
+                                        <img
+                                            src={TestiImage}
+                                            alt="User"
+                                            className="rounded-circle mr-3"
+                                            style={{ width: '60px', height: '60px' }}
+                                        />
+                                        <img src={ClonIcon} alt="" className='colanimage' />
+
+                                        <div className='mx-2'>
+                                            <div className="text-warning">
+                                                <div className="ratingstar">
+                                                    <img src={FullStar} alt="" />
+                                                    <img src={FullStar} alt="" />
+                                                    <img src={FullStar} alt="" />
+                                                    <img src={FullStar} alt="" />
+                                                    <img src={NotFullStar} alt="" />
+                                                </div>
+                                                <h6 className="mb-0 text-dark">Sakshi Rawat</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Card.Body>
+                            </Card>
+                        </Carousel.Item>
+                    </Carousel>
+                </Col>
+                <Col md={6}>
+                    {/* Other Content */}
+                    <div className='graphcontainer'>
+                        <img src={TestGraph} alt="" style={{ width: '100%' }} />
+                        <div className="testdetailcontainer1 testdetailcontainer p-3 d-flex flex-column align-items-end">
+                            <div className='mb-1'>
+                                <span className='fr4t6y7u'>Ruchika Rawat</span>
+                            </div>
+                            <div>
+                                <span>Best in Analysis data</span>
                             </div>
                         </div>
-
-                        <div className="overlap-group-wrapper">
-                            <div className="overlap-group-3">
-                                <div className="paragraph-background-wrapper">
-                                    <div className="paragraph-background">
-                                        <div className="heading-marketing">
-                                            Best in Analyzing data
-                                        </div>
-
-                                        <div className="heading-lavinia">Ruchika Mehra</div>
-                                    </div>
-                                </div>
-
-                                <div className="section-9">
-                                    <div className="paragraph-background-2">
-                                        <div className="heading-marketing">
-                                            Best in Analyzing data
-                                        </div>
-
-                                        <div className="heading-lavinia-2">Rahul Rawat</div>
-                                    </div>
-                                </div>
+                        <div className="testdetailcontainer2 testdetailcontainer p-3 d-flex flex-column align-items-end">
+                            <div className='mb-1'>
+                                <span className='fr4t6y7u'>Ruchika Rawat</span>
+                            </div>
+                            <div>
+                                <span>Best in Analysis data</span>
                             </div>
                         </div>
                     </div>
-                </div>
-
-            </div>
-        </>
-    )
+                </Col>
+            </Row>
+        </Container>
+    );
 }

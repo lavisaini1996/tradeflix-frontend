@@ -29,3 +29,13 @@
 .aboutimageborder {
     border-radius: 7px;
 }
+
+@media (max-width:576px) {
+    .aboutvideocon {
+        height: 424px;
+    }
+
+    .maxheading {
+        font-size: 30px;
+    }
+}

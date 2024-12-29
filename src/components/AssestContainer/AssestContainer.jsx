@@ -18,12 +18,13 @@ export function AssestContainer() {
                         style={{
                             backgroundColor: "#f5f7fa",
                             borderColor: "#e2e8f1",
-                            width: "155px",
+                            width: 'fit-content'
+
                         }}
                     >
                         <span className="fw-bold">TRADING OPTION</span>
                     </div>
-                    <h2 className="fw-bold mb-3" style={{ fontSize: "47.8px" }}>
+                    <h2 className="fw-bold mb-3 tradehead"  >
                         Trading Assets
                     </h2>
                     <p className="text-muted mb-4">
@@ -42,7 +43,7 @@ export function AssestContainer() {
                     { img: Crypto, title: "Cryptos Trading Analysis" },
                     { img: Group, title: "Bonds Trading" },
                 ].map((asset, index) => (
-                    <Col key={index} xs={12} sm={6} md={4}>
+                    <Col key={index} xs={12} sm={6} md={6} xxl={4}>
                         <Card
                             className="text-white text-center d-flex flex-row assestcardcontainer"
 
@@ -63,6 +64,6 @@ export function AssestContainer() {
                     </Col>
                 ))}
             </Row>
-        </Container>
+        </Container >
     );
 }

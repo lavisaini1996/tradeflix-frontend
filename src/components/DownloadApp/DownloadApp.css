@@ -1,34 +1,54 @@
-
-.app-dwnld-section{
+.app-dwnld-section {
     margin: 2rem 0;
     background-size: cover;
     background-position: center;
     width: 100%;
-    padding: 120px 260px;
     text-align: center;
 }
 
-.app-dwnld-section .content h5{
-    font-family: Roboto;
+.app-dwnld-section .content h5 {
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 10px;
     color: #ffffff;
 }
 
-.app-dwnld-section .content p{
-    font-family: Roboto;
+.app-dwnld-section .content p {
     font-size: 14px;
     line-height: 23px;
     margin-bottom: 25px;
-    color:rgb(215, 214, 214);
+    color: rgb(215, 214, 214);
 }
-.app-dwnld-section .content .dwnld-link{
+
+.app-dwnld-section .content .dwnld-link {
     display: flex;
     gap: 10px;
-    justify-content:center;
+    justify-content: center;
 }
-.app-dwnld-section .content .dwnld-link img{
+
+.app-dwnld-section .content .dwnld-link img {
     width: 100%;
     max-width: 130px;
+}
+
+@media (max-width:576px) {
+    .app-dwnld-section {
+        padding: 25px 30px !important
+    }
+
+    .app-dwnld-section .content h5 {
+        font-size: 30px !important;
+    }
+}
+
+@media (min-width:578px) and (max-width:820px) {
+    .app-dwnld-section {
+        padding: 50px 100px !important;
+    }
+}
+
+@media(min-width:821px) and (max-width:1024px) {
+    .app-dwnld-section {
+        padding: 50px 180px !important;
+    }
 }
