@@ -21,7 +21,7 @@ export function FeaturesSection() {
             <Container>
                 {/* Features Heading */}
                 <Row className="text-start mb-4">
-                    <Col md={6}>
+                    <Col xs={12} md={6}>
                         <div
                             className="d-inline-block py-2 px-3 rounded-pill bg-light border border-secondary"
                             style={{ width: "110px" }}
@@ -45,7 +45,7 @@ export function FeaturesSection() {
 
                 {/* Video and Feature Description */}
                 <Row className="">
-                    <Col md={6}>
+                    <Col xs={12} md={6}>
                         <div
                             className="rounded overflow-hidden featurevideocont"
                         >

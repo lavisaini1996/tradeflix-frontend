@@ -6,8 +6,8 @@ import { Home } from './Screens/Home/Home'
 import { Outlet, Route, } from "react-router";
 import AuthRoutes from "./Routes/AuthRoutes"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import Header from './Components/Header/Header'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -15,7 +15,7 @@ function App() {
     <>
       <Header />
       <AuthRoutes />
-      <Footer/>
+      <Footer />
     </>
   )
 }
