@@ -7,7 +7,7 @@ import { Banner } from "../../Components/Banner/Banner";
 import { AssestContainer } from "../../Components/AssestContainer/AssestContainer";
 import { About } from "../../Components/About/About";
 import { DownloadSection } from "../../Components/DownloadSection/DownloadSection";
-import { Features } from "../../Components/Features/Features";
+import { FeaturesSection } from "../../components/FeaturesSection/FeaturesSection";
 import { PlansContainer } from "../../Components/PlansContainer/PlansContainer";
 import { Testimonials } from "../../Components/Testimonials/Testimonials";
 
@@ -19,7 +19,7 @@ export function Home() {
             <About />
 
             <DownloadSection />
-            <Features />
+            <FeaturesSection />
             <div className="account">
                 <div className="heading-OPEN-wrapper">
                     <div className="heading-OPEN">OPEN ACCOUNT</div>

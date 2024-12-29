@@ -1,7 +1,7 @@
 import './Header.css'
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
-export function Header() {
+function Header() {
     return (
         <>
             <Navbar expand="lg">
@@ -55,3 +55,5 @@ export function Header() {
         </>
     )
 }
+
+export default Header;

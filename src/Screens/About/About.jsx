@@ -44,25 +44,25 @@ const About = () => {
                                     mauris dolor. Id eleifend feugiat augue aenean pretium mauris elit
                                     pellentesque. Egestas tempor nibh scelerisque id porta nam egestas.
                                 </p>
-                                <div class="progress-section">
-                                    <div class="progress-bar">
-                                        <div class="circle" data-percentage="70">
+                                <div className="progress-section">
+                                    <div className="progress-bar">
+                                        <div className="circle" data-percentage="70">
                                             <div className="text">
                                                 <span>70%</span>
                                             </div>
                                         </div>
                                         <p>Lorem Ipsum</p>
                                     </div>
-                                    <div class="progress-bar">
-                                        <div class="circle" data-percentage="56">
+                                    <div className="progress-bar">
+                                        <div className="circle" data-percentage="56">
                                             <div className="text">
                                                 <span>56%</span>
                                             </div>
                                         </div>
                                         <p>Lorem Ipsum</p>
                                     </div>
-                                    <div class="progress-bar">
-                                        <div class="circle" data-percentage="30">
+                                    <div className="progress-bar">
+                                        <div className="circle" data-percentage="30">
                                             <div className="text">
                                                 <span>30%</span>
                                             </div>

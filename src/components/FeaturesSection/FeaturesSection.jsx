@@ -1,7 +1,7 @@
-import './Feature.css'
+import './FeatureSection.css'
 import FeatureVideo from '../../assets/FeatureVideo.mp4'
 import { useEffect, useRef } from 'react';
-export function Features() {
+export function FeaturesSection() {
     const videoRef = useRef(null);
 
     useEffect(() => {

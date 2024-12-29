@@ -1,0 +1,41 @@
+
+footer{
+    padding: 2rem 0 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 51%, rgba(58, 106, 151, 0.55) 100%);
+}
+footer .footer-main{
+    
+    padding: 2rem 0;
+}
+footer .brand-logo{
+    widh: 100%;
+    max-width:200px;
+}
+footer h5{
+    margin-bottom: 15px;
+}
+footer .list-unstyled li a{
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 34px;
+    text-decoration: none;
+    color: #010101;
+}
+
+footer .list-unstyled li a img{
+    width: 24px;
+    margin-right: 10px;
+}
+
+footer .social-icon img{
+    width: 24px;
+    margin-right: 8px;
+}
+
+footer .footer-bottom{
+    padding: 20px 0;
+}
+
+footer .footer-bottom a{
+    text-decoration: underline !important;
+}
