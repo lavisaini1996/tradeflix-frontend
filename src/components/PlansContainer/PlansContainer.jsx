@@ -1,161 +1,174 @@
+import React from 'react';
+import { Card, Button, Container, Row, Col, ListGroup } from 'react-bootstrap';
 import { IconOutlineCheckCircle20 } from "../../Icons/IconOutlineCheckCircle20/IconOutlineCheckCircle20";
-import { Basic } from "../Basic";
-import { Button } from "../Button";
-import './PlansContainer.css'
-export function PlansContainer() {
+import './PlansContainer.css';
+import DiamongImage from '../../assets/Diamong.svg'
+export function PlansContainer({ isYearly }) {
     return (
-
-        <>
-            <div className="plancontainer">
-
-                <div className="frame-8">
-                    <Basic
-                        buttonTypeDefaultStateClassName="design-component-instance-node"
-                        className="BASIC-instance"
-                        layer="https://c.animaapp.com/LJb56hOf/img/layer-1.svg"
-                    />
-                    <div className="BASIC-2">
-                        <div className="frame-9">
-                            <div className="BASIC-3">STANDARD</div>
-
-                            <p className="free">
-                                <span className="span">$14</span>
-
-                                <span className="text-wrapper-15">/month</span>
-                            </p>
-                        </div>
-
-                        <img
-                            className="layer-2"
-                            alt="Layer"
-                            src="https://c.animaapp.com/LJb56hOf/img/layer-2.svg"
-                        />
-
-                        <div className="frame-10">
-                            <div className="frame-11">
-                                <IconOutlineCheckCircle20
-                                    className="icon-outline-check-circle-20"
-                                    color="#EAEAEB"
-                                />
-                                <div className="text-wrapper-16">3 prototypes</div>
+        <Container className="mt-4 d-flex justify-content-center">
+            <Row className="justify-content-center g-4 plancon">
+                {/* Basic Plan */}
+                <Col xs={12} md={6} lg={4}>
+                    <Card className="shadow border-0 bg-light border4166AE">
+                        <Card.Body className='plancardbody bg3A6A970D'>
+                            <Card.Title className="text-start planheading px-3 plancolor">Basic</Card.Title>
+                            <Card.Text className="text-start display-4 plancolor px-3">
+                                <span className='plancount'>Free</span>
+                            </Card.Text>
+                            <div className='px-3'>
+                                <img src={DiamongImage} alt="" />
                             </div>
+                            <ListGroup variant="flush mt48">
+                                <ListGroup.Item className="d-flex align-items-center bg3A6A970D">
+                                    <IconOutlineCheckCircle20 className="me-2 plancolor" />
+                                    <div className="plancolor">
+                                        3 prototypes
 
-                            <div className="frame-11">
-                                <IconOutlineCheckCircle20
-                                    className="icon-outline-check-circle-20"
-                                    color="#EAEAEB"
-                                />
-                                <div className="text-wrapper-16">3 boards</div>
+                                    </div>
+                                </ListGroup.Item>
+                                <ListGroup.Item className="d-flex align-items-center bg3A6A970D">
+                                    <IconOutlineCheckCircle20 className="me-2 plancolor" />
+                                    <div className="plancolor">
+
+                                        3 boards
+                                    </div>
+                                </ListGroup.Item>
+                                <ListGroup.Item className="d-flex align-items-center bg3A6A970D">
+                                    <IconOutlineCheckCircle20 className="me-2 plancolor" />
+                                    <div className="plancolor">
+
+                                        Single user
+                                    </div>
+                                </ListGroup.Item>
+                                <ListGroup.Item className="d-flex align-items-center bg3A6A970D">
+                                    <IconOutlineCheckCircle20 className="me-2 plancolor" />
+                                    <div className="plancolor">
+
+                                        Normal security
+                                    </div>
+                                </ListGroup.Item>
+                                <ListGroup.Item className="d-flex align-items-center bg3A6A970D">
+                                    <IconOutlineCheckCircle20 className="me-2 plancolor" />
+                                    <div className="plancolor">
+
+                                        Permissions & workflows
+                                    </div>
+                                </ListGroup.Item>
+                            </ListGroup>
+                            <div className="text-center mt-4">
+                                <Button variant=" w86 bg4166AE text-white">Choose Plan</Button>
                             </div>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col xs={12} md={6} lg={4}>
+                    <Card className="shadow border-0 text-white planmiddlecon border4166AE">
+                        <Card.Body className='plancardbody'>
+                            <Card.Title className="text-start px-3 planheading">STANDARD</Card.Title>
+                            <Card.Text className="text-start   px-3">
+                                <span className='plancount'>$14</span>
+                                {
+                                    !isYearly ?
+                                        <span className="fs-5">/month</span>
+                                        :
+                                        <span className="fs-5">/year</span>
 
-                            <div className="frame-11">
-                                <IconOutlineCheckCircle20
-                                    className="icon-outline-check-circle-20"
-                                    color="#EAEAEB"
-                                />
-                                <div className="text-wrapper-16">Single user</div>
+                                }
+                            </Card.Text>
+                            <div className='px-3'>
+                                <img src={DiamongImage} alt="" />
                             </div>
-
-                            <div className="frame-11">
-                                <IconOutlineCheckCircle20
-                                    className="icon-outline-check-circle-20"
-                                    color="#EAEAEB"
-                                />
-                                <div className="text-wrapper-16">Normal security</div>
+                            <ListGroup variant="flush" className="planmiddlecon mt48">
+                                <ListGroup.Item className="d-flex align-items-center  planmiddlecon text-white">
+                                    <IconOutlineCheckCircle20 className="me-2" color="#ffffff" />
+                                    3 prototypes
+                                </ListGroup.Item>
+                                <ListGroup.Item className="d-flex align-items-center  text-white planmiddlecon">
+                                    <IconOutlineCheckCircle20 className="me-2" color="#ffffff" />
+                                    3 boards
+                                </ListGroup.Item>
+                                <ListGroup.Item className="d-flex align-items-center  text-white planmiddlecon">
+                                    <IconOutlineCheckCircle20 className="me-2" color="#ffffff" />
+                                    Single user
+                                </ListGroup.Item>
+                                <ListGroup.Item className="d-flex align-items-center  text-white planmiddlecon">
+                                    <IconOutlineCheckCircle20 className="me-2" color="#ffffff" />
+                                    Normal security
+                                </ListGroup.Item>
+                                <ListGroup.Item className="d-flex align-items-center  text-white planmiddlecon">
+                                    <IconOutlineCheckCircle20 className="me-2" color="#ffffff" />
+                                    Permissions & workflows
+                                </ListGroup.Item>
+                            </ListGroup>
+                            <div className="text-center mt-4">
+                                <Button variant="light w86 plancolor">Choose Plan</Button>
                             </div>
+                        </Card.Body>
+                    </Card>
+                </Col>
 
-                            <div className="frame-11">
-                                <IconOutlineCheckCircle20
-                                    className="icon-outline-check-circle-20"
-                                    color="#EAEAEB"
-                                />
-                                <div className="text-wrapper-16">
-                                    Permissions &amp; workflows
-                                </div>
+                {/* Enterprise Plan */}
+                <Col xs={12} md={6} lg={4}>
+                    <Card className="shadow border-0 bg-light border4166AE">
+                        <Card.Body className='plancardbody bg3A6A970D'>
+                            <Card.Title className="text-start planheading px-3 plancolor">ENTERPRISE</Card.Title>
+                            <Card.Text className="text-start display-4 plancolor px-3">
+                                <span className='plancount'>$50</span>
+                                {
+                                    !isYearly ?
+                                        <span className="fs-5">/month</span>
+                                        :
+                                        <span className="fs-5">/year</span>
+
+                                }
+                            </Card.Text>
+                            <div className='px-3'>
+                                <img src={DiamongImage} alt="" />
                             </div>
-                        </div>
+                            <ListGroup variant="flush mt48">
+                                <ListGroup.Item className="d-flex align-items-center bg3A6A970D">
+                                    <IconOutlineCheckCircle20 className="me-2 plancolor" />
+                                    <div className="plancolor">
+                                        3 prototypes
 
-                        <Button
-                            className="button-2"
-                            divClassName="button-3"
-                            state="default"
-                            text="Choose Plan"
-                            type="default"
-                        />
-                    </div>
+                                    </div>
+                                </ListGroup.Item>
+                                <ListGroup.Item className="d-flex align-items-center bg3A6A970D">
+                                    <IconOutlineCheckCircle20 className="me-2 plancolor" />
+                                    <div className="plancolor">
 
-                    <div className="BASIC-4">
-                        <div className="frame-9">
-                            <div className="BASIC-5">ENTERPRISE</div>
+                                        3 boards
+                                    </div>
+                                </ListGroup.Item>
+                                <ListGroup.Item className="d-flex align-items-center bg3A6A970D">
+                                    <IconOutlineCheckCircle20 className="me-2 plancolor" />
+                                    <div className="plancolor">
 
-                            <p className="free-2">
-                                <span className="text-wrapper-17">$50</span>
+                                        Single user
+                                    </div>
+                                </ListGroup.Item>
+                                <ListGroup.Item className="d-flex align-items-center bg3A6A970D">
+                                    <IconOutlineCheckCircle20 className="me-2 plancolor" />
+                                    <div className="plancolor">
 
-                                <span className="text-wrapper-18">/month</span>
-                            </p>
-                        </div>
+                                        Normal security
+                                    </div>
+                                </ListGroup.Item>
+                                <ListGroup.Item className="d-flex align-items-center bg3A6A970D">
+                                    <IconOutlineCheckCircle20 className="me-2 plancolor" />
+                                    <div className="plancolor">
 
-                        <img
-                            className="layer-2"
-                            alt="Layer"
-                            src="https://c.animaapp.com/LJb56hOf/img/layer-3.svg"
-                        />
-
-                        <div className="frame-10">
-                            <div className="frame-11">
-                                <IconOutlineCheckCircle20
-                                    className="icon-outline-check-circle-20"
-                                    color="#334155"
-                                />
-                                <div className="text-wrapper-19">3 prototypes</div>
+                                        Permissions & workflows
+                                    </div>
+                                </ListGroup.Item>
+                            </ListGroup>
+                            <div className="text-center mt-4">
+                                <Button variant=" w86 bg4166AE text-white">Choose Plan</Button>
                             </div>
-
-                            <div className="frame-11">
-                                <IconOutlineCheckCircle20
-                                    className="icon-outline-check-circle-20"
-                                    color="#334155"
-                                />
-                                <div className="text-wrapper-19">3 boards</div>
-                            </div>
-
-                            <div className="frame-11">
-                                <IconOutlineCheckCircle20
-                                    className="icon-outline-check-circle-20"
-                                    color="#334155"
-                                />
-                                <div className="text-wrapper-19">Single user</div>
-                            </div>
-
-                            <div className="frame-11">
-                                <IconOutlineCheckCircle20
-                                    className="icon-outline-check-circle-20"
-                                    color="#334155"
-                                />
-                                <div className="text-wrapper-19">Normal security</div>
-                            </div>
-
-                            <div className="frame-11">
-                                <IconOutlineCheckCircle20
-                                    className="icon-outline-check-circle-20"
-                                    color="#334155"
-                                />
-                                <div className="text-wrapper-19">
-                                    Permissions &amp; workflows
-                                </div>
-                            </div>
-                        </div>
-
-                        <Button
-                            className="design-component-instance-node"
-                            divClassName="button-4"
-                            state="default"
-                            text="Choose Plan"
-                            type="default"
-                        />
-                    </div>
-                </div>
-            </div>
-
-        </>
-    )
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
+        </Container>
+    );
 }

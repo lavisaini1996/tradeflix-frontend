@@ -1,77 +1,96 @@
-import './FeatureSection.css'
-import FeatureVideo from '../../assets/FeatureVideo.mp4'
-import { useEffect, useRef } from 'react';
-export function FeaturesSection() {
+import React, { useEffect, useRef } from "react";
+import { Container, Row, Col, Card } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import FeatureVideo from "../../assets/FeatureVideo.mp4";
+import './Feature.css'
+export function Features() {
     const videoRef = useRef(null);
 
     useEffect(() => {
         if (videoRef.current) {
             videoRef.current.muted = true;
-            videoRef.current.play().catch((error) => {
-                console.error("Video autoplay failed:", error);
-            });
+            videoRef.current
+                .play()
+                .catch((error) => console.error("Video autoplay failed:", error));
         }
     }, []);
+
     return (
-        <>
-            <div className="featuresection">
-                <div className="section-8">
-                    <div className="heading-FEATURES-wrapper">
-                        <div className="heading-FEATURES">FEATURES</div>
-                    </div>
-
-                    <div className="heading-our">Our Platform Feature</div>
-                    <div className='background-3'>
-                        <video className='featureVideo' ref={videoRef} autoPlay loop playsInline>
-                            <source src={FeatureVideo} type="video/mp4" />
-                        </video>
-                    </div>
-
-                </div>
-
-                <div className="featureblock">
-                    <p className="lorem-ipsum-dolor-4">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                        commodo
-                        <br />
-                        ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-                        magnis
-                        <br />
-                        dis parturient montes, nascetur ridiculus mus.
-                    </p>
-                    <div>
-                        <div className="background-border">
-                            <div className="heading-full">Full Management Features</div>
-
-                            <p className="lorem-ipsum-dolor-5">
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                <br />
-                                elit. Aenean commodo ligula eget dolor.
-                            </p>
+        <div className="featuresection py-5">
+            <Container>
+                {/* Features Heading */}
+                <Row className="text-start mb-4">
+                    <Col md={6}>
+                        <div
+                            className="d-inline-block py-2 px-3 rounded-pill bg-light border border-secondary"
+                            style={{ width: "110px" }}
+                        >
+                            <span className="fw-semibold text-dark" style={{ fontSize: "13px" }}>
+                                FEATURES
+                            </span>
                         </div>
+                        <h2 className="mt-3 fw-bold featurehead"  >
+                            Our Platform Feature
+                        </h2>
+                    </Col>
+                    <Col md={6} className="d-flex align-items-end text-start">
+                        <p className="text-muted" style={{ fontSize: "16px", lineHeight: "24px" }}>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                            commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
+                            et magnis dis parturient montes, nascetur ridiculus mus.
+                        </p>
+                    </Col>
+                </Row>
 
-                        <div className="background-border">
-                            <div className="heading-full">Full Management Features</div>
-
-                            <p className="lorem-ipsum-dolor-5">
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                <br />
-                                elit. Aenean commodo ligula eget dolor.
-                            </p>
+                {/* Video and Feature Description */}
+                <Row className="">
+                    <Col md={6}>
+                        <div
+                            className="rounded overflow-hidden featurevideocont"
+                        >
+                            <video
+                                className="w-100 h-100 featurevideo"
+                                ref={videoRef}
+                                autoPlay
+                                loop
+                                playsInline
+                            >
+                                <source src={FeatureVideo} type="video/mp4" />
+                            </video>
                         </div>
+                    </Col>
+                    <Col md={6}>
 
-                        <div className="background-border">
-                            <div className="heading-full">Full Management Features</div>
 
-                            <p className="lorem-ipsum-dolor-5">
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                <br />
-                                elit. Aenean commodo ligula eget dolor.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </>
-    )
+                        {/* Feature Blocks */}
+                        {Array(3)
+                            .fill(null)
+                            .map((_, index) => (
+                                <Card
+                                    key={index}
+                                    className="mb-3 p-3 border-light shadow-sm featurecardcon"
+                                    style={{ borderRadius: "10px", background: '#F5F7FA' }}
+                                >
+                                    <Card.Body>
+                                        <Card.Title
+                                            className="fw-bold text-dark"
+                                            style={{ fontSize: "28px" }}
+                                        >
+                                            Full Management Features
+                                        </Card.Title>
+                                        <Card.Text
+                                            className="text-muted"
+                                            style={{ fontSize: "16px", lineHeight: "24px" }}
+                                        >
+                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                            Aenean commodo ligula eget dolor.
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            ))}
+                    </Col>
+                </Row>
+            </Container>
+        </div>
+    );
 }

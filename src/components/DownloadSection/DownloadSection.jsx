@@ -1,47 +1,62 @@
-import MobileImage from '../../assets/MobileImage.svg'
+import React from "react";
+import { Container, Row, Col, Button } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import MobileImage from "../../assets/MobileImage.svg";
+import GoogleStore from "../../assets/GoogleStore.svg";
+import AppStore from "../../assets/AppStore.svg";
 import './DownloadSection.css'
+
 export function DownloadSection() {
     return (
-        <>
-            <div className="downloadsection">
+        <div
+            className="downloadsection d-flex align-items-center justify-content-center text-center downloadbgimage overflow-hidden position-relative"
+        >
+            <Container>
+                <Row className="align-items-center">
+                    {/* Text and Call-to-Actions */}
+                    <Col md={7} className="text-white text-start">
+                        <div
+                            className="overlay-border mb-4 p-2 d-inline-block ffr5tyhy"
 
-                <div className="DOWNLOAD-OUR-APP">
-                    <div className="overlap-2">
-                        <div className="background-2" />
-
-                        <div className="container-2">
-                            <div className="overlay-border">
-                                <div className="heading-DOWNLOAD">DOWNLOAD OUR APP</div>
-                            </div>
-
-                            <div className="download-our-app-get-wrapper">
-                                <p className="download-our-app-get">
-                                    Download Our App &amp;
-                                    <br />
-                                    Get The Special Offer!
-                                </p>
-                            </div>
-
-                            <p className="install-our-app-get">
-                                Install Our App &amp; Get Special Promo!
-                            </p>
-
-                            <div className="downloadsecgoogle">
-                                <div className="gplay-png-2" />
-
-                                <div className="appstore-png-2" />
-                            </div>
+                        >
+                            <span className="fw-bold" style={{ fontSize: "13px", }}>
+                                DOWNLOAD OUR APP
+                            </span>
                         </div>
 
-                        <img
-                            className="mobile-tradeflix"
-                            alt="Mobile tradeflix"
-                            src={MobileImage}
-                        />
-                    </div>
-                </div>
-            </div>
+                        <h2 className="fw-bold mb-3 dwnldsection" >
+                            Download Our App &amp;
+                            <br />
+                            Get The Special Offer!
+                        </h2>
 
-        </>
-    )
+                        <p className="text-light mb-4" style={{ opacity: 0.8 }}>
+                            Install Our App &amp; Get Special Promo!
+                        </p>
+
+                        <div className="d-flex gap-3">
+                            <Button
+                                variant="dark"
+                                className="d-flex align-items-center justify-content-center googleImage"
+                            ></Button>
+
+                            <Button
+                                variant="dark "
+                                className="d-flex align-items-center justify-content-center appstoreImage"
+                            ></Button>
+                        </div>
+                    </Col>
+
+                    {/* Mobile Image */}
+                    <Col md={5} className="position-absolute mobileimage">
+                        <img
+                            src={MobileImage}
+                            alt="Mobile App"
+                            className="img-fluid mobileimage"
+                        />
+                    </Col>
+                </Row>
+            </Container>
+        </div>
+    );
 }

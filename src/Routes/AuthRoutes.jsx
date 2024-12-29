@@ -7,6 +7,7 @@ import { Root } from "./Root.jsx";
 import About from "../Screens/About/About.jsx";
 import Contact from "../Screens/Contact/Contact.jsx";
 import Features from "../Screens/Features/Features.jsx";
+import { Subscription } from "../Screens/Subscription/Subscription.jsx";
 // import { About } from "../Screens/About/About.jsx";
 
 
@@ -19,6 +20,8 @@ const AuthRoutes = () => {
                     <Route path="about" element={<About />} />
                     <Route path="features" element={<Features />} />
                     <Route path="contact" element={<Contact />} />
+
+                    <Route path='subcription' element={<Subscription />} />
                 </Route>
             </Routes>
         </BrowserRouter>

@@ -1,240 +1,136 @@
 .background {
-    /* height: 642px; */
-    /* left: 130px;
-    top: 140px; */
-    /* width: 1180px; */
-}
-
-.overlap {
-    /* height: 840px;
-
-
-    width: 100%; */
-}
-
-.pngegg {
-    background-color: #000000;
-    height: 745px;
-    transform: rotate(180deg);
+    height: 780px;
+    overflow: hidden;
     width: 100%;
+    background: black;
+    position: relative;
+    /* background-image: url('../../assets/BannerImage.png');
+    background-repeat: no-repeat;
+    background-position: 0%; */
 }
 
-.frame-wrapper {
-    background-image: url('../../assets/BannerImage.png');
-    background-position: 50% 50%;
-    background-size: cover;
-    height: 760px;
-    left: 0;
+.bannerpersion {
     position: absolute;
-    top: 80px;
+    top: 1%;
+    z-index: 9;
+    right: 0%;
+    height: 780px;
     width: 100%;
 }
 
 .bannervideo {
-    display: flex;
+    height: 780px;
+    /* object-fit: cover; */
     transform: scaleX(-1);
-    width: 100%;
-    height: 753px;
-    position: absolute;
-    top: 8%;
+
 }
 
-.div-wrapper {
-    -webkit-backdrop-filter: blur(24px) brightness(100%);
-    backdrop-filter: blur(24px) brightness(100%);
-    background-color: #01010140;
-    border-radius: 18px;
-    height: 330px;
-    left: 65%;
-    overflow: hidden;
-    position: relative;
-    top: 387px;
+.bannercard {
     width: 441px;
 }
 
-.frame-4 {
-    height: 214px;
-    left: 42px;
-    position: relative;
-    top: 60px;
-    width: 367px;
+.bannerrightblock {
+    position: absolute;
+    bottom: 6%;
+    right: 6%;
+    z-index: 99;
+    backdrop-filter: blur(10px);
+    background: transparent;
+    background-color: none;
+    width: 441px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.2);
 }
 
-.heading-your {
-    color: #ffffff;
-    font-family: "Roboto", Helvetica;
-    font-size: 23.8px;
+.bannerrightblock .heading-your {
+    font-size: 24px;
     font-weight: 700;
-    height: 27px;
-    left: 0;
-    letter-spacing: 0;
-    line-height: Truepx;
-    position: absolute;
-    text-align: right;
-    top: -1px;
-    white-space: nowrap;
 }
 
-.lorem-ipsum-dolor {
-    color: #ffffff;
-    font-family: "Roboto", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
-    height: 72px;
-    left: 52px;
-    letter-spacing: 0;
-    line-height: Truepx;
-    position: absolute;
-    text-align: right;
-    top: 45px;
+.fffr5ty6 {
+    width: 80%;
 }
 
-.text-wrapper-5 {
-    color: #ffffff;
-    font-family: "Roboto", Helvetica;
-    font-size: 14px;
-    font-weight: 400;
-    height: 21px;
-    left: 118px;
-    letter-spacing: 0;
-    line-height: Truepx;
-    position: absolute;
-    text-align: right;
-    top: 192px;
-    white-space: nowrap;
-    width: 84px;
-}
-
-.heading {
-    height: 40px;
-    left: 98px;
-    position: absolute;
-    top: 148px;
-    width: 104px;
-}
-
-.text-wrapper-6 {
-    color: #ffffff;
-    font-family: "Space Grotesk", Helvetica;
-    font-size: 31.9px;
-    font-weight: 700;
-    height: 40px;
-    left: 0;
-    letter-spacing: 0;
-    line-height: Truepx;
-    position: absolute;
-    text-align: right;
-    top: -1px;
-    white-space: nowrap;
-    width: 104px;
-}
-
-.overlap-group {
-    height: 55px;
-    left: 222px;
-    position: absolute;
-    top: 155px;
-    width: 145px;
+.blurcon {
+    border: none !important;
+    background: none !important;
+    overflow: hidden;
 }
 
 .portrait-of {
     background-image: url('../../assets/BannerManOne.svg');
-    background-position: 50% 50%;
-    background-size: cover;
-    border: 2px solid;
-    border-color: #0b0b0b;
-    border-radius: 100px;
-    height: 55px;
-    left: 90px;
-    position: absolute;
-    top: 0;
-    width: 55px;
 }
 
 .confident-smiling {
     background-image: url('../../assets/BannerManTwo.svg');
-    background-position: 50% 50%;
-    background-size: cover;
-    border: 2px solid;
-    border-color: #0b0b0b;
-    border-radius: 100px;
-    height: 55px;
-    left: 45px;
     position: absolute;
-    top: 0;
-    width: 55px;
+    right: 10%;
 }
 
 .man-smile-portrait {
     background-image: url('../../assets/BannerManThird.svg');
-    background-position: 50% 50%;
-    background-size: cover;
-    border: 2px solid;
-    border-color: #0b0b0b;
-    border-radius: 100px;
-    height: 55px;
-    left: 0;
     position: absolute;
-    top: 0;
+    right: 21%;
+    z-index: 9;
+}
+
+.cfui8o {
+    padding-bottom: 35px;
+}
+
+.baning {
+    height: 55px;
     width: 55px;
 }
 
-.section {
-    height: 244px;
-    left: 130px;
+.bantradewith {
     position: absolute;
-    top: 176px;
-    width: 519px;
+    color: white;
+    top: 17%;
+    margin-left: 7% !important;
+
+    z-index: 9;
 }
 
-.heading-2 {
-    height: 116px;
-    left: 0;
-    position: absolute;
-    top: 27px;
-    width: 519px;
+.head {
+    font-size: 48px;
 }
 
-.text-wrapper-7 {
-    color: #ffffff;
-    font-family: "Roboto", Helvetica;
-    font-size: 58px;
-    font-weight: 500;
-    height: 132px;
-    left: 0;
-    letter-spacing: 0;
-    line-height: Truepx;
-    position: absolute;
-    top: -9px;
-    width: 428px;
+@media (max-width:991px) {
+
+    .background,
+    .bannerpersion {
+        height: 600px;
+    }
+
+    .bantradewith {
+        top: 5%;
+    }
+
+    .bannerrightblock {
+        width: 401px;
+
+    }
+
+    .fffr5ty6 {
+        width: 100%;
+    }
 }
 
-.frame-5 {
-    height: 44px;
-    left: 0;
-    position: absolute;
-    top: 176px;
-    width: 320px;
+@media (max-width:450px) {
+    .bannerrightblock {
+        width: 335px;
+    }
 }
 
-.gplay-png {
-    background-image: url('../../assets/GoogleStore.svg');
-    background-position: 50% 50%;
-    background-size: cover;
-    height: 44px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 150px;
+@media (max-width:576px) {
+    .head {
+        font-size: 30px;
+    }
 }
 
-.appstore-png {
-    background-image: url('../../assets/AppStore.svg');
-    background-position: 50% 50%;
-    background-size: cover;
-    height: 44px;
-    left: 170px;
-    position: absolute;
-    top: 0;
-    width: 150px;
+@media (max-width:1220px) {
+    .bannerpersion {
+        width: unset !important;
+    }
 }

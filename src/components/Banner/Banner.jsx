@@ -1,6 +1,10 @@
-import './Banner.css'
-import Video from '../../assets/BannerBackgroundVideo.mp4'
-import { useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import Video from '../../assets/BannerBackgroundVideo.mp4';
+import GoogleButton from '../../assets/GoogleStore.svg';
+import AppStore from '../../assets/AppStore.svg';
+import './Banner.css';
+import BannerBackground from '../../assets/BannerImage.png';
 export function Banner() {
     const videoRef = useRef(null);
 
@@ -12,59 +16,67 @@ export function Banner() {
             });
         }
     }, []);
+
     return (
-        <>
-            <div className="background">
-                <div className="overlap">
-                    <div className="pngegg" />
-                    <video className='bannervideo' ref={videoRef} autoPlay loop playsInline>
-                        <source src={Video} type="video/mp4" />
-                    </video>
-                    <div className="frame-wrapper">
-                        <div className="div-wrapper">
-                            <div className="frame-4">
-                                <p className="heading-your">
-                                    Your Partner in Profitable Trading.
-                                </p>
-
-                                <p className="lorem-ipsum-dolor">
-                                    Lorem ipsum dolor sit amet, consectetuer
-                                    <br />
-                                    adipiscing elit. Aenean commodo ligula eget
-                                    <br />
-                                    dolor. Aenean massa. Cum sociis.
-                                </p>
-
-                                <div className="text-wrapper-5">Active Users</div>
-
-                                <div className="heading">
-                                    <div className="text-wrapper-6">3,8M +</div>
-                                </div>
-
-                                <div className="overlap-group">
-                                    <div className="portrait-of" />
-
-                                    <div className="confident-smiling" />
-
-                                    <div className="man-smile-portrait" />
-                                </div>
-                            </div>
+        <div className="background">
+            <video
+                className="bannervideo"
+                ref={videoRef}
+                autoPlay
+                loop
+                muted
+                playsInline
+            >
+                <source src={Video} type="video/mp4" />
+            </video>
+            <img src={BannerBackground} className='bannerpersion' alt="" />
+            <div className="bannerrightblock">
+                <Container className="text-white">
+                    <Row className="justify-content-center">
+                        <div className='bannercard p-0'>
+                            <Card className="blurcon"   >
+                                <Card.Body className='d-flex flex-column align-items-end cfui8o'>
+                                    <Card.Title className="heading-your text-white mt-4">
+                                        Your Partner in Profitable Trading.
+                                    </Card.Title>
+                                    <Card.Text className="lorem-ipsum-dolor text-white text-end fffr5ty6 mt-2">
+                                        Lorem ipsum dolor sit amet, consectetuer
+                                        adipiscing elit. Aenean commodo ligula eget
+                                        dolor. Aenean massa. Cum sociis.
+                                    </Card.Text>
+                                    <div className="d-flex justify-content-end mt-3" >
+                                        <div className="text-center">
+                                            <p className="text-wrapper-5 text-white m-0">Active Users</p>
+                                            <h4 className="text-wrapper-6 text-white">3.8M +</h4>
+                                        </div>
+                                        <div className="d-flex justify-content-end " style={{ width: '140px' }}>
+                                            <div className="man-smile-portrait baning"></div>
+                                            <div className="confident-smiling mx-2 baning"></div>
+                                            <div className="portrait-of baning"></div>
+                                        </div>
+                                    </div>
+                                </Card.Body>
+                            </Card>
                         </div>
-                    </div>
+                    </Row>
 
-                    <div className="section">
-                        <div className="heading-2">
-                            <div className="text-wrapper-7">Trade with Clarity.</div>
-                        </div>
 
-                        <div className="frame-5">
-                            <div className="gplay-png" />
+                </Container>
 
-                            <div className="appstore-png" />
-                        </div>
-                    </div>
-                </div>
             </div>
-        </>
-    )
+            <Row className="justify-content-start mt-5 bantradewith">
+                <Col md={8} className="text-start">
+                    <h1 className="heading-2 text-wrapper-7 mb-0 head">
+                        Trade with
+                    </h1>
+                    <h1 className='head'> Clarity.</h1>
+                </Col>
+                <div className="frame-5 d-flex justify-content-start">
+                    <img src={GoogleButton} alt="" />
+                    <img src={AppStore} alt="" className='mx-3' />
+
+                </div>
+            </Row>
+        </div>
+    );
 }

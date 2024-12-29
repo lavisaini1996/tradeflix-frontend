@@ -1,108 +1,73 @@
-.downloadsection .DOWNLOAD-OUR-APP {
+.downloadbgimage {
     background-image: url('../../assets/DownloadSection.jpg');
-    background-position: 50% 50%;
+    background-position: center;
     background-size: cover;
-    height: 631.83px;
-    width: 100%;
-}
-
-.downloadsection {
+    height: 632px;
     margin-top: 10%;
 }
 
-.overlap-2 {
-    position: relative;
-    overflow: hidden;
+.ffr5tyhy {
+    background-color: rgba(245, 247, 250, 0.16);
+    border: 1px solid rgba(226, 232, 241, 0.22);
+    border-radius: 2pc;
 }
 
-.background-2 {
-    /* background-color: #0b0b0b;
-    height: 632px;
-    left: 0;
-    opacity: 0.7;
-    position: absolute;
-    top: 0;
-    width: 100%; */
+.dwnldsection {
+    font-size: 48px;
 }
 
-.downloadsection .container-2 {
-    height: 632px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 8%;
-}
-
-.downloadsection .overlay-border {
-    background-color: #f5f7fa29;
-    border: 1px solid;
-    border-color: #e2e8f138;
-    border-radius: 50px;
-    padding: 9.5px 13px;
-    width: 181px;
-    margin-bottom: 1.5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.downloadsection .heading-DOWNLOAD {
-    color: #ffffff;
-    font-family: "Space Grotesk", Helvetica;
-    font-size: 13px;
-    font-weight: 500;
-    white-space: nowrap;
-    width: 139px;
-}
-
-.downloadsection .download-our-app-get-wrapper {
-    height: 96px;
-    width: 530px;
-    margin-bottom: 2%;
-}
-
-.downloadsection .download-our-app-get {
-    color: #ffffff;
-    font-size: 47.8px;
-    font-weight: 700;
-    height: 109px;
-    line-height: 48px;
-    width: 499px;
-}
-
-.downloadsection .install-our-app-get {
-    color: #ffffffab;
-    font-size: 16px;
-    font-weight: 400;
-    height: 24px;
-    width: 274px;
-    margin-bottom: 2%;
-}
-
-.gplay-png-2 {
+.googleImage {
     background-image: url('../../assets/GoogleStore.svg');
-    background-position: 50% 50%;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 150px;
     height: 45px;
+    border: none;
 }
 
-.downloadsecgoogle {
-    display: flex;
-}
-
-.appstore-png-2 {
-    background-image: url('../../assets/AppStore.svg');
-    background-position: 50% 50%;
-    background-size: cover;
+.appstoreImage {
+    background-image: url('../../assets/GoogleStore.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 150px;
     height: 45px;
+    border: none;
 }
 
-.mobile-tradeflix {
-    height: 769px;
-    width: 442px;
-    position: absolute;
-    top: 13%;
-    left: calc(100% - 41%);
+.mobileimage {
+    width: auto;
+    max-height: 769px;
+    top: 12%;
+    right: 10%;
+}
+
+@media (max-width:992px) {
+    .mobileimage {
+        width: 320px;
+    }
+
+    .mobileimage {
+        top: 20% !important;
+    }
+
+    .downloadbgimage {
+        height: 450px;
+    }
+
+    .dwnldsection {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:576px) {
+    .mobileimage {
+        display: none;
+    }
+}
+
+@media (max-width:1024px) {
+    .mobileimage {
+        width: 350px;
+        top: 35%;
+    }
 }
