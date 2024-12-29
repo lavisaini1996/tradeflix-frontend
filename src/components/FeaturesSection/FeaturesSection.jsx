@@ -2,8 +2,9 @@ import React, { useEffect, useRef } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import FeatureVideo from "../../assets/FeatureVideo.mp4";
-import './Feature.css'
-export function Features() {
+import './FeatureSection.css';
+
+export function FeaturesSection() {
     const videoRef = useRef(null);
 
     useEffect(() => {
