@@ -9,14 +9,14 @@ import './DownloadSection.css'
 export function DownloadSection() {
     return (
         <div
-            className="downloadsection d-flex align-items-center justify-content-center text-center downloadbgimage overflow-hidden position-relative"
+            className="downloadsection d-flex align-items-center justify-content-center text-center downloadbgimage overflow-hidden position-relative mt-5"
         >
             <Container>
                 <Row className="align-items-center">
                     {/* Text and Call-to-Actions */}
                     <Col md={7} className="text-white text-start">
                         <div
-                            className="overlay-border mb-4 p-2 d-inline-block ffr5tyhy"
+                            className="overlay-border p-2 d-inline-block ffr5tyhy"
 
                         >
                             <span className="fw-bold" style={{ fontSize: "13px", }}>

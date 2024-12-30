@@ -17,7 +17,7 @@ export function FeaturesSection() {
     }, []);
 
     return (
-        <div className="featuresection py-5">
+        <div className="featuresection mt-5">
             <Container>
                 {/* Features Heading */}
                 <Row className="text-start mb-4">

@@ -5,7 +5,7 @@ import './PlansContainer.css';
 import DiamongImage from '../../assets/Diamong.svg'
 export function PlansContainer({ isYearly }) {
     return (
-        <Container className="mt-4 d-flex justify-content-center">
+        <Container className="mt-4 d-flex justify-content-center mt-5 p-0">
             <Row className="justify-content-center g-4 plancon">
                 {/* Basic Plan */}
                 <Col xs={12} md={6} lg={4}>

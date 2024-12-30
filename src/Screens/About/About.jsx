@@ -78,6 +78,8 @@ const About = () => {
                                             <div className="text">
                                                 <span>
 
+
+
                                                     <AnimatedCounter maxValue={30} duration={3000} />
                                                 </span>%
                                             </div>

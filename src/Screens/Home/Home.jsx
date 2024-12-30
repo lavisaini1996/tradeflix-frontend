@@ -21,7 +21,7 @@ export function Home() {
 
             <DownloadSection />
             <FeaturesSection />
-            <div className="account">
+            <div className="account mt-5">
                 <div className="heading-OPEN-wrapper">
                     <div className="heading-OPEN">OPEN ACCOUNT</div>
                 </div>
