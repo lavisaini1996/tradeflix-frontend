@@ -82,3 +82,41 @@ input {
     font-size: 18px;
     text-transform: capitalize;
 }
+.social-icons{
+    display: flex;
+}
+.social-icons .icon-box{
+    width: 35px;
+    height: 35px;
+    background: #F4F4F4;
+    border-radius: 100px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons .icon-box img{
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width: 576px) {
+    .contact h1 {
+        font-size: 36px !important;
+    }
+
+    .contact p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .contact-form {
+        margin: 0 20px;
+    }
+
+    .contact-detail .card {
+        margin-bottom: 20px;
+    }
+
+}

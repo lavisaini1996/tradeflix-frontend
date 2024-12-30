@@ -1,66 +1,272 @@
-.feature-section{
+.custom-wrapper {
+    padding: 0px 60px !important;
+}
+
+.feature-section {
     padding: 3rem 0;
 }
 
-.feature-section .content-box .tagline{
-    font-family: Inter;
+.feature-section .content-box .tagline {
+    font-family: "Inter";
     font-size: 15px;
 }
-.feature-section .content-box .title{
-    font-family: Inter;
+
+.feature-section .content-box .title {
+    font-family: "Inter";
     font-size: 48px;
     font-weight: bold;
     line-height: 60px;
 }
-.feature-section .content-box .title span{
+
+.feature-section .content-box .title span {
     color: #475569;
 }
-.feature-section .content-box .description{
- font-family: Inter;
- font-size: 18px;
- padding: 20px 0;
+
+.feature-section .content-box .description {
+    font-family: "Inter";
+    font-size: 16px;
+    padding: 20px 0;
+    color: #475569;
 }
 
-.feature-section .content-box .button-group{
-}
-
-.feature-section .content-box .button-group .buy-now{
+.feature-section .content-box .button-group .buy-now {
     color: #ffffff;
     background-color: #000000;
     margin-right: 10px;
     padding: 8px 18px;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 15px;
 }
 
-    .feature-section .content-box .button-group .view-demo{
-        color: #000000;
-        border-color: #000000;
-        padding: 8px 12px;
-        font-family: Inter;
-        font-size: 15px;
-    }
-    .how-it-work {
-        padding: 3rem 0;
-    }
-    .how-it-work .step-card .step-description{
-        font-size: 15px;
-        padding-right: 30px;
-        font-weight: 300;
-    }
-    .how-it-work .step-card{
-        background: #4166AE;
-        margin-top: 20px;
-        border-radius: 20px;
-        padding: 20px;
-        color: #ffffff;
-        font-family: Inter;
-        height: 380px;
+.feature-section .content-box .button-group .view-demo {
+    color: #000000;
+    border-color: #000000;
+    padding: 8px 12px;
+    font-family: "Inter";
+    font-size: 15px;
+}
+
+.how-it-work {
+    padding: 3rem 0;
+}
+
+.how-it-work .step-card .step-description {
+    font-size: 15px;
+    padding-right: 30px;
+    font-weight: 300;
+}
+
+.how-it-work .step-card {
+    background: #4166AE;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    color: #ffffff;
+    font-family: "Inter";
+    height: 380px;
+}
+
+.how-it-work .title {
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.features-card {
+    padding: 3rem 0;
+}
+
+.features-card h2 {
+    font-size: 40px;
+    font-family: "Inter";
+    font-weight: bold;
+}
+
+.features-card p {
+    font-size: 16px;
+    font-family: "Inter";
+}
+
+.features-card .card {
+    border-color: #2e4686 !important;
+    border-radius: 16px;
+    background-color: #F1F5F9;
+    transition: transform 0.2s, box-shadow 0.2s;
+    padding: 25px 20px;
+    text-align: center;
+    font-family: "Inter";
+}
+
+.features-card .card h5 {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.features-card .card p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.features-card .highlighted {
+    background-color: #4166AE;
+    color: white;
+}
+
+.features-card .highlighted p {
+    color: white;
+}
+
+.process-box {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 40px 30px;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #4166ae0a;
+}
+
+.process-box .process-title {
+    color: var(--zelh-com-ebony, var(--color-azure-11, #111927));
+    font-family: var(--font-family-Font-1, Roboto);
+    font-size: var(--font-size-26, 26px);
+    font-style: normal;
+    font-weight: var(--font-weight-600, 600);
+    line-height: var(--line-height-34_8, 34.8px);
+}
+
+.process-box .process-description {
+    color: var(--zelh-com-ebony, var(--color-azure-11, #111927));
+    font-family: var(--font-family-Font-1, Roboto);
+    font-size: var(--item-spacing-16, 16px);
+    font-style: normal;
+    font-weight: var(--font-weight-400, 400);
+    line-height: var(--line-height-23_8, 23.8px);
+    margin: 15px 0;
+    width: 70%;
+}
+
+.process-flow {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px 0;
+    position: relative;
+}
+
+.process-step {
+    padding: 9px 25px;
+    border: 0.8px solid #272727;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.step1 {
+
+    position: relative;
+    margin-right: 90px;
+}
+
+.step1::after {
+    position: absolute;
+    content: '';
+    width: 88.71px;
+    height: 0.5px;
+    background-color: #272727;
+    top: 50%;
+    right: -91px;
+}
+
+.step2 {
+    position: relative;
+}
+
+.step2 .line {
+    position: absolute;
+    fill: none;
+    stroke: black;
+    stroke-width: 2;
+}
+
+
+
+.process-step.review {
+    background-color: #4166AE;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.process-step:first-child::before {
+    display: none;
+}
+
+.process-step .dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #0d6efd;
+    border-radius: 50%;
+    top: 50%;
+    left: -20px;
+    transform: translateY(-50%);
+}
+
+.process-step.review .dot {
+    background-color: #fff;
+}
+
+@media (max-width: 576px) {
+    .feature-section {
+        padding: 3rem 0 1rem;
     }
 
-    .how-it-work .title{
-        font-family: Inter;
-        font-size: 48px;
-        font-weight: bold;
-        line-height: 60px;
+    .feature-section h1 {
+        font-size: 36px !important;
+        line-height: 45px !important;
     }
+
+    .feature-section .content-box .description {
+        font-size: 15px;
+        padding: 8px 0;
+    }
+
+    .feature-section img {
+        margin-top: 40px;
+    }
+
+    .contact p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .process-step {
+        flex: 1 1 100%;
+    }
+    .features-card {
+        padding: 1rem 0;
+    }
+    .features-card h2 {
+        font-size: 36px;
+    }
+
+    .features-card p {
+        font-size: 14px;
+    }
+
+    .features-card .row {
+        margin: 30px 0 0 0 !important;
+    }
+
+    .features-card .card h5 {
+        font-size: 16px;
+    }
+
+    .features-card .card p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}

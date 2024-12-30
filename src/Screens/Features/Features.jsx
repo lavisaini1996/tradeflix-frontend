@@ -2,12 +2,24 @@ import './Features.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import { DownloadSection } from "../../Components/DownloadSection/DownloadSection";
 import FeatureImg from '../../assets/feature-img.jpg';
+import Icon from '../../assets/collection1.svg';
+import Icon2 from '../../assets/collection2.svg';
 
 function Features() {
+    const features = [
+        { img: Icon, title: "Stock Trading Analysis", description: "Lorem ipsum dolor sit amet consectetur. In morbi.", isHighlighted: false },
+        { img: Icon2, title: "8 Dashboards", description: "Unique dashboard templates.", isHighlighted: true },
+        { img: Icon, title: "8 Dashboards", description: "Unique dashboard templates.", isHighlighted: false },
+        { img: Icon2, title: "8 Dashboards", description: "Unique dashboard templates.", isHighlighted: true },
+        { img: Icon2, title: "8 Dashboards", description: "Unique dashboard templates.", isHighlighted: true },
+        { img: Icon, title: "8 Dashboards", description: "Unique dashboard templates.", isHighlighted: false },
+        { img: Icon2, title: "8 Dashboards", description: "Unique dashboard templates.", isHighlighted: true },
+        { img: Icon, title: "8 Dashboards", description: "Unique dashboard templates.", isHighlighted: false }
+    ];
     return (
         <>
             <div className="feature-section">
-                <Container>
+                <Container className="custom-wrapper">
                     <Row>
                         <Col md={6} className="d-flex justify-content-center align-items-center">
                             <div className="content-box">
@@ -34,11 +46,11 @@ function Features() {
             </div>
 
             <div className="how-it-work">
-                <Container>
+                <Container className="custom-wrapper">
                     <Row>
                         <Col md={6}>
 
-                            <h2 className="title">How our Platform works</h2>
+                            <h2 className="title">How our Platform <br />works</h2>
                             <div className="step-card">
                                 <div className="content-box">
                                     <p className="step-title">Step 1/6</p>
@@ -52,6 +64,47 @@ function Features() {
                                 </div>
                             </div>
                         </Col>
+                        <Col md={6}>
+                            <div class="process-box">
+                                <div class="process-title">Lorem ipsum dolor sit</div>
+                                <div class="process-description">
+                                    Lorem ipsum dolor sit amet consectetur. Vitae nulla id urna metus molestie
+                                    dignissim morbi interdum lectus.
+                                </div>
+                                <div class="process-flow">
+                                    <div class="process-step step1">Project discovery</div>
+                                    <div class="process-step step2">Talent recruitment</div>
+                                    <div class="process-step review">
+                                        <span class="dot"></span>
+                                        Review & approval
+                                    </div>
+                                    <div class="process-step">Onboarding & integration</div>
+                                    <div class="process-step">Performance evaluation</div>
+                                    <div class="process-step">Project execution</div>
+                                </div>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
+
+            <div className="features-card">
+                <Container className="custom-wrapper">
+                    <h2 className="mb-3 text-center">Features</h2>
+                    <p className="mb-4 text-center">Simple and organized Analysis Platform will help you get started right away</p>
+
+                    <Row style={{ margin: "60px 0 0" }}>
+                        {features.map((feature, index) => (
+                            <Col md={3} key={index} className="mb-4">
+                                <div className={`card ${feature.isHighlighted ? 'highlighted' : ''}`}>
+                                    <div className="icon mb-3">
+                                        <img src={feature.img} />
+                                    </div>
+                                    <h5>{feature.title}</h5>
+                                    <p>{feature.description}</p>
+                                </div>
+                            </Col>
+                        ))}
                     </Row>
                 </Container>
             </div>
