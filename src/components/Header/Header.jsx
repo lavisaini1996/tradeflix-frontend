@@ -1,27 +1,37 @@
+import { Link, useNavigate } from 'react-router';
 import './Header.css'
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
 function Header() {
+
     return (
         <>
-            <Navbar expand="lg">
+            <Navbar expand="lg" style={{ background: 'white' }}>
                 <Container>
-                    <Navbar.Brand href="#home">
-                        <img
-                            className="layer-x brand-logo"
-                            alt="Layer"
-                            src="https://c.animaapp.com/LJb56hOf/img/layer-x0020-1@2x.png"
-                        />
-                    </Navbar.Brand>
+
+
+                    <Link to='/home'>
+                        <Navbar.Brand>
+                            <img
+                                className="layer-x brand-logo"
+                                alt="Layer"
+                                src="https://c.animaapp.com/LJb56hOf/img/layer-x0020-1@2x.png"
+                            />
+                        </Navbar.Brand>
+                    </Link>
 
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
-                            <Nav.Link className="nav-link" href="#about">About</Nav.Link>
-                            <Nav.Link className="nav-link" href="#services">Subscription Plans</Nav.Link>
+
+                            <Link className='nav-link' to='/about'> About</Link>
+                            <Link className='nav-link' to='/subcription'> Subscription Plans</Link>
+                            <Link className='nav-link' to='/features'> Features</Link>
+                            <Link className='nav-link' to='/contact'> Contact</Link>
+                            {/* <Nav.Link className="nav-link" href="#services">Subscription Plans</Nav.Link>
                             <Nav.Link className="nav-link" href="#contact">Features</Nav.Link>
-                            <Nav.Link className="nav-link" href="#contact">Contact</Nav.Link>
+                            <Nav.Link className="nav-link" href="#contact">Contact</Nav.Link> */}
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

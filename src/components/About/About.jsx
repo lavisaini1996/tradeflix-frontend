@@ -5,6 +5,7 @@ import Bull from "../../assets/bull.mp4";
 import Secure from "../../assets/SecureAbout.svg";
 import Global from "../../assets/Global.svg";
 import './About.css'
+import { Link } from "react-router";
 export function About() {
     const videoRef = useRef(null);
 
@@ -98,7 +99,10 @@ export function About() {
                             variant="primary"
                             className="rounded-pill px-4 py-3 aboutbutton"
                         >
-                            More About Us
+                            <Link className="nav-link" to='/about'>
+                                More About Us
+
+                            </Link>
                         </Button>
                     </div>
                 </Col>

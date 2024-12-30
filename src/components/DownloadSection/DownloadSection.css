@@ -43,7 +43,7 @@
 
 @media (max-width:992px) {
     .mobileimage {
-        width: 320px;
+        width: 300px;
     }
 
     .mobileimage {
@@ -63,11 +63,20 @@
     .mobileimage {
         display: none;
     }
+
+    .downloadsection .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .downloadsection .text-white.text-start {
+        text-align: center !important;
+    }
 }
 
 @media (max-width:1024px) {
     .mobileimage {
-        width: 350px;
+        width: 330px;
         top: 35%;
     }
 }

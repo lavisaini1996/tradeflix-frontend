@@ -9,6 +9,8 @@ import Expert3 from '../../assets/expert3.png';
 import Expert4 from '../../assets/expert4.png';
 import { DownloadApp } from '../../Components/DownloadApp/DownloadApp';
 import { Button, Container, Row, Col, ProgressBar } from 'react-bootstrap';
+import { Link } from 'react-router';
+import AnimatedCounter from '../../Components/AnimatedCounter/AnimatedCounter';
 const About = () => {
     return (
         <>
@@ -25,7 +27,10 @@ const About = () => {
                             <p className="about-description">
                                 Lorem ipsum dolor sit amet consectetur. Molestie lectus mauris tristique nunc ac egestas purus. In id orci faucibus amet non duis. Maecenas nunc blandit aliquam.
                             </p>
-                            <button className="about-button">View Subscription Plans</button>
+                            <button className="about-button">
+                                <Link className='
+                                nav-link' to={'/subcription'}>View Subscription Plans</Link>
+                            </button>
                         </div>
                     </div>
                 </Container>
@@ -48,7 +53,11 @@ const About = () => {
                                     <div className="progress-bar">
                                         <div className="circle" data-percentage="70">
                                             <div className="text">
-                                                <span>70%</span>
+                                                {/* <span>70%</span> */}
+                                                <span>
+
+                                                    <AnimatedCounter maxValue={70} duration={3000} />
+                                                </span>%
                                             </div>
                                         </div>
                                         <p>Lorem Ipsum</p>
@@ -56,7 +65,10 @@ const About = () => {
                                     <div className="progress-bar">
                                         <div className="circle" data-percentage="56">
                                             <div className="text">
-                                                <span>56%</span>
+                                                <span>
+
+                                                    <AnimatedCounter maxValue={56} duration={3000} />
+                                                </span>%
                                             </div>
                                         </div>
                                         <p>Lorem Ipsum</p>
@@ -64,13 +76,20 @@ const About = () => {
                                     <div className="progress-bar">
                                         <div className="circle" data-percentage="30">
                                             <div className="text">
-                                                <span>30%</span>
+                                                <span>
+
+                                                    <AnimatedCounter maxValue={30} duration={3000} />
+                                                </span>%
                                             </div>
                                         </div>
                                         <p>Lorem Ipsum</p>
                                     </div>
                                 </div>
-                                <button className="btn">More About Us</button>
+                                <button className="btn">
+                                    <Link className='nav-link' to='/about'>
+                                        More About Us
+                                    </Link>
+                                </button>
                             </div>
                         </Col>
                         <Col lg={7}>
@@ -94,44 +113,44 @@ const About = () => {
                         <Col lg={3}>
                             <img src={Expert1} />
                             <div className="content">
-                            <span className="label">
-                                Expert Trader
-                            </span>
-                            <h5>Priyanka Singh</h5>
+                                <span className="label">
+                                    Expert Trader
+                                </span>
+                                <h5>Priyanka Singh</h5>
                             </div>
                         </Col>
                         <Col lg={3}>
                             <img src={Expert2} />
                             <div className="content">
-                            <span className="label">
-                                Expert Trader
-                            </span>
-                            <h5>Rahul Mehra</h5>
+                                <span className="label">
+                                    Expert Trader
+                                </span>
+                                <h5>Rahul Mehra</h5>
                             </div>
-                            
+
                         </Col>
                         <Col lg={3}>
                             <img src={Expert3} />
                             <div className="content">
-                            <span className="label">
-                                Expert Trader
-                            </span>
-                            <h5>Priyanka Singh</h5>
+                                <span className="label">
+                                    Expert Trader
+                                </span>
+                                <h5>Priyanka Singh</h5>
                             </div>
                         </Col>
                         <Col lg={3}>
                             <img src={Expert4} />
                             <div className="content">
-                            <span className="label">
-                                Expert Trader
-                            </span>
-                            <h5>Rahul Mehra</h5>
+                                <span className="label">
+                                    Expert Trader
+                                </span>
+                                <h5>Rahul Mehra</h5>
                             </div>
                         </Col>
                     </Row>
                 </Container>
             </div>
-            <DownloadApp/>
+            <DownloadApp />
         </>
     )
 }

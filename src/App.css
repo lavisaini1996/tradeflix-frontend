@@ -4,6 +4,10 @@ body {
 
 }
 
+#root {
+    background: #F9F9F9;
+}
+
 .toggle-container {
     position: relative;
     display: inline-block;

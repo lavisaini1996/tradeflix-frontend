@@ -10,7 +10,7 @@ import { DownloadSection } from "../../Components/DownloadSection/DownloadSectio
 import { PlansContainer } from "../../Components/PlansContainer/PlansContainer";
 import { Testimonials } from "../../Components/Testimonials/Testimonials";
 import { DownloadApp } from "../../Components/DownloadApp/DownloadApp";
-import { Features } from "../../components/FeaturesSection/FeaturesSection";
+import { FeaturesSection } from "../../components/FeaturesSection/FeaturesSection";
 
 export function Home() {
     return (
@@ -20,7 +20,7 @@ export function Home() {
             <About />
 
             <DownloadSection />
-            <Features />
+            <FeaturesSection />
             <div className="account">
                 <div className="heading-OPEN-wrapper">
                     <div className="heading-OPEN">OPEN ACCOUNT</div>
