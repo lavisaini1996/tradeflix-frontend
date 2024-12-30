@@ -7,8 +7,8 @@ import Expert1 from '../../assets/expert1.png';
 import Expert2 from '../../assets/expert2.png';
 import Expert3 from '../../assets/expert3.png';
 import Expert4 from '../../assets/expert4.png';
-import { DownloadApp } from '../../Components/DownloadApp/DownloadApp';
-import { Button, Container, Row, Col, ProgressBar } from 'react-bootstrap';
+import {DownloadApp} from '../../components/DownloadApp/DownloadApp';
+import { Button, Container, Row, Col} from 'react-bootstrap';
 const About = () => {
     return (
         <>
@@ -79,7 +79,7 @@ const About = () => {
                                     <Col lg={6}>
                                         <img src={WhoWeAre1} /></Col>
                                     <Col lg={6}>
-                                        <img src={WhoWeAre2} /></Col>
+                                        <img src={WhoWeAre2} className="d-none d-sm-block" /></Col>
                                 </Row>
                             </div>
                         </Col>

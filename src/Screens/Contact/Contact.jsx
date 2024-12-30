@@ -5,6 +5,11 @@ import Email from '../../assets/email.png';
 import Phone from '../../assets/phone.png';
 import Connect from '../../assets/connect.png';
 import Location from '../../assets/location.png';
+import CIg from '../../assets/CIg.png';
+import CFb from '../../assets/CFb.png';
+import CDb from '../../assets/CDb.png';
+import CTw from '../../assets/CTw.png';
+import CLn from '../../assets/CLn.png';
 
 export function Contact() {
     return (
@@ -51,7 +56,7 @@ export function Contact() {
                             </Form>
                         </Col>
                         <Col lg={6}>
-                            <img src={contactImg} className="d-block mx-auto" /></Col>
+                            <img src={contactImg} className="d-none mx-auto d-sm-block" /></Col>
                     </Row>
                 </Container>
             </div>
@@ -64,11 +69,11 @@ export function Contact() {
                             48042</a></div></Col>
                         <Col lg={3}><div className="card"><div className="icon"><img src={Connect} /></div><h6>stay connected on social</h6>
                         <div className="social-icons">
-                            {/* <div className="icon-box"><img src={CIg} /></div>
+                            <div className="icon-box"><img src={CIg} /></div>
                             <div className="icon-box"><img src={CFb} /></div>
                             <div className="icon-box"><img src={CDb} /></div>
-                            <div className="icon-box"><img src={CTn} /></div>
-                            <div className="icon-box"><img src={CLn} /></div> */}
+                            <div className="icon-box"><img src={CTw} /></div>
+                            <div className="icon-box"><img src={CLn} /></div>
                             </div></div></Col>
                     </Row>
                 </Container>
