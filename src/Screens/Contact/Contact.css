@@ -102,6 +102,9 @@ input {
 }
 
 @media (max-width: 576px) {
+    .custom-wrapper {
+        padding: 0px 20px !important;
+    }
     .contact h1 {
         font-size: 36px !important;
     }

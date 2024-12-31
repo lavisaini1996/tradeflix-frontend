@@ -65,22 +65,22 @@ function Features() {
                             </div>
                         </Col>
                         <Col md={6}>
-                            <div class="process-box">
-                                <div class="process-title">Lorem ipsum dolor sit</div>
-                                <div class="process-description">
+                            <div className="process-box">
+                                <div className="process-title">Lorem ipsum dolor sit</div>
+                                <div className="process-description">
                                     Lorem ipsum dolor sit amet consectetur. Vitae nulla id urna metus molestie
                                     dignissim morbi interdum lectus.
                                 </div>
-                                <div class="process-flow">
-                                    <div class="process-step step1">Project discovery</div>
-                                    <div class="process-step step2">Talent recruitment</div>
-                                    <div class="process-step review">
-                                        <span class="dot"></span>
+                                <div className="process-flow">
+                                    <div className="process-step step1">Project discovery</div>
+                                    <div className="process-step step2">Talent recruitment</div>
+                                    <div className="process-step review step3">
+                                        {/* <span className="dot"></span> */}
                                         Review & approval
                                     </div>
-                                    <div class="process-step">Onboarding & integration</div>
-                                    <div class="process-step">Performance evaluation</div>
-                                    <div class="process-step">Project execution</div>
+                                    <div className="process-step step4">Onboarding & integration</div>
+                                    <div className="process-step step5">Performance evaluation</div>
+                                    <div className="process-step step6">Project execution</div>
                                 </div>
                             </div>
                         </Col>
@@ -108,7 +108,7 @@ function Features() {
                     </Row>
                 </Container>
             </div>
-            {/* <DownloadSection /> */}
+            <DownloadSection />
         </>
     )
 }

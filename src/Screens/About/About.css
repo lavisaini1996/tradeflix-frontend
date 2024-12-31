@@ -232,6 +232,9 @@
 }
 
 @media (max-width: 576px) {
+    .custom-wrapper {
+        padding: 0px 20px !important;
+    }
     .about-title {
         font-size: 34px !important;
         line-height: 45px;
@@ -270,7 +273,7 @@
     }
 
     .meet-expert-section {
-        padding: 2rem 50px;
+        padding: 2rem 8px;
     }
 
     .meet-expert-section .content{

@@ -80,3 +80,9 @@ nav{
     height: 59px;
     width: 253px;
 } */
+
+@media (max-width: 576px) {
+    nav{
+        padding-inline: 10px !important;
+    }
+}
