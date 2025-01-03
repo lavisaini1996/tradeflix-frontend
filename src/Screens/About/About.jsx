@@ -97,9 +97,9 @@ const About = () => {
                         <Col lg={7}>
                             <div className="images">
                                 <Row>
-                                    <Col lg={6}>
+                                    <Col md={6}>
                                         <img src={WhoWeAre1} /></Col>
-                                    <Col lg={6}>
+                                    <Col md={6}>
                                         <img src={WhoWeAre2} className="d-none d-sm-block" /></Col>
                                 </Row>
                             </div>
@@ -112,7 +112,7 @@ const About = () => {
                 <Container>
                     <h2 className="expert-heading">Meet Our Experts</h2>
                     <Row>
-                        <Col lg={3}>
+                        <Col md={6} lg={3}>
                             <img src={Expert1} />
                             <div className="content">
                                 <span className="label">
@@ -121,7 +121,7 @@ const About = () => {
                                 <h5>Priyanka Singh</h5>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col md={6} lg={3}>
                             <img src={Expert2} />
                             <div className="content">
                                 <span className="label">
@@ -131,7 +131,7 @@ const About = () => {
                             </div>
 
                         </Col>
-                        <Col lg={3}>
+                        <Col md={6} lg={3}>
                             <img src={Expert3} />
                             <div className="content">
                                 <span className="label">
@@ -140,7 +140,7 @@ const About = () => {
                                 <h5>Priyanka Singh</h5>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col md={6} lg={3}>
                             <img src={Expert4} />
                             <div className="content">
                                 <span className="label">

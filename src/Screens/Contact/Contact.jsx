@@ -22,7 +22,7 @@ export function Contact() {
             <div className="contact-from">
                 <Container style={{ background: '#F4F4F4', borderRadius: '20px', padding: '40px' }}>
                     <Row>
-                        <Col lg={6}>
+                        <Col lg={6} md={12}>
                             <h5 className="pb-3">We're Here to Help</h5>
                             <Form>
                                 <Form.Group controlId="formName" className="mb-4">
@@ -55,19 +55,19 @@ export function Contact() {
                                 </Button>
                             </Form>
                         </Col>
-                        <Col lg={6}>
-                            <img src={contactImg} className="d-none mx-auto d-sm-block" /></Col>
+                        <Col lg={6} md={5}>
+                            <img src={contactImg} className="img d-none mx-auto d-sm-block" /></Col>
                     </Row>
                 </Container>
             </div>
             <div className="contact-detail">
                 <Container>
                     <Row>
-                        <Col lg={3}><div className="card"><div className="icon"><img src={Phone} /></div><h6>Talk to us directly</h6><a style={{ color: "#2E4686", fontWeight: "bold" }}>+124 555 666 99</a></div></Col>
-                        <Col lg={3}><div className="card"><div className="icon"><img src={Email} /></div><h6>Send your queries</h6><a style={{ color: "#2E4686", fontWeight: "bold" }}>hello@gmail.com</a></div></Col>
-                        <Col lg={3}><div className="card"><div className="icon"><img src={Location} /></div><h6>Find us here</h6><a>Chicago HQ Estica Cop. Macomb, MI
+                        <Col md={6} lg={3}><div className="card"><div className="icon"><img src={Phone} /></div><h6>Talk to us directly</h6><a style={{ color: "#2E4686", fontWeight: "bold" }}>+124 555 666 99</a></div></Col>
+                        <Col md={6} lg={3}><div className="card"><div className="icon"><img src={Email} /></div><h6>Send your queries</h6><a style={{ color: "#2E4686", fontWeight: "bold" }}>hello@gmail.com</a></div></Col>
+                        <Col md={6} lg={3}><div className="card"><div className="icon"><img src={Location} /></div><h6>Find us here</h6><a>Chicago HQ Estica Cop. Macomb, MI
                             48042</a></div></Col>
-                        <Col lg={3}><div className="card"><div className="icon"><img src={Connect} /></div><h6>stay connected on social</h6>
+                        <Col md={6} lg={3}><div className="card"><div className="icon"><img src={Connect} /></div><h6>stay connected on social</h6>
                         <div className="social-icons">
                             <div className="icon-box"><img src={CIg} /></div>
                             <div className="icon-box"><img src={CFb} /></div>

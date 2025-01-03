@@ -21,7 +21,7 @@ function Features() {
             <div className="feature-section">
                 <Container className="custom-wrapper">
                     <Row>
-                        <Col md={6} className="d-flex justify-content-center align-items-center">
+                        <Col lg={6} className="d-flex justify-content-center align-items-center">
                             <div className="content-box">
                                 <p className="tagline">Trade with Clarity</p>
                                 <h1 className="title">
@@ -37,7 +37,7 @@ function Features() {
                                     <button className="btn buy-now">Buy Now</button>
                                     <button className="btn view-demo">View Demo</button>
                                 </div></div></Col>
-                        <Col md={6}>
+                        <Col lg={6}>
                             <img src={FeatureImg} className="w-100" />
                         </Col>
                     </Row>
@@ -48,7 +48,7 @@ function Features() {
             <div className="how-it-work">
                 <Container className="custom-wrapper">
                     <Row>
-                        <Col md={6}>
+                        <Col lg={6}>
 
                             <h2 className="title">How our Platform <br />works</h2>
                             <div className="step-card">
@@ -64,7 +64,7 @@ function Features() {
                                 </div>
                             </div>
                         </Col>
-                        <Col md={6}>
+                        <Col lg={6}>
                             <div className="process-box">
                                 <div className="process-title">Lorem ipsum dolor sit</div>
                                 <div className="process-description">
@@ -75,7 +75,6 @@ function Features() {
                                     <div className="process-step step1">Project discovery</div>
                                     <div className="process-step step2">Talent recruitment</div>
                                     <div className="process-step review step3">
-                                        {/* <span className="dot"></span> */}
                                         Review & approval
                                     </div>
                                     <div className="process-step step4">Onboarding & integration</div>
@@ -95,7 +94,7 @@ function Features() {
 
                     <Row style={{ margin: "60px 0 0" }}>
                         {features.map((feature, index) => (
-                            <Col md={3} key={index} className="mb-4">
+                            <Col lg={3} md={6} key={index} className="mb-4">
                                 <div className={`card ${feature.isHighlighted ? 'highlighted' : ''}`}>
                                     <div className="icon mb-3">
                                         <img src={feature.img} />
