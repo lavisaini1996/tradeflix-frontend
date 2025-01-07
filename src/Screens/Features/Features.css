@@ -11,6 +11,12 @@
     font-size: 15px;
 }
 
+.how-it-work .carousel-control-prev,
+.carousel-control-next {
+    display: none;
+    /* Hides the left and right arrows */
+}
+
 .feature-section .content-box .title {
     font-family: "Inter";
     font-size: 48px;
@@ -168,6 +174,7 @@
     text-align: center;
     font-size: 13px;
     background: #f2f3f6;
+    cursor: pointer;
 }
 
 .step1 {
@@ -190,7 +197,7 @@
     position: relative;
 }
 
-.step2::after{
+.step2::after {
     position: absolute;
     content: '';
     width: 298px;
@@ -206,10 +213,11 @@
 }
 
 
-.step3{
+.step3 {
     margin-inline: 120px;
 }
-.step3::before{
+
+.step3::before {
     position: absolute;
     content: '';
     width: 260px;
@@ -224,12 +232,12 @@
     left: 0;
 }
 
-.step4{
+.step4 {
     position: relative;
     margin-left: 150px;
 }
 
-.step4::after{
+.step4::after {
     position: absolute;
     content: '';
     width: 287px;
@@ -243,7 +251,8 @@
     right: -105px;
     z-index: -1;
 }
-.step5{
+
+.step5 {
     position: relative;
     margin-right: 17px;
 }
@@ -261,12 +270,14 @@
     }
 } */
 @media (max-width: 576px) {
+
     /* .process-box{
         display: none;
     } */
     .custom-wrapper {
         padding: 0px 20px !important;
     }
+
     .feature-section {
         padding: 3rem 0 1rem;
     }
@@ -293,6 +304,7 @@
     .features-card {
         padding: 1rem 0;
     }
+
     .features-card h2 {
         font-size: 36px;
     }
@@ -314,6 +326,7 @@
         line-height: 24px;
     }
 }
+
 @media (max-width: 768px) {
 
     .process-step {
@@ -322,7 +335,8 @@
 
     .process-step::before,
     .process-step::after {
-        display: none; /* Hide all the decorative elements */
+        display: none;
+        /* Hide all the decorative elements */
     }
 
     /* Add a straight line in the center */
@@ -339,57 +353,62 @@
 
     .process-step {
         padding: 10px 60px;
-        margin:0 !important;
+        margin: 0 !important;
     }
 }
 
-@media (max-width: 992px){
-    .content-box{
+@media (max-width: 992px) {
+    .content-box {
         margin-bottom: 30px;
     }
+
     .step2::after {
         width: 330px;
         right: -105px;
     }
-    .step4{
+
+    .step4 {
         margin-inline: 150px;
     }
-    .step4::after{
+
+    .step4::after {
         width: 291px;
         right: -130px;
     }
 }
 
-@media (min-width: 992px) and (max-width: 1200px){
+@media (min-width: 992px) and (max-width: 1200px) {
 
 
     .feature-section .content-box .title {
         font-size: 42px;
         line-height: 55px;
     }
-    .process-flow{
+
+    .process-flow {
         gap: 27px 0;
     }
 
-    .step1{
+    .step1 {
         margin-right: 24px;
     }
 
-    .step2::after{
-        width:220px;
+    .step2::after {
+        width: 220px;
         right: -50px;
-        height:65px;
-    }
-    .step3{
-        margin-inline:95px;
+        height: 65px;
     }
 
-    .step3::before{
+    .step3 {
+        margin-inline: 95px;
+    }
+
+    .step3::before {
         width: 200px;
-        top:81px;
+        top: 81px;
     }
 
-    .step4{
+    .step4 {
         margin-left: 69px;
     }
 }

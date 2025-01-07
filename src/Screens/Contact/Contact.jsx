@@ -10,8 +10,73 @@ import CFb from '../../assets/CFb.png';
 import CDb from '../../assets/CDb.png';
 import CTw from '../../assets/CTw.png';
 import CLn from '../../assets/CLn.png';
+import emailjs from 'emailjs-com';
+import { useState } from 'react';
+import { toast } from 'react-toastify';
 
 export function Contact() {
+    const [isSending, setIsSending] = useState(false);
+    const [errorMessage, setErrorMessage] = useState({
+        name: '',
+        email: '',
+        message: ''
+    })
+    const [formValue, setFormValue] = useState({
+        name: "",
+        email: "",
+        phone: '',
+        message: ""
+    })
+    const validate = () => {
+        if (formValue?.name == '') {
+            setErrorMessage({ ...errorMessage, name: 'name is required' })
+            return false;
+        }
+        if (formValue?.email == '') {
+            setErrorMessage({ ...errorMessage, email: 'email is required' })
+            return false;
+        }
+        if (formValue?.message == '') {
+            setErrorMessage({ ...errorMessage, message: 'message is required' })
+            return false;
+        }
+        return true;
+
+    }
+    const setValue = (name, value) => {
+        console.log(name, value)
+        setFormValue({ ...formValue, [name]: value })
+        if (!value) {
+            setErrorMessage({ ...errorMessage, [name]: `${name} is required*` })
+        } else {
+            setErrorMessage({ ...errorMessage, [name]: '' })
+        }
+    }
+    const sendEmail = () => {
+        if (isSending) {
+            return;
+        }
+        if (!validate()) {
+            return;
+        }
+        setIsSending(true)
+        const formData = {
+            name: formValue?.name,
+            email: formValue?.email,
+            phone: formValue?.phone,
+            message: formValue?.message
+        }
+
+        emailjs.send('service_3p80yvj', 'template_mudb32v', formData, 'V59BuQNTgHU-KWHTo').then((result) => {
+            toast('Mail has been sent successfully!', { type: "success" })
+            setIsSending(false)
+
+            setFormValue({ name: '', email: '', phone: '', message: "" })
+        }).catch((error) => {
+            setIsSending(false)
+            toast("Something Went Wrong!", { type: 'error' })
+        })
+    }
     return (
         <>
             <div className="contact">
@@ -26,32 +91,43 @@ export function Contact() {
                             <h5 className="pb-3">We're Here to Help</h5>
                             <Form>
                                 <Form.Group controlId="formName" className="mb-4">
-                                    <Form.Label>Name</Form.Label>
-                                    <Form.Control type="text" />
+                                    <Form.Label>Name <span className="error">*</span> </Form.Label>
+                                    <Form.Control type="text" value={formValue?.name} onChange={(e) => setValue('name', e.target.value)} />
+                                    <span className="error">
+                                        {errorMessage?.name}
+                                    </span>
                                 </Form.Group>
 
                                 <Row>
                                     <Col md={6}>
                                         <Form.Group controlId="formEmail" className="mb-4">
-                                            <Form.Label>Email Address</Form.Label>
-                                            <Form.Control type="email" />
+                                            <Form.Label>Email Address <span className="error">*</span></Form.Label>
+                                            <Form.Control type="email" value={formValue?.email} onChange={(e) => setValue('email', e.target.value)} />
+                                            <span className="error">
+                                                {errorMessage?.email}
+                                            </span>
                                         </Form.Group>
                                     </Col>
                                     <Col md={6}>
                                         <Form.Group controlId="formPhone" className="mb-4">
                                             <Form.Label>Phone No</Form.Label>
-                                            <Form.Control type="text" />
+                                            <Form.Control type="text" value={formValue?.phone} onChange={(e) => setValue
+                                                ('phone', e.target.value)
+                                            } />
                                         </Form.Group>
                                     </Col>
                                 </Row>
 
                                 <Form.Group controlId="formMessage" className="mb-4">
-                                    <Form.Label>Message</Form.Label>
-                                    <Form.Control as="textarea" rows={4} />
+                                    <Form.Label>Message<span className="error">*</span></Form.Label>
+                                    <Form.Control as="textarea" rows={4} value={formValue?.message} onChange={(e) => setValue('message', e.target.value)} />
+                                    <span className="error">
+                                        {errorMessage?.message}
+                                    </span>
                                 </Form.Group>
 
-                                <Button type="submit" className="w-100 btn-submit">
-                                    Submit
+                                <Button onClick={() => sendEmail()} className="w-100 btn-submit">
+                                    {isSending ? 'sending...' : 'Submit'}
                                 </Button>
                             </Form>
                         </Col>
@@ -68,12 +144,12 @@ export function Contact() {
                         <Col md={6} lg={3}><div className="card"><div className="icon"><img src={Location} /></div><h6>Find us here</h6><a>Chicago HQ Estica Cop. Macomb, MI
                             48042</a></div></Col>
                         <Col md={6} lg={3}><div className="card"><div className="icon"><img src={Connect} /></div><h6>stay connected on social</h6>
-                        <div className="social-icons">
-                            <div className="icon-box"><img src={CIg} /></div>
-                            <div className="icon-box"><img src={CFb} /></div>
-                            <div className="icon-box"><img src={CDb} /></div>
-                            <div className="icon-box"><img src={CTw} /></div>
-                            <div className="icon-box"><img src={CLn} /></div>
+                            <div className="social-icons">
+                                <div className="icon-box"><img src={CIg} /></div>
+                                <div className="icon-box"><img src={CFb} /></div>
+                                <div className="icon-box"><img src={CDb} /></div>
+                                <div className="icon-box"><img src={CTw} /></div>
+                                <div className="icon-box"><img src={CLn} /></div>
                             </div></div></Col>
                     </Row>
                 </Container>

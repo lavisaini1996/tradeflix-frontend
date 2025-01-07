@@ -7,7 +7,9 @@ import { BrowserRouter, Outlet, Route, } from "react-router";
 import AuthRoutes from "./Routes/AuthRoutes"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer/Footer';
-import Header from './Components/Header/Header'
+import Header from './Components/Header/Header';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'; // Import CSS
 function App() {
   const [count, setCount] = useState(0)
 
@@ -17,6 +19,7 @@ function App() {
         <Header />
         <AuthRoutes />
         <Footer />
+        <ToastContainer />
       </BrowserRouter>
     </>
   )
