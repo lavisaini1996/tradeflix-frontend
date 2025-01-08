@@ -20,12 +20,12 @@ const About = () => {
                     <div className="about-content">
                         <div className="about-left">
                             <h1 className="about-title">
-                                We build bridges between Trading and Maximum Profit
+                                Your Gateway to Confident Trading
                             </h1>
                         </div>
                         <div className="about-right">
                             <p className="about-description">
-                                Lorem ipsum dolor sit amet consectetur. Molestie lectus mauris tristique nunc ac egestas purus. In id orci faucibus amet non duis. Maecenas nunc blandit aliquam.
+                                At Tradeflix, we aim to simplify your journey in finacial markets by providing you trusted tips and professional insights. Tradeflix allows you to follow the market and make wise decisions regarding your investments.
                             </p>
                             <button className="about-button">
                                 <Link className='
@@ -43,12 +43,9 @@ const About = () => {
                     <Row>
                         <Col lg={5}>
                             <div className="text-content">
-                                <h2>Who we are?</h2>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur. Nunc id cursus cursus sit sit nisl
-                                    mauris dolor. Id eleifend feugiat augue aenean pretium mauris elit
-                                    pellentesque. Egestas tempor nibh scelerisque id porta nam egestas.
-                                </p>
+                                <h2>Who We Are?</h2>
+                                <p>With Tradeflix, you receive market analysis, stock recommendations, and SEBI-registered advisors’ guidance that will enable you to always be one step ahead in the financial market.
+                                   </p>
                                 <div className="progress-section">
                                     <div className="progress-bar">
                                         <div className="circle" data-percentage="70">
@@ -60,7 +57,7 @@ const About = () => {
                                                 </span>%
                                             </div>
                                         </div>
-                                        <p>Lorem Ipsum</p>
+                                        <p>Expert Recommendations</p>
                                     </div>
                                     <div className="progress-bar">
                                         <div className="circle" data-percentage="56">
@@ -71,7 +68,7 @@ const About = () => {
                                                 </span>%
                                             </div>
                                         </div>
-                                        <p>Lorem Ipsum</p>
+                                        <p>User-Friendly App</p>
                                     </div>
                                     <div className="progress-bar">
                                         <div className="circle" data-percentage="30">
@@ -84,7 +81,7 @@ const About = () => {
                                                 </span>%
                                             </div>
                                         </div>
-                                        <p>Lorem Ipsum</p>
+                                        <p>Real-Time Updates</p>
                                     </div>
                                 </div>
                                 <button className="btn">
@@ -118,7 +115,7 @@ const About = () => {
                                 <span className="label">
                                     Expert Trader
                                 </span>
-                                <h5>Priyanka Singh</h5>
+                                <h5>Mr. Praveen</h5>
                             </div>
                         </Col>
                         <Col md={6} lg={3}>
@@ -127,7 +124,7 @@ const About = () => {
                                 <span className="label">
                                     Expert Trader
                                 </span>
-                                <h5>Rahul Mehra</h5>
+                                <h5>Mr. Anand</h5>
                             </div>
 
                         </Col>
@@ -137,7 +134,7 @@ const About = () => {
                                 <span className="label">
                                     Expert Trader
                                 </span>
-                                <h5>Priyanka Singh</h5>
+                                <h5>Ms. Priyanka</h5>
                             </div>
                         </Col>
                         <Col md={6} lg={3}>
@@ -146,7 +143,7 @@ const About = () => {
                                 <span className="label">
                                     Expert Trader
                                 </span>
-                                <h5>Rahul Mehra</h5>
+                                <h5>Ms. Roshni</h5>
                             </div>
                         </Col>
                     </Row>

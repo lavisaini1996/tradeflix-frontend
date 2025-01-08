@@ -10,6 +10,15 @@ footer .footer-main{
 footer .brand-logo{
     widh: 100%;
     max-width:200px;
+    margin-bottom: 15px;
+}
+footer p{
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #010101;
+    text-align: justify;
 }
 footer h5{
     margin-bottom: 15px;

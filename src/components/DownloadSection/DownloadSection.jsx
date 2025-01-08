@@ -27,11 +27,11 @@ export function DownloadSection() {
                         <h2 className="fw-bold mb-3 dwnldsection" >
                             Download Our App &amp;
                             <br />
-                            Get The Special Offer!
+                            Upgrade your Trading Journey
                         </h2>
 
                         <p className="text-light mb-4" style={{ opacity: 0.8 }}>
-                            Install Our App &amp; Get Special Promo!
+                        Press the button below to install app.
                         </p>
 
                         <div className="d-flex gap-3">

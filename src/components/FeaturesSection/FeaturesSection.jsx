@@ -27,18 +27,16 @@ export function FeaturesSection() {
                             style={{ width: "110px" }}
                         >
                             <span className="fw-semibold text-dark" style={{ fontSize: "13px" }}>
-                                FEATURES
+                                FAQ
                             </span>
                         </div>
                         <h2 className="mt-3 fw-bold featurehead"  >
-                            Our Platform Feature
+                            Frequently Asked Questions
                         </h2>
                     </Col>
                     <Col md={6} className="d-flex align-items-end text-start">
                         <p className="text-muted" style={{ fontSize: "16px", lineHeight: "24px" }}>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                            commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-                            et magnis dis parturient montes, nascetur ridiculus mus.
+                            Hey there! Got questions? We've got answers. Check out our FAQ for all the deets. Still not satisfied? Contact us!
                         </p>
                     </Col>
                 </Row>
@@ -77,14 +75,13 @@ export function FeaturesSection() {
                                             className="fw-bold text-dark"
                                             style={{ fontSize: "28px" }}
                                         >
-                                            Full Management Features
+                                             Is Tradeflix a trading platform?
                                         </Card.Title>
                                         <Card.Text
                                             className="text-muted"
                                             style={{ fontSize: "16px", lineHeight: "24px" }}
                                         >
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                            Aenean commodo ligula eget dolor.
+                                            No, Tradeflix is an educational resource designed to provide knowledge and insights into trading and investing. We do not facilitate trading transactions.
                                         </Card.Text>
                                     </Card.Body>
                                 </Card>

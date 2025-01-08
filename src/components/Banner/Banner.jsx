@@ -37,14 +37,12 @@ export function Banner() {
                             <Card className="blurcon"   >
                                 <Card.Body className='d-flex flex-column align-items-end cfui8o'>
                                     <Card.Title className="heading-your text-white mt-4">
-                                        Your Partner in Profitable Trading.
+                                        Master Trading Strategies with Expert Insights
                                     </Card.Title>
                                     <Card.Text className="lorem-ipsum-dolor text-white text-end fffr5ty6 mt-2">
-                                        Lorem ipsum dolor sit amet, consectetuer
-                                        adipiscing elit. Aenean commodo ligula eget
-                                        dolor. Aenean massa. Cum sociis.
+                                        Tradeflix is an all-in-one solution that offers insight into the world of trading. The aim is to explain how market trends work and how to create trading strategies so that you should be able to self-trade confidently.
                                     </Card.Text>
-                                    <div className="d-flex justify-content-end mt-3" >
+                                    {/* <div className="d-flex justify-content-end mt-3" >
                                         <div className="text-center">
                                             <p className="text-wrapper-5 text-white m-0">Active Users</p>
                                             <h4 className="text-wrapper-6 text-white">3.8M +</h4>
@@ -54,7 +52,7 @@ export function Banner() {
                                             <div className="confident-smiling mx-2 baning"></div>
                                             <div className="portrait-of baning"></div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </Card.Body>
                             </Card>
                         </div>

@@ -10,23 +10,37 @@ import ClonIcon from '../../assets/Testimonials/Clonicon.svg';
 export function Testimonials() {
     const [dataArray, setDataArray] = useState([
         {
-            desc: 'Praesent commodo cursus magna, vel scelerisque nisl consectetur.',
-            name: 'Praful Kumar',
+            desc: 'Tradeflix has changed the way I deal with trading. It is their uncomplicated and easy to read articles which made me gain the confidence to tackle different markets.',
+            name: 'Shivani M.',
             star: 4,
-            slogan: 'test'
+            slogan: 'Beginner Trader'
         },
         {
-            desc: 'Integer posuere erat a ante venenatis dapibus posuere velit aliquet.',
-            name: 'Sakshi Rawat',
+            desc: 'I have been trading for many years, but there are several aspects that Tradeflix’s experts have highlighted that I had not thought of before.”',
+            name: 'Devansh L.',
             star: 4,
-            slogan: 'test1'
+            slogan: 'Experienced Investor'
 
         },
         {
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-            name: 'Ruchika Rawat',
+            desc: 'Since I am a novice when it comes to putting my money into various assets, Tradeflix has completely changed the game for me. All the materials that they provide are very clear cut and would assist hugely.',
+            name: 'Ankita R.',
             star: 4,
-            slogan: 'test2'
+            slogan: 'New Investor'
+
+        },
+        {
+            desc: 'The analysis of the stock market and the news updates provided on Tradeflix are very useful to me. It has been my best platform for observing all the activities in the stock market.',
+            name: 'Rohit S.',
+            star: 4,
+            slogan: 'Active Trader'
+
+        },
+        {
+            desc: 'Thanks to the stock market tips sourced from Tradeflix including SEBI registered advisors, I have managed to make better relevant stock market investments. Their guidance is truly valuable.',
+            name: 'Nikhil P.',
+            star: 4,
+            slogan: 'Stock Market Enthusiast'
 
         },
     ]);

@@ -8,58 +8,51 @@ import { useState } from 'react';
 
 function Features() {
     const features = [
-        { img: Icon, title: "Stock Trading Analysis", description: "Lorem ipsum dolor sit", isHighlighted: false },
-        { img: Icon2, title: "8 Dashboards", description: "Unique dashboard templates.", isHighlighted: true },
-        { img: Icon, title: "8 Dashboards", description: "Unique dashboard templates.", isHighlighted: false },
-        { img: Icon2, title: "8 Dashboards", description: "Unique dashboard templates.", isHighlighted: true },
-        { img: Icon2, title: "8 Dashboards", description: "Unique dashboard templates.", isHighlighted: true },
-        { img: Icon, title: "8 Dashboards", description: "Unique dashboard templates.", isHighlighted: false },
-        { img: Icon2, title: "8 Dashboards", description: "Unique dashboard templates.", isHighlighted: true },
-        { img: Icon, title: "8 Dashboards", description: "Unique dashboard templates.", isHighlighted: false }
+        { img: Icon, title: "Trusted Recommendations", description: "Based on all the wisdom circles create a one stop analytical center for issuing all recommendations regarding the purchase or sale of shares.", isHighlighted: false },
+        { img: Icon2, title: "Real-Time Market Updates", description: "With the end of this training the students will be able to understand the marketplace and trading life with all its aspects.", isHighlighted: true },
+        { img: Icon, title: "Expert Insights", description: "Better evaluation of one will be acquired after the completion of a deeper study regarding macroeconomic factors taken into consideration.", isHighlighted: false },
+        { img: Icon2, title: "User-Friendly Interface", description: "The most effective platform will be switching from easy to advanced targeting different groups of traders starting with beginners.", isHighlighted: true },
+        { img: Icon2, title: "Educational Resources", description: "The best way a greater understanding of the markets is acquired is through volumes of tutorials and articles coupled up by videos.", isHighlighted: true },
+        { img: Icon, title: "Multiple Subscription Plans", description: "Professional traders and fresh entrants have different requirements hence they should be able to choose from various available subscription plans.", isHighlighted: false },
+        { img: Icon2, title: "Risk Analysis Tools", description: "Equipping oneself with instruments, that will be able to determine potential risks and rewards different smarter choices will be made leading to better investments.", isHighlighted: true },
+        { img: Icon, title: "Dependable and Safe", description: "At Tradeflix, be assured of feeling safe as the environment is constantly looking out to protect your data as well as your privacy.", isHighlighted: false }
     ];
     const [dataArray, setDataArray] = useState([
-        {
-            desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt doloribus reiciendis quo quaerat, cumque odio sit repellendus voluptates? Saepe pariatur illum eligendi, ullam praesentium, debitis iste sapiente commodi, officia doloribus nisi excepturi quaerat reprehenderit hic veniam voluptas. Voluptatibus, alias quasi itaque maiores excepturi nesciunt unde, odit ipsum aspernatur vitae nobis. Sequi optio, aut iste nemo quas ipsam laudantium iure sed fugiat recusandae, vero veritatis a in reiciendis quisquam dolore molestiae fugit illo aliquam odit maxime, nam quasi earum. Laboriosam beatae consequuntur perferendis, totam enim sint rerum suscipit. Unde, pariatur at nemo dicta eligendi odio veniam vero voluptate quae',
+        {   
+            slogan: 'Explore Market Insights',
+            desc: 'Explore comprehensive market insights to begin your journey with Tradeflix. Our system gives insights into available market trends thereby allowing you to plan your investment objectives strategically.',
             name: 'Praful Kumar',
-            star: 4,
-            slogan: 'test'
+            star: 4
         },
-        {
-            desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt doloribus reiciendis quo quaerat, cumque odio sit repellendus voluptates? Saepe pariatur illum eligendi, ullam praesentium, debitis iste sapiente commodi, officia doloribus nisi excepturi quaerat reprehenderit hic veniam voluptas. Voluptatibus, alias quasi itaque maiores excepturi nesciunt unde, odit ipsum aspernatur vitae nobis. Sequi optio, aut iste nemo quas ipsam laudantium iure sed fugiat recusandae, vero veritatis a in reiciendis quisquam dolore molestiae fugit illo aliquam odit maxime, nam quasi earum. Laboriosam beatae consequuntur perferendis, totam enim sint rerum suscipit. Unde, pariatur at nemo dicta eligendi odio veniam vero voluptate quae',
-            name: 'Sakshi Rawat',
-            star: 4,
-            slogan: 'test1'
-
+        {   
+            slogan: 'Access Expert Recommendations',
+            desc: 'Obtain actionable recommendations and sound ideas provided by validated advisors and industry professionals under SEBI regulation. These recommendations will help you in all your trading and investment activities.',
+            name: 'Praful Kumar',
+            star: 4
         },
-        {
-            desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt doloribus reiciendis quo quaerat, cumque odio sit repellendus voluptates? Saepe pariatur illum eligendi, ullam praesentium, debitis iste sapiente commodi, officia doloribus nisi excepturi quaerat reprehenderit hic veniam voluptas. Voluptatibus, alias quasi itaque maiores excepturi nesciunt unde, odit ipsum aspernatur vitae nobis. Sequi optio, aut iste nemo quas ipsam laudantium iure sed fugiat recusandae, vero veritatis a in reiciendis quisquam dolore molestiae fugit illo aliquam odit maxime, nam quasi earum. Laboriosam beatae consequuntur perferendis, totam enim sint rerum suscipit. Unde, pariatur at nemo dicta eligendi odio veniam vero voluptate quae',
-            name: 'Ruchika Rawat',
-            star: 4,
-            slogan: 'test2'
-
+        {   
+            slogan: 'Stay Updated in Real Time',
+            desc: 'Look out for live news on market movements, stock prices and investment news. Our platform guarantees that you get current most critical information at all times.',
+            name: 'Praful Kumar',
+            star: 4
         },
-        {
-            desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt doloribus reiciendis quo quaerat, cumque odio sit repellendus voluptates? Saepe pariatur illum eligendi, ullam praesentium, debitis iste sapiente commodi, officia doloribus nisi excepturi quaerat reprehenderit hic veniam voluptas. Voluptatibus, alias quasi itaque maiores excepturi nesciunt unde, odit ipsum aspernatur vitae nobis. Sequi optio, aut iste nemo quas ipsam laudantium iure sed fugiat recusandae, vero veritatis a in reiciendis quisquam dolore molestiae fugit illo aliquam odit maxime, nam quasi earum. Laboriosam beatae consequuntur perferendis, totam enim sint rerum suscipit. Unde, pariatur at nemo dicta eligendi odio veniam vero voluptate quae',
-            name: 'Ruchika Rawat',
-            star: 4,
-            slogan: 'test2'
-
-        }
-        ,
-        {
-            desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt doloribus reiciendis quo quaerat, cumque odio sit repellendus voluptates? Saepe pariatur illum eligendi, ullam praesentium, debitis iste sapiente commodi, officia doloribus nisi excepturi quaerat reprehenderit hic veniam voluptas. Voluptatibus, alias quasi itaque maiores excepturi nesciunt unde, odit ipsum aspernatur vitae nobis. Sequi optio, aut iste nemo quas ipsam laudantium iure sed fugiat recusandae, vero veritatis a in reiciendis quisquam dolore molestiae fugit illo aliquam odit maxime, nam quasi earum. Laboriosam beatae consequuntur perferendis, totam enim sint rerum suscipit. Unde, pariatur at nemo dicta eligendi odio veniam vero voluptate quae',
-            name: 'Ruchika Rawat',
-            star: 4,
-            slogan: 'test2'
-
-        }
-        ,
-        {
-            desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt doloribus reiciendis quo quaerat, cumque odio sit repellendus voluptates? Saepe pariatur illum eligendi, ullam praesentium, debitis iste sapiente commodi, officia doloribus nisi excepturi quaerat reprehenderit hic veniam voluptas. Voluptatibus, alias quasi itaque maiores excepturi nesciunt unde, odit ipsum aspernatur vitae nobis. Sequi optio, aut iste nemo quas ipsam laudantium iure sed fugiat recusandae, vero veritatis a in reiciendis quisquam dolore molestiae fugit illo aliquam odit maxime, nam quasi earum. Laboriosam beatae consequuntur perferendis, totam enim sint rerum suscipit. Unde, pariatur at nemo dicta eligendi odio veniam vero voluptate quae',
-            name: 'Ruchika Rawat',
-            star: 4,
-            slogan: 'test2'
-
+        {   
+            slogan: 'Learn and Strategize',
+            desc: 'Regardless of the trader’s experience, Tradeflix provides tips and resources to users describing methods of trading strategies to strengthen their understanding of trading and increase confidence in their methods.',
+            name: 'Praful Kumar',
+            star: 4
+        },
+        {   
+            slogan: 'Make Informed Decisions',
+            desc: 'Takedow the three helpful pieces of information provided: Some commissions suggest trading within the range of growth, educational materials, and trading techniques an advisor.',
+            name: 'Praful Kumar',
+            star: 4
+        },
+        {   
+            slogan: 'Monitor and Optimize',
+            desc: 'Whenever the market changes or someone provides new recommendations, make sure to readjust your plan and follow it so that one continues to stay on the path of success.',
+            name: 'Praful Kumar',
+            star: 4
         }
     ]);
 
@@ -79,11 +72,10 @@ function Features() {
                                 <h1 className="title">
                                     User Friendly<br /> <span>
                                         Stock Analysis and
-                                        Guidance Platform</span>
+                                        Recommendation Platform</span>
                                 </h1>
-                                <p className="description">
-                                    Lorem ipsum dolor sit amet consectetur. Sed tincidunt ipsum
-                                    quisque egestas. Faucibus semper lacus.
+                                <p className="description pr-3">
+                                Tradeflix makes stock analysis and recommendations convenient for every trader.
                                 </p>
                                 <div className="button-group">
                                     <button className="btn buy-now">Buy Now</button>
@@ -102,7 +94,7 @@ function Features() {
                     <Row>
                         <Col lg={6}>
 
-                            <h2 className="title">How our Platform <br />works</h2>
+                            <h2 className="title">How Tradeflix<br />Works</h2>
                             <div className="step-card">
                                 <div className="content-box">
                                     <p className="step-title">Step {activeIndex + 1}/{dataArray.length}</p>
@@ -118,8 +110,8 @@ function Features() {
                                     <Carousel activeIndex={activeIndex} pause="hover" indicators={false} interval={3000} onSelect={handleSelect}>
                                         {dataArray.map((item, index) => (
                                             <Carousel.Item key={index} >
-
-                                                {item?.desc}
+                                                <h2 style={{fontSize: '22px'}}>{item?.slogan}</h2>
+                                                <p>{item?.desc}</p>
 
                                             </Carousel.Item>
                                         ))}
@@ -129,11 +121,8 @@ function Features() {
                         </Col>
                         <Col lg={6}>
                             <div className="process-box">
-                                <div className="process-title">Lorem ipsum dolor sit</div>
-                                <div className="process-description">
-                                    Lorem ipsum dolor sit amet consectetur. Vitae nulla id urna metus molestie
-                                    dignissim morbi interdum lectus.
-                                </div>
+                                <div className="process-title">How Tradeflix Works?</div>
+                                <div className="process-description">If you’re new to trading or have been trading for some time, Tradeflix helps you at every step with easy to use features and varied subscription options.</div>
                                 <div className="process-flow">
                                     <div className={`process-step step1 ${activeIndex === 0 ? 'review' : ''} `} onClick={() => setActiveIndex(0)}>Project discovery</div>
                                     <div className={`process-step step2 ${activeIndex === 1 ? 'review' : ''}`} onClick={() => setActiveIndex(1)}>Talent recruitment</div>
@@ -153,7 +142,7 @@ function Features() {
             <div className="features-card">
                 <Container className="custom-wrapper">
                     <h2 className="mb-3 text-center">Features</h2>
-                    <p className="mb-4 text-center">Simple and organized Analysis Platform will help you get started right away</p>
+                    <p className="mb-4 text-center">Take a look at some of the crucial features that will assist you in your trading journey.</p>
 
                     <Row style={{ margin: "60px 0 0" }}>
                         {features.map((feature, index) => (

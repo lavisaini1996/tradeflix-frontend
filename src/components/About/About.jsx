@@ -45,13 +45,9 @@ export function About() {
                             <strong>ABOUT US</strong>
                         </div>
                         <h2 className="fw-bold mb-3 maxheading" >
-                            Maximum Profit &amp; Expert Trading Guidance
+                            Your Trusted Source for Financial Market Education
                         </h2>
-                        <p className="text-muted mb-4">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                        </p>
+                        <p className="text-muted mb-4">Tradeflix gives stock market tips and allows you to interact with SEBI-registered analysts and advisors who give you relevant advice.</p>
                     </div>
 
                     {/* Features Section */}
@@ -59,13 +55,13 @@ export function About() {
                         {[
                             {
                                 img: Secure,
-                                title: "Secure Transaction",
-                                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                                title: "Expert Insights",
+                                description: "Expert insights that you need to become an expert trader.",
                             },
                             {
                                 img: Global,
-                                title: "Global Services",
-                                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                                title: "User Friendly Platform",
+                                description: "Easy-to-use application available on PlayStore & AppStore.",
                             },
                         ].map((feature, index) => (
                             <Col md={6} key={index}>

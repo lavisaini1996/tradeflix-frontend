@@ -9,13 +9,14 @@ function Footer() {
                 <Container>
                     <div className="footer-main">
                         <Row>
-                            <Col lg={2}>
+                            <Col lg={3}>
                                 <img
                                     className="brand-logo"
                                     alt="Layer"
                                     src="https://c.animaapp.com/LJb56hOf/img/layer-x0020-1-1@2x.png"
-                                /></Col>
-                            <Col lg={4}></Col>
+                                />
+                                <p>Tradeflix is an educational platform that simplifies trading with expert insights, stock tips, and SEBI-registered advisor support for all levels.</p></Col>
+                            <Col lg={3}></Col>
                             <Col lg={2}>
                                 <h5>Pages Link</h5>
                                 <ul className="list-unstyled">

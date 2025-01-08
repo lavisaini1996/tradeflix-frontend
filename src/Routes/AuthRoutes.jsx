@@ -7,6 +7,7 @@ import Contact from "../Screens/Contact/Contact.jsx";
 import Features from "../Screens/Features/Features.jsx";
 import { Subscription } from "../Screens/Subscription/Subscription.jsx";
 import ScrollToTop from "../Components/ScrollToTop/ScrollToTop.jsx";
+import TermsConditions from "../Screens/TermsConditions/TermsConditions.jsx";
 
 const AuthRoutes = () => {
     return (
@@ -22,6 +23,7 @@ const AuthRoutes = () => {
                     <Route path="contact" element={<Contact />} />
                     <Route path="*" element={<Navigate to="/home" />} />
                     <Route path="subcription" element={<Subscription />} />
+                    <Route path="term-and-conditions" element={<TermsConditions />} />
                 </Route>
             </Routes>
         </>
