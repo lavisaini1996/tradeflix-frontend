@@ -40,12 +40,12 @@ const About = () => {
             </div>
             <div className="who-we-are">
                 <Container className="custom-wrapper">
-                    <Row>
-                        <Col lg={5}>
+                    <Row className='justify-content-center'>
+                        <Col lg={6}>
                             <div className="text-content">
                                 <h2>Who We Are?</h2>
                                 <p>With Tradeflix, you receive market analysis, stock recommendations, and SEBI-registered advisors’ guidance that will enable you to always be one step ahead in the financial market.
-                                   </p>
+                                </p>
                                 <div className="progress-section">
                                     <div className="progress-bar">
                                         <div className="circle" data-percentage="70">
@@ -92,14 +92,14 @@ const About = () => {
                             </div>
                         </Col>
                         <Col lg={7}>
-                            <div className="images">
+                            {/* <div className="images">
                                 <Row>
                                     <Col md={6}>
                                         <img src={WhoWeAre1} /></Col>
                                     <Col md={6}>
                                         <img src={WhoWeAre2} className="d-none d-sm-block" /></Col>
                                 </Row>
-                            </div>
+                            </div> */}
                         </Col>
                     </Row>
 

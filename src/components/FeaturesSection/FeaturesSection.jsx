@@ -1,5 +1,5 @@
-import React, { useEffect, useRef } from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import React, { useEffect, useRef, useState } from "react";
+import { Container, Row, Col, Card, Accordion } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import FeatureVideo from "../../assets/FeatureVideo.mp4";
 import './FeatureSection.css';
@@ -15,7 +15,22 @@ export function FeaturesSection() {
                 .catch((error) => console.error("Video autoplay failed:", error));
         }
     }, []);
-
+    const [dataArray, setDataArray] = useState([
+        {
+            question: 'Is Tradeflix a trading platform?',
+            answer: 'No, Tradeflix is an educational resource designed to provide knowledge and insights into trading and investing. We do not facilitate trading transactions.'
+        },
+        {
+            question: 'How often is the market data updated?',
+            answer: 'In order to provide you the most correct and current information, our market analysis and data are synchronized on a real time basis.'
+        }, {
+            question: 'Do you offer investment advice?',
+            answer: "Tradeflix helps users obtain stock tips from SEBI registered research analysts and investment advisors. Tradeflix itself does not provide direct investment advice to their customers on a one-on-one basis. Obviously this is a platform aimed at providing information and general understanding of the market; the format is so that users can have enough information to make their own investment decisions."
+        }, {
+            question: " Can beginners benefit from Tradeflix?",
+            answer: "Definitely! Our platform contains necessary resources not only for advanced traders but also for beginners, as well, including guides, tutorials, and analysis."
+        }
+    ])
     return (
         <div className="featuresection mt-5">
             <Container>
@@ -62,7 +77,7 @@ export function FeaturesSection() {
 
 
                         {/* Feature Blocks */}
-                        {Array(3)
+                        {/* {Array(3)
                             .fill(null)
                             .map((_, index) => (
                                 <Card
@@ -85,7 +100,25 @@ export function FeaturesSection() {
                                         </Card.Text>
                                     </Card.Body>
                                 </Card>
-                            ))}
+                            ))} */}
+                        <Accordion defaultActiveKey="0">
+                            {
+                                dataArray?.map((element, index) => {
+                                    return (
+                                        <>
+                                            <Accordion.Item eventKey={index}>
+                                                <Accordion.Header>{element?.question}</Accordion.Header>
+                                                <Accordion.Body>
+                                                    {element?.answer}
+                                                </Accordion.Body>
+                                            </Accordion.Item>
+                                        </>
+                                    )
+                                })
+                            }
+
+
+                        </Accordion>
                     </Col>
                 </Row>
             </Container>

@@ -1,6 +1,5 @@
 import React from "react";
 import { Basic } from "../../Components/Basic";
-import { Button } from "../../Components/Button";
 import { IconOutlineCheckCircle20 } from "../../Icons/IconOutlineCheckCircle20/IconOutlineCheckCircle20";
 import "./Home.css";
 import { Banner } from "../../Components/Banner/Banner";
@@ -11,6 +10,8 @@ import { PlansContainer } from "../../Components/PlansContainer/PlansContainer";
 import { Testimonials } from "../../Components/Testimonials/Testimonials";
 import { DownloadApp } from "../../Components/DownloadApp/DownloadApp";
 import { FeaturesSection } from "../../components/FeaturesSection/FeaturesSection";
+import { Link } from "react-router";
+import { Button } from "react-bootstrap";
 
 export function Home() {
     return (
@@ -40,6 +41,18 @@ export function Home() {
             </div>
 
             <PlansContainer isYearly={false} />
+            <div className="d-flex justify-content-center mt-5">
+
+                <Button
+                    variant="primary"
+                    className="rounded-pill px-4 py-3 aboutbutton"
+                >
+                    <Link className="nav-link" to='/subcription'>
+                        Check More
+
+                    </Link>
+                </Button>
+            </div>
             <Testimonials />
             <DownloadApp />
 

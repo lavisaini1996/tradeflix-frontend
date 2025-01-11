@@ -18,37 +18,37 @@ function Features() {
         { img: Icon, title: "Dependable and Safe", description: "At Tradeflix, be assured of feeling safe as the environment is constantly looking out to protect your data as well as your privacy.", isHighlighted: false }
     ];
     const [dataArray, setDataArray] = useState([
-        {   
+        {
             slogan: 'Explore Market Insights',
             desc: 'Explore comprehensive market insights to begin your journey with Tradeflix. Our system gives insights into available market trends thereby allowing you to plan your investment objectives strategically.',
             name: 'Praful Kumar',
             star: 4
         },
-        {   
+        {
             slogan: 'Access Expert Recommendations',
             desc: 'Obtain actionable recommendations and sound ideas provided by validated advisors and industry professionals under SEBI regulation. These recommendations will help you in all your trading and investment activities.',
             name: 'Praful Kumar',
             star: 4
         },
-        {   
+        {
             slogan: 'Stay Updated in Real Time',
             desc: 'Look out for live news on market movements, stock prices and investment news. Our platform guarantees that you get current most critical information at all times.',
             name: 'Praful Kumar',
             star: 4
         },
-        {   
+        {
             slogan: 'Learn and Strategize',
             desc: 'Regardless of the trader’s experience, Tradeflix provides tips and resources to users describing methods of trading strategies to strengthen their understanding of trading and increase confidence in their methods.',
             name: 'Praful Kumar',
             star: 4
         },
-        {   
+        {
             slogan: 'Make Informed Decisions',
             desc: 'Takedow the three helpful pieces of information provided: Some commissions suggest trading within the range of growth, educational materials, and trading techniques an advisor.',
             name: 'Praful Kumar',
             star: 4
         },
-        {   
+        {
             slogan: 'Monitor and Optimize',
             desc: 'Whenever the market changes or someone provides new recommendations, make sure to readjust your plan and follow it so that one continues to stay on the path of success.',
             name: 'Praful Kumar',
@@ -75,7 +75,7 @@ function Features() {
                                         Recommendation Platform</span>
                                 </h1>
                                 <p className="description pr-3">
-                                Tradeflix makes stock analysis and recommendations convenient for every trader.
+                                    Tradeflix makes stock analysis and recommendations convenient for every trader.
                                 </p>
                                 <div className="button-group">
                                     <button className="btn buy-now">Buy Now</button>
@@ -110,7 +110,7 @@ function Features() {
                                     <Carousel activeIndex={activeIndex} pause="hover" indicators={false} interval={3000} onSelect={handleSelect}>
                                         {dataArray.map((item, index) => (
                                             <Carousel.Item key={index} >
-                                                <h2 style={{fontSize: '22px'}}>{item?.slogan}</h2>
+                                                <h2 style={{ fontSize: '22px' }}>{item?.slogan}</h2>
                                                 <p>{item?.desc}</p>
 
                                             </Carousel.Item>
@@ -147,7 +147,7 @@ function Features() {
                     <Row style={{ margin: "60px 0 0" }}>
                         {features.map((feature, index) => (
                             <Col lg={3} md={6} key={index} className="mb-4">
-                                <div className={`card ${feature.isHighlighted ? 'highlighted' : ''}`}>
+                                <div className={`card ${feature.isHighlighted ? 'highlighted' : ''} h-100`}>
                                     <div className="icon mb-3">
                                         <img src={feature.img} />
                                     </div>

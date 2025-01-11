@@ -29,7 +29,9 @@ function Footer() {
                                     <li>
                                         <Link to='/contact'>Contact</Link>
                                     </li>
-                                    <li><a href="">Private Policy</a></li>
+                                    <li>
+                                        <Link to='/term-and-conditions'>Terms and Conditions</Link>
+                                    </li>
                                     <li>
                                         <Link to="/home">Home</Link>
                                     </li>

@@ -22,13 +22,13 @@ export function Subscription() {
                     </div>
                 </div>
                 <p className="lorem-ipsum-dolor-6">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                    Tradeflix offers two kind of plans for Beginner and Pro Investor.
                     <br />
-                    commodo ligula eget dolor. Aenean massa.
+                    Have a look at our plans below.
                 </p>
             </div>
 
-            <div className="subsplan d-flex justify-content-center">
+            {/* <div className="subsplan d-flex justify-content-center">
                 <div className="planmonth">
                     <span>MONTHLY</span>
                 </div>
@@ -41,7 +41,7 @@ export function Subscription() {
                 <div className="planmonth">
                     <span>YEARLY (Save 15%)</span>
                 </div>
-            </div>
+            </div> */}
 
 
 

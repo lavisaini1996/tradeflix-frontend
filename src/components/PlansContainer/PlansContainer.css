@@ -46,6 +46,39 @@
     width: 86% !important;
 }
 
+.cardcon {
+    height: calc(100% - 30px);
+}
+
+.dropbutton {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    color: black;
+    border: none;
+}
+
+.dropbutton:hover {
+    background: none;
+    color: black;
+}
+
+.dropbutton.show {
+    background: none;
+    color: black;
+}
+
+.dropdown-menu.show {
+    transform: translate3d(172px, 34.4px, 0px) !important;
+}
+
+.dropdowncon {
+    display: flex;
+    justify-content: end;
+}
+
 @media (max-width:768px) {
 
     .choose-the-variety-wrapper,
