@@ -30,13 +30,13 @@ export function Banner() {
                 <source src={Video} type="video/mp4" />
             </video>
             <img src={BannerBackground} className='bannerpersion' alt="" />
-            <div className="bannerrightblock">
+            <div className="bannerrightblock hovercon">
                 <Container className="text-white">
                     <Row className="justify-content-center">
                         <div className='bannercard p-0'>
                             <Card className="blurcon"   >
                                 <Card.Body className='d-flex flex-column align-items-end cfui8o'>
-                                    <Card.Title className="heading-your text-white mt-4">
+                                    <Card.Title className="heading-your text-white">
                                         Master Trading Strategies with Expert Insights
                                     </Card.Title>
                                     <Card.Text className="lorem-ipsum-dolor text-white text-end fffr5ty6 mt-2">
@@ -62,12 +62,12 @@ export function Banner() {
                 </Container>
 
             </div>
-            <Row className="justify-content-start mt-5 bantradewith">
+            <Row className="justify-content-start  bantradewith"  >
                 <Col md={8} className="text-start">
                     <h1 className="heading-2 text-wrapper-7 mb-0 head">
-                        Trade with
+                        Trade with Clarity.
                     </h1>
-                    <h1 className='head'> Clarity.</h1>
+                    <h1 className='head'> </h1>
                 </Col>
                 <div className="frame-5 d-flex justify-content-start">
                     <img src={GoogleButton} alt="" />

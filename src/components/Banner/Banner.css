@@ -45,6 +45,7 @@
 .bannerrightblock .heading-your {
     font-size: 24px;
     font-weight: 700;
+    margin-top: 1.5rem;
 }
 
 .fffr5ty6 {
@@ -78,6 +79,7 @@
     padding-bottom: 35px;
 }
 
+
 .baning {
     height: 55px;
     width: 55px;
@@ -86,7 +88,7 @@
 .bantradewith {
     position: absolute;
     color: white;
-    top: 17%;
+    top: 34%;
     margin-left: 7% !important;
 
     z-index: 9;
@@ -104,7 +106,7 @@
     }
 
     .bantradewith {
-        top: 5%;
+        top: 17%;
     }
 
     .bannerrightblock {
@@ -117,16 +119,40 @@
     }
 }
 
-@media (max-width:450px) {
-    .bannerrightblock {
-        width: 335px;
-    }
-}
+@media (max-width:500px) {}
 
 @media (max-width:576px) {
     .head {
         font-size: 30px;
     }
+
+    .bannerpersion {
+
+        right: -20%
+    }
+}
+
+@media (max-width:618px) {
+    .bannerrightblock {
+
+        width: calc(100% - 12px) !important;
+        bottom: 1% !important;
+        right: 1% !important;
+    }
+
+    .heading-your {
+        margin-top: 0px !important;
+    }
+}
+
+@media (max-width:768px) {
+    .bannerpersion {
+        height: 450px !important;
+        bottom: 0px !important;
+        top: unset !important;
+    }
+
+
 }
 
 @media (max-width:1220px) {

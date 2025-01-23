@@ -28,24 +28,24 @@ export function AssestContainer() {
                         Trading Assets
                     </h2>
                     <p className="text-muted mb-4">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                        With Tradeflix, you have access to the best traders education in addition to the best traders strategies available.
                         <br />
-                        commodo ligula eget dolor. Aenean massa.
+                        Check the full range of services we provide.
                     </p>
                 </Col>
             </Row>
             <Row className="justify-content-center g-4">
                 {[
-                    { img: Stock, title: "Stocks Trading Analysis" },
-                    { img: Forex, title: "Forex Trading Analysis" },
-                    { img: Gold, title: "Commodities Trading" },
-                    { img: Indices, title: "Stocks Indices" },
-                    { img: Crypto, title: "Cryptos Trading Analysis" },
-                    { img: Group, title: "Bonds Trading" },
+                    { img: Stock, title: "Market Analysis", desc: 'Analysis of the market to inform future trading strategy.' },
+                    { img: Forex, title: "Stocks Trading Analysis", desc: 'Determines stock trends to assist in buying/selling decisions.' },
+                    { img: Gold, title: "Educational Guidance", desc: 'Resources for trading skills categorized by difficulty level.' },
+                    { img: Indices, title: "Investment News", desc: 'Investment and the market news which are recent and relevant.' },
+                    { img: Crypto, title: "SEBI-registered Advisors Support", desc: 'Professional advice from certified & trusted partners.' },
+                    { img: Group, title: "Real-Time Market Updates", desc: 'Ability to view live updates on the various financial markets.' },
                 ].map((asset, index) => (
                     <Col key={index} xs={12} sm={6} md={6} xxl={4}>
                         <Card
-                            className="text-white text-center d-flex flex-row assestcardcontainer"
+                            className="text-white text-center d-flex flex-row assestcardcontainer hovercon h-100"
 
                         >
                             <Card.Img
@@ -54,10 +54,10 @@ export function AssestContainer() {
                                 alt={asset.title}
                                 className="assestcardimage"
                             />
-                            <Card.Body className=" text-start d-flex justify-content-center flex-column px-3 py-0" >
+                            <Card.Body className=" text-start d-flex flex-column px-3 py-0" >
                                 <Card.Title className="fw-bold">{asset.title}</Card.Title>
-                                <Card.Text className="text-muted">
-                                    Lorem ipsum dolor sit
+                                <Card.Text className="text-muted text-start">
+                                    {asset?.desc}
                                 </Card.Text>
                             </Card.Body>
                         </Card>

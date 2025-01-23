@@ -24,12 +24,11 @@ export function Home() {
             <FeaturesSection />
             <div className="account mt-5">
                 <div className="heading-OPEN-wrapper">
-                    <div className="heading-OPEN">OPEN ACCOUNT</div>
+                    <div className="heading-OPEN ">OPEN ACCOUNT</div>
                 </div>
                 <div className="choose-the-variety-wrapper">
                     <div className="choose-the-variety">
                         Choose The Variety
-                        <br />
                         of Plans
                     </div>
                 </div>

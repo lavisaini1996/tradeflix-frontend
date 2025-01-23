@@ -16,7 +16,7 @@ export function DownloadSection() {
                     {/* Text and Call-to-Actions */}
                     <Col md={7} className="text-white text-start">
                         <div
-                            className="overlay-border p-2 d-inline-block ffr5tyhy"
+                            className="overlay-border p-2 d-inline-block ffr5tyhy mb-3"
 
                         >
                             <span className="fw-bold" style={{ fontSize: "13px", }}>
@@ -30,11 +30,11 @@ export function DownloadSection() {
                             Upgrade your Trading Journey
                         </h2>
 
-                        <p className="text-light mb-4" style={{ opacity: 0.8 }}>
-                        Press the button below to install app.
+                        <p className="text-light mb-5" style={{ opacity: 0.8 }}>
+                            Press the button below to install app.
                         </p>
 
-                        <div className="d-flex gap-3">
+                        <div className="d-flex gap-3 downbtn">
                             <Button
                                 variant="dark"
                                 className="d-flex align-items-center justify-content-center googleImage"

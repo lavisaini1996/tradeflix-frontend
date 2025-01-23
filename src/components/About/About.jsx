@@ -31,7 +31,8 @@ export function About() {
                             autoPlay
                             loop
                             playsInline
-                            className="position-absolute w-100 h-100 aboutvideo"
+                            className="position-absolute h-100 aboutvideo"
+                            style={{ left: '-36%' }}
                         >
                             <source src={Bull} type="video/mp4" />
                         </video>
@@ -65,7 +66,7 @@ export function About() {
                             },
                         ].map((feature, index) => (
                             <Col md={6} key={index}>
-                                <Card className="h-100 shadow-sm border-0">
+                                <Card className="h-100 shadow-sm border-0 hovercon">
                                     <Card.Body className="d-flex flex-column align-items-start text-center">
                                         <div
                                             className="d-flex justify-content-center align-items-center  mb-3 aboutcard aboutimageborder"

@@ -139,8 +139,8 @@ export function Contact() {
             <div className="contact-detail">
                 <Container>
                     <Row>
-                        <Col md={6} lg={3}><div className="card"><div className="icon"><img src={Phone} /></div><h6>Talk to us directly</h6><a style={{ color: "#2E4686", fontWeight: "bold" }}>+124 555 666 99</a></div></Col>
-                        <Col md={6} lg={3}><div className="card"><div className="icon"><img src={Email} /></div><h6>Send your queries</h6><a style={{ color: "#2E4686", fontWeight: "bold" }}>hello@gmail.com</a></div></Col>
+                        <Col md={6} lg={3}><div className="card"><div className="icon"><img src={Phone} /></div><h6>Talk to us directly</h6><a style={{ color: "#2E4686", fontWeight: "bold" }}>+91-9999981445</a></div></Col>
+                        <Col md={6} lg={3}><div className="card"><div className="icon"><img src={Email} /></div><h6>Send your queries</h6><a style={{ color: "#2E4686", fontWeight: "bold" }}>connect@tradeflix.co</a></div></Col>
                         <Col md={6} lg={3}><div className="card"><div className="icon"><img src={Location} /></div><h6>Find us here</h6><a>Chicago HQ Estica Cop. Macomb, MI
                             48042</a></div></Col>
                         <Col md={6} lg={3}><div className="card"><div className="icon"><img src={Connect} /></div><h6>stay connected on social</h6>

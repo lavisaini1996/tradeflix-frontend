@@ -1,18 +1,24 @@
-
-
-.brand-logo{
+.brand-logo {
     widh: 100%;
-    max-width:200px;
+    max-width: 200px;
 }
-nav{
+
+nav {
     padding-inline: 30px !important;
 }
 
-.navbar-nav{
+.navbar-nav {
     gap: 30px;
 }
-.navbar-nav .nav-link{
-    
+
+.headernav {
+    position: sticky !important;
+    top: 0px;
+    z-index: 9999;
+}
+
+.navbar-nav .nav-link {
+
     font-family: "Roboto", serif;
     font-weight: 500;
     font-size: 17px;
@@ -82,7 +88,7 @@ nav{
 } */
 
 @media (max-width: 576px) {
-    nav{
+    nav {
         padding-inline: 10px !important;
     }
 }

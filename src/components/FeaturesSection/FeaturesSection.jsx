@@ -73,7 +73,7 @@ export function FeaturesSection() {
                             </video>
                         </div>
                     </Col>
-                    <Col md={6}>
+                    <Col md={6} className="faqsCon">
 
 
                         {/* Feature Blocks */}

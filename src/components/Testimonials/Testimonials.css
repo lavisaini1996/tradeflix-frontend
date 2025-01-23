@@ -3,7 +3,7 @@
 }
 
 .testhead {
-    font-size: 13px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -45,4 +45,10 @@
 .fr4t6y7u {
     font-size: 24px;
     font-weight: 700;
+}
+
+@media (max-width:768px) {
+    .graphcontainer {
+        display: none;
+    }
 }

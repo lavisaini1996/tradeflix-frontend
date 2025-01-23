@@ -6,7 +6,7 @@ function Header() {
 
     return (
         <>
-            <Navbar expand="lg" style={{ background: 'white' }}>
+            <Navbar expand="lg" className='headernav' style={{ background: 'white' }}>
                 <Container>
 
 
@@ -24,7 +24,7 @@ function Header() {
 
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
-
+                            <Link className='nav-link' to="/home">Home</Link>
                             <Link className='nav-link' to='/about'> About</Link>
                             <Link className='nav-link' to='/subcription'> Subscription Plans</Link>
                             <Link className='nav-link' to='/features'> Features</Link>

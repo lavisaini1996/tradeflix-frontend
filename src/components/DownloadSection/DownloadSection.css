@@ -63,6 +63,10 @@
         display: none;
     }
 
+    .downbtn {
+        justify-content: center;
+    }
+
     .downloadsection .container {
         display: flex;
         justify-content: center;
