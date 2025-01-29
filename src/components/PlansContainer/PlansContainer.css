@@ -70,13 +70,20 @@
     color: black;
 }
 
+/* 
 .dropdown-menu.show {
     transform: translate3d(172px, 34.4px, 0px) !important;
-}
+} */
 
 .dropdowncon {
     display: flex;
     justify-content: end;
+}
+
+@media (max-width:554px) {
+    /* .dropdown-menu.show {
+            transform: translate3d(335.5px, 38px, 0px) !important;
+        } */
 }
 
 @media (max-width:768px) {
@@ -89,6 +96,10 @@
     .lorem-ipsum-dolor-6 {
         width: 100% !important;
     }
+
+    /* .dropdown-menu.show {
+        transform: translate3d(335.5px, 38px, 0px) !important;
+    } */
 }
 
 @media (max-width:820px) {

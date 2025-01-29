@@ -33,9 +33,9 @@ export function Home() {
                     </div>
                 </div>
                 <p className="lorem-ipsum-dolor-6">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                    Tradeflix offers two kind of plans for Beginner and Pro Investor.
                     <br />
-                    commodo ligula eget dolor. Aenean massa.
+                    Have a look at our plans below.
                 </p>
             </div>
 

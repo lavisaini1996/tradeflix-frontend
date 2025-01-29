@@ -86,7 +86,7 @@ export function PlansContainer({ isYearly }) {
                                 {selectedValue?.key}
                             </Dropdown.Toggle>
 
-                            <Dropdown.Menu style={{ width: '35%' }}>
+                            <Dropdown.Menu style={{ width: '35%', position: 'absolute', transform: 'unset !important;' }}>
                                 {
                                     basicPlan?.map((element, index) => {
                                         return (
