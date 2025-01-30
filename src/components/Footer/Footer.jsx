@@ -15,7 +15,7 @@ function Footer() {
                                     alt="Layer"
                                     src="https://c.animaapp.com/LJb56hOf/img/layer-x0020-1-1@2x.png"
                                 />
-                                <p>Tradeflix is an educational platform that simplifies trading with expert insights, stock tips, and SEBI-registered advisor support for all levels.</p></Col>
+                                <p>Tradeflix is an educational platform that simplifies trading with expert insights, stock tips, and SEBI-registered Research Analysts support for all levels.</p></Col>
                             <Col lg={3}></Col>
                             <Col lg={3}>
                                 <h5>Pages Link</h5>

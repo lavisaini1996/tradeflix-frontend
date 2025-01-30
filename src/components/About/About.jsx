@@ -48,7 +48,7 @@ export function About() {
                         <h2 className="fw-bold mb-3 maxheading" >
                             Your Trusted Source for Financial Market Education
                         </h2>
-                        <p className="text-muted mb-4">Tradeflix gives stock market tips and allows you to interact with SEBI-registered analysts and advisors who give you relevant advice.</p>
+                        <p className="text-muted mb-4">Tradeflix gives stock market tips and allows you to interact with SEBI-registered research analysts who give you relevant advice.</p>
                     </div>
 
                     {/* Features Section */}

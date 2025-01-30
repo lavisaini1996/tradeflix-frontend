@@ -25,7 +25,7 @@ export function FeaturesSection() {
             answer: 'In order to provide you the most correct and current information, our market analysis and data are synchronized on a real time basis.'
         }, {
             question: 'Do you offer investment advice?',
-            answer: "Tradeflix helps users obtain stock tips from SEBI registered research analysts and investment advisors. Tradeflix itself does not provide direct investment advice to their customers on a one-on-one basis. Obviously this is a platform aimed at providing information and general understanding of the market; the format is so that users can have enough information to make their own investment decisions."
+            answer: "Tradeflix helps users obtain stock tips from SEBI registered research analysts.. Tradeflix itself does not provide direct investment advice to their customers on a one-on-one basis. Obviously this is a platform aimed at providing information and general understanding of the market; the format is so that users can have enough information to make their own investment decisions."
         }, {
             question: " Can beginners benefit from Tradeflix?",
             answer: "Definitely! Our platform contains necessary resources not only for advanced traders but also for beginners, as well, including guides, tutorials, and analysis."

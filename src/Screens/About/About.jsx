@@ -44,7 +44,7 @@ const About = () => {
                         <Col lg={6}>
                             <div className="text-content">
                                 <h2>Who We Are?</h2>
-                                <p>With Tradeflix, you receive market analysis, stock recommendations, and SEBI-registered advisors’ guidance that will enable you to always be one step ahead in the financial market.
+                                <p>With Tradeflix, you receive market analysis, stock recommendations, and SEBI-registered Research Analysts’ guidance that will enable you to always be one step ahead in the financial market.
                                 </p>
                                 <div className="progress-section">
                                     <div className="progress-bar">

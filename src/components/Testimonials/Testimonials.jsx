@@ -37,7 +37,7 @@ export function Testimonials() {
 
         },
         {
-            desc: 'Thanks to the stock market tips sourced from Tradeflix including SEBI registered advisors, I have managed to make better relevant stock market investments. Their guidance is truly valuable.',
+            desc: 'Thanks to the stock market tips sourced from Tradeflix including SEBI registered research analysts, I have managed to make better relevant stock market investments.',
             name: 'Nikhil P.',
             star: 4,
             slogan: 'Stock Market Enthusiast'

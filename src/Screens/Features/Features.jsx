@@ -26,7 +26,7 @@ function Features() {
         },
         {
             slogan: 'Access Expert Recommendations',
-            desc: 'Obtain actionable recommendations and sound ideas provided by validated advisors and industry professionals under SEBI regulation. These recommendations will help you in all your trading and investment activities.',
+            desc: 'Obtain actionable recommendations and sound ideas provided by validated research analysts and industry professionals under SEBI regulation. These recommendations will help you in all your trading and investment activities.',
             name: 'Praful Kumar',
             star: 4
         },
@@ -44,7 +44,7 @@ function Features() {
         },
         {
             slogan: 'Make Informed Decisions',
-            desc: 'Takedow the three helpful pieces of information provided: Some commissions suggest trading within the range of growth, educational materials, and trading techniques an advisor.',
+            desc: 'Take down the three helpful pieces of information provided: Some commissions suggest trading within the range of growth, educational materials, and trading techniques.',
             name: 'Praful Kumar',
             star: 4
         },

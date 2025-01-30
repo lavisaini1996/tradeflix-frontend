@@ -40,7 +40,7 @@ export function AssestContainer() {
                     { img: Forex, title: "Stocks Trading Analysis", desc: 'Determines stock trends to assist in buying/selling decisions.' },
                     { img: Gold, title: "Educational Guidance", desc: 'Resources for trading skills categorized by difficulty level.' },
                     { img: Indices, title: "Investment News", desc: 'Investment and the market news which are recent and relevant.' },
-                    { img: Crypto, title: "SEBI-registered Advisors Support", desc: 'Professional advice from certified & trusted partners.' },
+                    { img: Crypto, title: "SEBI-registered Research Analyst", desc: 'Professional advice from certified & trusted partners.' },
                     { img: Group, title: "Real-Time Market Updates", desc: 'Ability to view live updates on the various financial markets.' },
                 ].map((asset, index) => (
                     <Col key={index} xs={12} sm={6} md={6} xxl={4}>
