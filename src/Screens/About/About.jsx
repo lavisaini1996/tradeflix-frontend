@@ -108,23 +108,23 @@ const About = () => {
             <div className="meet-expert-section">
                 <Container>
                     <h2 className="expert-heading">Meet Our Experts</h2>
-                    <Row>
+                    <Row className='justify-content-evenly'>
                         <Col md={6} lg={3}>
                             <img src={Expert1} />
                             <div className="content">
                                 <span className="label">
-                                    Expert Trader
+                                    Research Analyst
                                 </span>
-                                <h5>Mr. Praveen</h5>
+                                <h5>Mr. Aadesh</h5>
                             </div>
                         </Col>
                         <Col md={6} lg={3}>
                             <img src={Expert2} />
                             <div className="content">
                                 <span className="label">
-                                    Expert Trader
+                                    Marketing & Operations
                                 </span>
-                                <h5>Mr. Anand</h5>
+                                <h5>Mr. Praveen</h5>
                             </div>
 
                         </Col>
@@ -132,12 +132,12 @@ const About = () => {
                             <img src={Expert3} />
                             <div className="content">
                                 <span className="label">
-                                    Expert Trader
+                                    Strategy
                                 </span>
-                                <h5>Ms. Priyanka</h5>
+                                <h5>Mr. Anand </h5>
                             </div>
                         </Col>
-                        <Col md={6} lg={3}>
+                        {/* <Col md={6} lg={3}>
                             <img src={Expert4} />
                             <div className="content">
                                 <span className="label">
@@ -145,7 +145,7 @@ const About = () => {
                                 </span>
                                 <h5>Ms. Roshni</h5>
                             </div>
-                        </Col>
+                        </Col> */}
                     </Row>
                 </Container>
             </div>

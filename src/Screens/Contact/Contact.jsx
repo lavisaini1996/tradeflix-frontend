@@ -5,6 +5,7 @@ import Email from '../../assets/email.png';
 import Phone from '../../assets/phone.png';
 import Connect from '../../assets/connect.png';
 import Location from '../../assets/location.png';
+import HandShake from '../../assets/contact-img-1L6xyc8S.png'
 import CIg from '../../assets/CIg.png';
 import CFb from '../../assets/CFb.png';
 import CDb from '../../assets/CDb.png';
@@ -80,7 +81,20 @@ export function Contact() {
     return (
         <>
             <div className="contact">
-                <h1>Connect With <span style={{ color: '#4166AE' }}>Trade<span style={{ color: '#FF0000' }}>flix</span></span></h1>
+                <h1>Connect With
+                    <span style={{ color: '#4166AE' }}>
+                        Trade
+                        <span style={{ color: '#FF0000' }}>
+                            f
+                        </span>
+                        <span style={{ color: '#FF0000' }}>
+                            l
+                        </span>
+                        <span style={{ color: '#FF0000' }}>
+                            ix
+                        </span>
+                    </span>
+                </h1>
                 <p>Contact us today to get started! Whether you have questions, feedback, or inquiries, our team is here to help. Reach out to us
                     via phone, email, or the contact form below, and we'll get back to you as soon as possible. We look forward to hearing from you!</p>
             </div>
@@ -132,14 +146,14 @@ export function Contact() {
                             </Form>
                         </Col>
                         <Col lg={6} md={5}>
-                            <img src={contactImg} className="img d-none mx-auto d-sm-block" /></Col>
+                            <img src={HandShake} className="img d-none mx-auto d-sm-block" style={{ borderRadius: '2%' }} /></Col>
                     </Row>
                 </Container>
             </div>
             <div className="contact-detail">
                 <Container>
                     <Row>
-                        <Col md={6} lg={3}><div className="card"><div className="icon"><img src={Phone} /></div><h6>Talk to us directly</h6><a style={{ color: "#2E4686", fontWeight: "bold" }}>+91-9999981445</a></div></Col>
+                        <Col md={6} lg={3}><div className="card"><div className="icon"><img src={Phone} /></div><h6>Talk to us directly</h6><a style={{ color: "#2E4686", fontWeight: "bold" }}>+91-98736-11551</a></div></Col>
                         <Col md={6} lg={3}><div className="card"><div className="icon"><img src={Email} /></div><h6>Send your queries</h6><a style={{ color: "#2E4686", fontWeight: "bold" }}>connect@tradeflix.co</a></div></Col>
                         <Col md={6} lg={3}><div className="card"><div className="icon"><img src={Location} /></div><h6>Find us here</h6><a>Chicago HQ Estica Cop. Macomb, MI
                             48042</a></div></Col>

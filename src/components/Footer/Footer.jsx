@@ -45,12 +45,12 @@ function Footer() {
                                         alt="Img"
                                         src="https://c.animaapp.com/LJb56hOf/img/65f3ed594c8df21d9574790e-email-svg.svg"
                                     /> connect@tradeflix.co</a></li>
-                                    <li><a href="tel:+91-9999981445">
+                                    <li><a href="tel:+91-98736-11551">
                                         <img
                                             className="img-3"
                                             alt="Img"
                                             src="https://c.animaapp.com/LJb56hOf/img/66068644b34ea0fbb0b1f880-phone-svg.svg"
-                                        /> +91-9999981445</a></li>
+                                        /> +91-98736-11551</a></li>
                                 </ul></Col>
                             {/* <Col lg={2}>
                                 <h5>Follow us on</h5>

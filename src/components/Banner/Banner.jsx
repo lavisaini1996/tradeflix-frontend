@@ -29,7 +29,7 @@ export function Banner() {
             >
                 <source src={Video} type="video/mp4" />
             </video>
-            <img src={BannerBackground} className='bannerpersion' alt="" />
+            {/* <img src={BannerBackground} className='bannerpersion' alt="" /> */}
             <div className="bannerrightblock hovercon">
                 <Container className="text-white">
                     <Row className="justify-content-center">

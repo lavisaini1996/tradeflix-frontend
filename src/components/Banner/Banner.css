@@ -19,9 +19,10 @@
 }
 
 .bannervideo {
-    height: 780px;
-    /* object-fit: cover; */
+    /* height: 780px; */
+    object-fit: cover;
     transform: scaleX(-1);
+    width: 100%;
 
 }
 
@@ -39,7 +40,7 @@
     background-color: none;
     width: 441px;
     border-radius: 20px;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(160, 160, 160, 0.2);
 }
 
 .bannerrightblock .heading-your {
@@ -117,6 +118,10 @@
     .fffr5ty6 {
         width: 100%;
     }
+
+    .background {
+        height: 531px !important;
+    }
 }
 
 @media (max-width:500px) {}
@@ -129,6 +134,16 @@
     .bannerpersion {
 
         right: -20%
+    }
+
+    .background {
+        height: 395px !important;
+    }
+
+    .bannervideo {
+        height: 400px;
+        object-fit: cover;
+
     }
 }
 
@@ -158,5 +173,9 @@
 @media (max-width:1220px) {
     .bannerpersion {
         width: unset !important;
+    }
+
+    .background {
+        height: 577px;
     }
 }
